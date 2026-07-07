@@ -401,15 +401,15 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       </div>
       <div data-reveal style="background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:18px;padding:32px">
         <div style="display:flex;align-items:flex-start;gap:14px;padding-bottom:20px;border-bottom:1px solid rgba(255,255,255,.12)">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="rgb(61, 109, 146)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><path d="M12 21s6-5.2 6-10.5a6 6 0 1 0-12 0C6 15.8 12 21 12 21z"></path><circle cx="12" cy="10.5" r="2.2"></circle></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><path d="M12 21s6-5.2 6-10.5a6 6 0 1 0-12 0C6 15.8 12 21 12 21z"></path><circle cx="12" cy="10.5" r="2.2"></circle></svg>
           <div><div style="font-weight:700;font-size:16px;margin-bottom:2px">Visit the shop</div><div style="font-size:15px;color:#C6D2DD;line-height:1.5">1556 N Commercial Rd.<br>Nixa, MO 65714</div></div>
         </div>
         <div style="display:flex;align-items:flex-start;gap:14px;padding:20px 0;border-bottom:1px solid rgba(255,255,255,.12)">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="rgb(61, 109, 146)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
           <div><div style="font-weight:700;font-size:16px;margin-bottom:2px">Hours</div><div style="font-size:15px;color:#C6D2DD;line-height:1.5">Monday &ndash; Friday, 8:00 AM &ndash; 5:00 PM<br>Saturday &amp; Sunday: Closed</div></div>
         </div>
         <div style="display:flex;align-items:flex-start;gap:14px;padding-top:20px">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="rgb(61, 109, 146)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><rect x="3" y="5.5" width="18" height="13" rx="2"></rect><path d="m3 8 9 6.2L21 8"></path></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><rect x="3" y="5.5" width="18" height="13" rx="2"></rect><path d="m3 8 9 6.2L21 8"></path></svg>
           <div><div style="font-weight:700;font-size:16px;margin-bottom:2px">Email</div><div style="font-size:15px;color:#C6D2DD;line-height:1.5">office@gearhaven.com</div></div>
         </div>
       </div>
