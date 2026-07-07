@@ -159,7 +159,7 @@ export function SiteFooter() {
             <Link href="/blog">Blog</Link>
             <Link href="/gallery">Gallery</Link>
             <Link href="/faqs">FAQs</Link>
-            <Link href="/#contact">Contact</Link>
+            <Link href="/#contact">Contact Us</Link>
           </div>
         </div>
         <div>

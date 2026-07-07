@@ -211,7 +211,7 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           <a href="#team" class="gh-hover-117">Our Team</a>
           <a href="/#reviews" class="gh-hover-118">Reviews</a>
           <a href="/blog" class="gh-hover-119">Blog</a>
-          <a href="#contact" class="gh-hover-120">Contact</a>
+          <a href="#contact" class="gh-hover-120">Contact Us</a>
         </div>
       </div>
       <div>

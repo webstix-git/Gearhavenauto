@@ -439,7 +439,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           <a href="/reviews" class="gh-hover-33">Reviews</a>
           <a href="/blog" class="gh-hover-34">Blog</a>
           <a href="/gallery" class="gh-hover-35">Gallery</a>
-          <a href="#contact" class="gh-hover-36">Contact</a>
+          <a href="#contact" class="gh-hover-36">Contact Us</a>
         </div>
       </div>
       <div>

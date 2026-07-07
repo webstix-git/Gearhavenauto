@@ -39,17 +39,27 @@ footer .gh-footer-desc {
 }
 
 footer .gh-footer-services a {
+  font-size: 14.5px !important;
+  font-weight: inherit;
+  line-height: inherit;
   transition: color 0.2s ease;
 }
 
 footer .gh-footer-services a:hover {
   color: #3d6d92 !important;
+  font-size: 14.5px !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
   background: none !important;
   border: none !important;
   border-bottom: none !important;
   padding: 0 !important;
+  margin: 0 !important;
   transform: none !important;
   box-shadow: none !important;
+  display: inline !important;
+  border-radius: 0 !important;
+  white-space: normal !important;
 }
 
 .gh-icon svg {

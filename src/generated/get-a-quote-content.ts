@@ -142,7 +142,7 @@ export const GET_A_QUOTE_HTML = `<div style="min-height:100vh;overflow-x:hidden"
           <a href="/gallery" class="gh-hover-437">Gallery</a>
           <a href="/reviews" class="gh-hover-438">Reviews</a>
           <a href="/faqs" class="gh-hover-439">FAQ</a>
-          <a href="#top" class="gh-hover-440">Contact</a>
+          <a href="#top" class="gh-hover-440">Contact Us</a>
         </div>
       </div>
       <div>

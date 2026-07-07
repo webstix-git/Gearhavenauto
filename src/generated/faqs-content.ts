@@ -160,7 +160,7 @@ export const FAQS_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           <a href="/about#team" class="gh-hover-314">Our Team</a>
           <a href="/faqs" class="gh-hover-315">FAQ</a>
           <a href="/reviews" class="gh-hover-316">Reviews</a>
-          <a href="#contact" class="gh-hover-317">Contact</a>
+          <a href="#contact" class="gh-hover-317">Contact Us</a>
         </div>
       </div>
       <div>

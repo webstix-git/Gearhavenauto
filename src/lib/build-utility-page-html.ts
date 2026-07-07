@@ -16,7 +16,7 @@ const DEFAULT_COMPANY_LINKS = `
           <a href="/blog" class="gh-footer-legal-link">Blog</a>
           <a href="/gallery" class="gh-footer-legal-link">Gallery</a>
           <a href="/faqs" class="gh-footer-legal-link">FAQs</a>
-          <a href="/contact" class="gh-footer-legal-link">Contact</a>`;
+          <a href="/contact" class="gh-footer-legal-link">Contact Us</a>`;
 
 export type UtilityPageOptions = {
   badge: string;

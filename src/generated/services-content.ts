@@ -264,7 +264,7 @@ export const SERVICES_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           <a href="/about#team" class="gh-hover-442">Our Team</a>
           <a href="/reviews" class="gh-hover-443">Reviews</a>
           <a href="/blog" class="gh-hover-444">Blog</a>
-          <a href="/contact" class="gh-hover-445">Contact</a>
+          <a href="/contact" class="gh-hover-445">Contact Us</a>
         </div>
       </div>
       <div>
