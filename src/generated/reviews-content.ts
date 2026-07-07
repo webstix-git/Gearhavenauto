@@ -30,7 +30,7 @@ export const REVIEWS_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           </div>
           <div style="width:1px;background:rgba(255,255,255,.15)"></div>
           <div>
-            <div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:40px;color:#fff;line-height:1">8 yrs</div>
+            <div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:40px;color:#fff;line-height:1">8 years</div>
             <div style="font-size:14px;color:#9BAAB7;margin-top:6px">Serving the Ozarks</div>
           </div>
         </div>
