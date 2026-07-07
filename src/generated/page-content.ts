@@ -180,7 +180,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       <!-- featured diesel banner -->
       <div data-reveal class="gh-diesel-banner gh-grid-asymmetric" style="position:relative;display:grid;grid-template-columns:1.05fr .95fr;border-radius:22px;overflow:hidden;background:#12202D;box-shadow:0 34px 64px -34px rgba(20,32,45,.65);margin-bottom:22px">
         <div style="padding:46px 46px 48px;display:flex;flex-direction:column;justify-content:center">
-          <div style="display:inline-flex;align-items:center;gap:8px;align-self:flex-start;background:rgba(224,163,46,.15);border:1px solid rgba(224,163,46,.4);color:#F0C877;font-weight:700;font-size:12px;letter-spacing:1px;text-transform:uppercase;padding:7px 14px;border-radius:100px;margin-bottom:20px">Our Specialty</div>
+          <div style="display:inline-flex;align-items:center;gap:9px;align-self:flex-start;background:rgba(109,157,197,.18);border:1px solid rgba(109,157,197,.45);color:#CFE0EE;font-weight:600;font-size:13px;letter-spacing:.4px;text-transform:uppercase;padding:7px 14px;border-radius:100px;margin-bottom:20px">Our Specialty</div>
           <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:32px;line-height:1.08;letter-spacing:-.6px;color:#fff;margin:0 0 12px">Diesel done right.</h3>
           <p style="font-size:16px;line-height:1.6;color:#BECAD6;margin:0 0 22px;max-width:440px">From diagnostics and fuel systems to turbos, CP4-to-DCR conversions, and full engine builds, the trucks that work hardest get our deepest expertise.</p>
           <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:28px">
@@ -201,95 +201,95 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       <!-- services grid -->
       <div class="gh-grid-3" style="display:grid;grid-template-columns:repeat(3,1fr);gap:32px">
 
-        <div data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s" class="gh-hover-14">
+        <a href="/auto-shop" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s;text-decoration:none;color:inherit" class="gh-hover-14">
           <div style="flex:none;display:grid;place-items:center;width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 10px 20px -12px rgba(62,92,118,.8)"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
           </div>
           <div>
             <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:18px;margin:0 0 7px;color:#14202B">Auto Repair &amp; Maintenance</h3>
             <p style="font-size:14px;line-height:1.55;color:#5C6B76;margin:0">Oil changes, tune-ups, fluids, batteries, and scheduled care for cars, SUVs &amp; light trucks.</p>
-            <a href="#contact" style="display:inline-flex;align-items:center;gap:6px;margin-top:12px;font-size:13.5px;font-weight:700;color:rgb(61,109,146)">View more details<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+            <span style="display:inline-flex;align-items:center;gap:6px;margin-top:12px;font-size:13.5px;font-weight:700;color:rgb(61,109,146)">View more details<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
           </div>
-        </div>
+        </a>
 
-        <div data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s" class="gh-hover-15">
+        <a href="/digital-inspection" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s;text-decoration:none;color:inherit" class="gh-hover-15">
           <div style="flex:none;display:grid;place-items:center;width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 10px 20px -12px rgba(62,92,118,.8)"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
           </div>
           <div>
             <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:18px;margin:0 0 7px;color:#14202B">Diagnostics &amp; Electrical</h3>
             <p style="font-size:14px;line-height:1.55;color:#5C6B76;margin:0">Check-engine, charging, wiring &amp; computer diagnostics, we find the problem before replacing parts.</p>
-            <a href="#contact" style="display:inline-flex;align-items:center;gap:6px;margin-top:12px;font-size:13.5px;font-weight:700;color:rgb(61,109,146)">View more details<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+            <span style="display:inline-flex;align-items:center;gap:6px;margin-top:12px;font-size:13.5px;font-weight:700;color:rgb(61,109,146)">View more details<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
           </div>
-        </div>
+        </a>
 
-        <div data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s" class="gh-hover-16">
+        <a href="/services#diesel" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s;text-decoration:none;color:inherit" class="gh-hover-16">
           <div style="flex:none;display:grid;place-items:center;width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 10px 20px -12px rgba(62,92,118,.8)"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg>
           </div>
           <div>
             <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:18px;margin:0 0 7px;color:#14202B">Diesel Repair</h3>
             <p style="font-size:14px;line-height:1.55;color:#5C6B76;margin:0">Power Stroke, Cummins &amp; Duramax service, fuel systems, turbos &amp; CP4-to-DCR conversions.</p>
-            <a href="#contact" style="display:inline-flex;align-items:center;gap:6px;margin-top:12px;font-size:13.5px;font-weight:700;color:rgb(61,109,146)">View more details<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+            <span style="display:inline-flex;align-items:center;gap:6px;margin-top:12px;font-size:13.5px;font-weight:700;color:rgb(61,109,146)">View more details<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
           </div>
-        </div>
+        </a>
 
-        <div data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s" class="gh-hover-17">
+        <a href="/fleet-vehicles" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s;text-decoration:none;color:inherit" class="gh-hover-17">
           <div style="flex:none;display:grid;place-items:center;width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 10px 20px -12px rgba(62,92,118,.8)"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 17V5a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h1"></path><path d="M14 8h4l3 3v5a1 1 0 0 1-1 1h-1"></path><circle cx="6" cy="17.5" r="2"></circle><circle cx="17" cy="17.5" r="2"></circle></svg>
           </div>
           <div>
             <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:18px;margin:0 0 7px;color:#14202B">Fleet Services</h3>
             <p style="font-size:14px;line-height:1.55;color:#5C6B76;margin:0">Preventative programs, priority scheduling &amp; fast repairs that keep your business moving.</p>
-            <a href="#contact" style="display:inline-flex;align-items:center;gap:6px;margin-top:12px;font-size:13.5px;font-weight:700;color:rgb(61,109,146)">View more details<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+            <span style="display:inline-flex;align-items:center;gap:6px;margin-top:12px;font-size:13.5px;font-weight:700;color:rgb(61,109,146)">View more details<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
           </div>
-        </div>
+        </a>
 
-        <div data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s" class="gh-hover-18">
+        <a href="/tires" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s;text-decoration:none;color:inherit" class="gh-hover-18">
           <div style="flex:none;display:grid;place-items:center;width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 10px 20px -12px rgba(62,92,118,.8)"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><circle cx="12" cy="12" r="3"></circle></svg>
           </div>
           <div>
             <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:18px;margin:0 0 7px;color:#14202B">Tires &amp; Alignments</h3>
             <p style="font-size:14px;line-height:1.55;color:#5C6B76;margin:0">Tire sales &amp; installation, balancing, rotations, and precision alignments.</p>
-            <a href="#contact" style="display:inline-flex;align-items:center;gap:6px;margin-top:12px;font-size:13.5px;font-weight:700;color:rgb(61,109,146)">View more details<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+            <span style="display:inline-flex;align-items:center;gap:6px;margin-top:12px;font-size:13.5px;font-weight:700;color:rgb(61,109,146)">View more details<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
           </div>
-        </div>
+        </a>
 
-        <div data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s" class="gh-hover-19">
+        <a href="/auto-shop" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s;text-decoration:none;color:inherit" class="gh-hover-19">
           <div style="flex:none;display:grid;place-items:center;width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 10px 20px -12px rgba(62,92,118,.8)"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><circle cx="12" cy="12" r="2"></circle><path d="M12 3v7"></path><path d="m5.2 17 5.8-5"></path><path d="m18.8 17-5.8-5"></path></svg>
           </div>
           <div>
             <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:18px;margin:0 0 7px;color:#14202B">Steering &amp; Suspension</h3>
             <p style="font-size:14px;line-height:1.55;color:#5C6B76;margin:0">Brakes, shocks, struts, ball joints, tie rods &amp; wheel bearings, done right.</p>
-            <a href="#contact" style="display:inline-flex;align-items:center;gap:6px;margin-top:12px;font-size:13.5px;font-weight:700;color:rgb(61,109,146)">View more details<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+            <span style="display:inline-flex;align-items:center;gap:6px;margin-top:12px;font-size:13.5px;font-weight:700;color:rgb(61,109,146)">View more details<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
           </div>
-        </div>
+        </a>
 
-        <div data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s" class="gh-hover-20">
+        <a href="/auto-shop" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s;text-decoration:none;color:inherit" class="gh-hover-20">
           <div style="flex:none;display:grid;place-items:center;width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 10px 20px -12px rgba(62,92,118,.8)"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
           </div>
           <div>
             <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:18px;margin:0 0 7px;color:#14202B">Major Mechanical Repairs</h3>
             <p style="font-size:14px;line-height:1.55;color:#5C6B76;margin:0">Engine, transmission, cooling &amp; fuel system work, when it's more than maintenance.</p>
-            <a href="#contact" style="display:inline-flex;align-items:center;gap:6px;margin-top:12px;font-size:13.5px;font-weight:700;color:rgb(61,109,146)">View more details<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+            <span style="display:inline-flex;align-items:center;gap:6px;margin-top:12px;font-size:13.5px;font-weight:700;color:rgb(61,109,146)">View more details<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
           </div>
-        </div>
+        </a>
 
-        <div data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s" class="gh-hover-21">
+        <a href="/truck-accessories" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s;text-decoration:none;color:inherit" class="gh-hover-21">
           <div style="flex:none;display:grid;place-items:center;width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 10px 20px -12px rgba(62,92,118,.8)"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
           </div>
           <div>
             <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:18px;margin:0 0 7px;color:#14202B">Truck Accessories &amp; Upgrades</h3>
             <p style="font-size:14px;line-height:1.55;color:#5C6B76;margin:0">Lift &amp; leveling kits, wheels, lighting, Rough Country &amp; Banks performance products.</p>
-            <a href="#contact" style="display:inline-flex;align-items:center;gap:6px;margin-top:12px;font-size:13.5px;font-weight:700;color:rgb(61,109,146)">View more details<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+            <span style="display:inline-flex;align-items:center;gap:6px;margin-top:12px;font-size:13.5px;font-weight:700;color:rgb(61,109,146)">View more details<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
           </div>
-        </div>
+        </a>
 
-        <div data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s" class="gh-hover-22">
+        <a href="/auto-shop" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s;text-decoration:none;color:inherit" class="gh-hover-22">
           <div style="flex:none;display:grid;place-items:center;width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 10px 20px -12px rgba(62,92,118,.8)"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1"></rect><path d="m9 14 2 2 4-4"></path></svg>
           </div>
           <div>
             <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:18px;margin:0 0 7px;color:#14202B">Missouri State Inspections</h3>
             <p style="font-size:14px;line-height:1.55;color:#5C6B76;margin:0">Fast, thorough state safety inspections, handled while you wait.</p>
-            <a href="#contact" style="display:inline-flex;align-items:center;gap:6px;margin-top:12px;font-size:13.5px;font-weight:700;color:rgb(61,109,146)">View more details<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+            <span style="display:inline-flex;align-items:center;gap:6px;margin-top:12px;font-size:13.5px;font-weight:700;color:rgb(61,109,146)">View more details<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
           </div>
-        </div>
+        </a>
 
       </div>
     </div>
@@ -303,12 +303,11 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
         <div style="display:inline-flex;align-items:center;gap:9px;background:rgba(109,157,197,.18);border:1px solid rgba(109,157,197,.45);color:#CFE0EE;font-weight:600;font-size:13px;letter-spacing:.4px;text-transform:uppercase;padding:7px 14px;border-radius:100px;margin-bottom:22px">Service Area</div>
         <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:40px;line-height:1.08;letter-spacing:-1px;margin:0 0 16px">Worth the drive from across the Ozarks.</h2>
         <p style="font-size:17px;line-height:1.65;color:#C6D2DD;margin:0 0 22px;max-width:560px">We're based in Nixa, Missouri, right in the heart of the Ozarks. Drivers come from Bolivar, Springfield, and communities all around southwest Missouri.</p>
-        <div style="display:flex;flex-direction:column;gap:12px;margin-bottom:30px">
-          <div style="display:flex;align-items:center;gap:11px;font-size:15.5px;color:#DCE4EC"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Nixa, MO and the surrounding Ozarks</div>
-          <div style="display:flex;align-items:center;gap:11px;font-size:15.5px;color:#DCE4EC"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Customers from Bolivar, Springfield &amp; beyond</div>
-          <div style="display:flex;align-items:center;gap:11px;font-size:15.5px;color:#DCE4EC"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Arkansas drivers who trust us with their trucks</div>
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <div style="display:flex;align-items:center;gap:11px;font-size:15.5px;color:rgb(61,109,146)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="rgb(61, 109, 146)" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Nixa, MO and the surrounding Ozarks</div>
+          <div style="display:flex;align-items:center;gap:11px;font-size:15.5px;color:rgb(61,109,146)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="rgb(61, 109, 146)" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Customers from Bolivar, Springfield &amp; beyond</div>
+          <div style="display:flex;align-items:center;gap:11px;font-size:15.5px;color:rgb(61,109,146)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="rgb(61, 109, 146)" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Arkansas drivers who trust us with their trucks</div>
         </div>
-        <a href="/contact" style="display:inline-block;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:16px;padding:15px 28px;border-radius:9px" class="gh-hover-23 gh-btn-solid">Visit Us in Nixa</a>
         </div>
       </div>
       <div data-reveal style="position:relative;min-height:520px;width:100%;height:100%">
