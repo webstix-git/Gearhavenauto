@@ -20,18 +20,20 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
     </div>
     <!-- hero trust strip -->
     <div style="position:relative;background:#2C4257;border-top:1px solid rgba(255,255,255,.1)">
-      <div style="max-width:1320px;margin:0 auto;padding:20px 28px;display:flex;gap:14px;flex-wrap:wrap;justify-content:space-between">
-        <div style="display:flex;align-items:center;gap:12px;color:#DCE4EC">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.5 8.5 8 11 4.5-2.5 8-6 8-11V5l-8-3z"></path><path d="m9 12 2 2 4-4"></path></svg>
-          <div><div style="font-family:'Bricolage Grotesque';font-weight:700;font-size:18px;color:#fff">8 Years</div><div style="font-size:18px;color:#9BAAB7">Serving Nixa &amp; the Ozarks</div></div>
+      <div class="gh-hero-trust">
+        <div class="gh-hero-trust-item">
+          <div style="font-family:'Bricolage Grotesque';font-weight:700;font-size:18px;color:#fff">8 Years</div>
+          <div style="font-size:18px;color:#9BAAB7">Serving Nixa &amp; the Ozarks</div>
         </div>
-        <div style="display:flex;align-items:center;gap:12px;color:#DCE4EC">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 16.5V14a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2.5"></path><path d="M14 9h4l3 3v4.5h-2"></path><circle cx="6.5" cy="16.5" r="2"></circle><circle cx="16.5" cy="16.5" r="2"></circle></svg>
-          <div><div style="font-family:'Bricolage Grotesque';font-weight:700;font-size:18px;color:#fff">Cars · Trucks · Diesel</div><div style="font-size:18px;color:#9BAAB7">Full-service &amp; fleet repair</div></div>
+        <div class="gh-hero-trust-divider" aria-hidden="true"></div>
+        <div class="gh-hero-trust-item gh-hero-trust-item--center">
+          <div style="font-family:'Bricolage Grotesque';font-weight:700;font-size:18px;color:#fff">Cars · Trucks · Diesel</div>
+          <div style="font-size:18px;color:#9BAAB7">Full-service &amp; fleet repair</div>
         </div>
-        <div style="display:flex;align-items:center;gap:12px;color:#DCE4EC">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-3-3.87"></path><path d="M4 21v-2a4 4 0 0 1 3-3.87"></path><circle cx="12" cy="7" r="4"></circle><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-          <div><div style="font-family:'Bricolage Grotesque';font-weight:700;font-size:18px;color:#fff">Family-First</div><div style="font-size:18px;color:#9BAAB7">Treated like a neighbor, not a number</div></div>
+        <div class="gh-hero-trust-divider" aria-hidden="true"></div>
+        <div class="gh-hero-trust-item gh-hero-trust-item--end">
+          <div style="font-family:'Bricolage Grotesque';font-weight:700;font-size:18px;color:#fff">Family-First</div>
+          <div style="font-size:18px;color:#9BAAB7">Treated like a neighbor, not a number</div>
         </div>
       </div>
     </div>
@@ -51,10 +53,6 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       </div>
       <div data-reveal style="position:relative">
         <img src="/images/same-team-new-name.png" alt="Red Silverado truck in the Gear Haven shop" style="width:100%;height:470px;object-fit:cover;border-radius:16px;box-shadow:0 30px 60px -30px rgba(20,32,45,.55)">
-        <div style="position:absolute;left:-18px;top:28px;background:#3E5C76;color:#fff;padding:18px 22px;border-radius:14px;box-shadow:0 20px 40px -18px rgba(0,0,0,.5);max-width:210px">
-          <div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:34px;line-height:1;color:#fff">8</div>
-          <div style="font-size:13.5px;line-height:1.4;color:#D2DDE7;margin-top:4px">years keeping the Ozarks on the road</div>
-        </div>
       </div>
     </div>
   </section>
@@ -392,7 +390,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
         <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:46px;line-height:1.05;letter-spacing:-1.2px;margin:0 0 16px">Ready to schedule service?</h2>
         <p style="font-size:18px;line-height:1.6;color:#C6D2DD;margin:0 0 32px;max-width:480px">Experience the difference of a repair shop that values honesty, communication, and relationships. Give us a call or request an appointment, we'll take it from there.</p>
         <div style="display:flex;gap:14px;flex-wrap:wrap;align-items:center">
-          <a href="tel:4173194798" style="display:inline-flex;align-items:center;gap:11px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:18px;padding:17px 30px;border-radius:10px;animation:gh-pulse 2.6s infinite" class="gh-hover-25 gh-btn-solid">
+          <a href="tel:4173194798" style="display:inline-flex;align-items:center;gap:11px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:18px;padding:17px 30px;border-radius:10px;animation:gh-pulse 2.6s infinite" class="gh-cta-phone gh-btn-solid">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.6 4.2h2.2c.5 0 .9.3 1 .8l.5 2.4a1 1 0 0 1-.3 1l-1.4 1.4a13.5 13.5 0 0 0 5.8 5.8l1.4-1.4a1 1 0 0 1 1-.3l2.4.5c.5.1.8.5.8 1v2.2a1.8 1.8 0 0 1-1.8 1.8C9.8 19.2 4.8 14.2 4.8 6.6A1.8 1.8 0 0 1 6.6 4.2z"></path></svg>
             417-319-4798
           </a>

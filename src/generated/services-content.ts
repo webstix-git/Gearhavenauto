@@ -156,26 +156,25 @@ export const SERVICES_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       </div>
 
       <!-- Diesel Repair -->
-      <div id="diesel" data-reveal style="scroll-margin-top:150px;background:#12202D;border:1px solid #0A121A;border-radius:20px;padding:38px 36px;box-shadow:0 24px 50px -30px rgba(20,32,45,.7);position:relative;overflow:hidden">
-        <div style="position:absolute;top:-80px;right:-60px;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle,rgba(109,157,197,.18),transparent 70%);pointer-events:none"></div>
-        <div style="display:flex;align-items:center;gap:16px;margin-bottom:24px;padding-bottom:22px;border-bottom:1px solid rgba(255,255,255,.12);position:relative">
-          <span style="flex:none;display:grid;place-items:center;width:58px;height:58px;border-radius:15px;background:linear-gradient(135deg,#6D9DC5,#3D6D92);color:#12202D;box-shadow:0 12px 24px -12px rgba(61,109,146,.85)">
+      <div id="diesel" data-reveal style="scroll-margin-top:150px;background:#fff;border:1px solid #E7E3DB;border-radius:20px;padding:38px 36px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
+        <div style="display:flex;align-items:center;gap:16px;margin-bottom:24px;padding-bottom:22px;border-bottom:1px solid #EEEAE2">
+          <span style="flex:none;display:grid;place-items:center;width:58px;height:58px;border-radius:15px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 12px 24px -12px rgba(62,92,118,.8)">
             <svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg>
           </span>
           <div>
-            <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:24px;margin:0;color:#fff">Diesel Repair</h2>
-            <div style="font-size:14px;color:#CFE0EE;font-weight:600;margin-top:2px">Our specialty, Power Stroke · Cummins · Duramax</div>
+            <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:24px;margin:0;color:#14202B">Diesel Repair</h2>
+            <div style="font-size:14px;color:#8A96A1;font-weight:500;margin-top:2px">Our specialty, Power Stroke · Cummins · Duramax</div>
           </div>
         </div>
-        <div class="gh-service-list-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:11px 24px;position:relative">
-          <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#DCE4EC;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Cummins Repair</div>
-          <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#DCE4EC;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Power Stroke Repair</div>
-          <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#DCE4EC;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Duramax Repair</div>
-          <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#DCE4EC;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Diesel Diagnostics</div>
-          <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#DCE4EC;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Fuel System Repairs</div>
-          <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#DCE4EC;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Turbocharger Repairs</div>
-          <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#DCE4EC;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>FASS System Installation</div>
-          <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#DCE4EC;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>CP4 to DCR Conversions</div>
+        <div class="gh-service-list-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:11px 24px">
+          <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Cummins Repair</div>
+          <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Power Stroke Repair</div>
+          <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Duramax Repair</div>
+          <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Diesel Diagnostics</div>
+          <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Fuel System Repairs</div>
+          <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Turbocharger Repairs</div>
+          <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>FASS System Installation</div>
+          <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>CP4 to DCR Conversions</div>
         </div>
       </div>
 
@@ -231,7 +230,7 @@ export const SERVICES_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:44px;line-height:1.06;letter-spacing:-1.2px;margin:0 0 16px">Not sure what your vehicle needs?</h2>
       <p style="font-size:18px;line-height:1.6;color:#C6D2DD;margin:0 auto 32px;max-width:560px">Bring it in. We'll take a look, explain what we find in plain language, and give you honest recommendations, no pressure.</p>
       <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;align-items:center">
-        <a href="tel:4173194798" style="display:inline-flex;align-items:center;gap:11px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:18px;padding:17px 30px;border-radius:10px" class="gh-hover-434 gh-btn-solid">
+        <a href="tel:4173194798" style="display:inline-flex;align-items:center;gap:11px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:18px;padding:17px 30px;border-radius:10px" class="gh-cta-phone gh-btn-solid">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.6 4.2h2.2c.5 0 .9.3 1 .8l.5 2.4a1 1 0 0 1-.3 1l-1.4 1.4a13.5 13.5 0 0 0 5.8 5.8l1.4-1.4a1 1 0 0 1 1-.3l2.4.5c.5.1.8.5.8 1v2.2a1.8 1.8 0 0 1-1.8 1.8C9.8 19.2 4.8 14.2 4.8 6.6A1.8 1.8 0 0 1 6.6 4.2z"></path></svg>
           417-319-4798
         </a>

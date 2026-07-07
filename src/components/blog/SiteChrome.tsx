@@ -329,7 +329,7 @@ export function BlogCta() {
         >
           <a
             href="tel:4173194798"
-            className="gh-btn-solid"
+            className="gh-cta-phone gh-btn-solid"
             style={{
               display: "inline-flex",
               alignItems: "center",

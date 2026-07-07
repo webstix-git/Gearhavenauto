@@ -10,11 +10,6 @@ export const OIL_CHANGES_HTML = `<div class="gh-service-page" style="min-height:
     <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,23,32,.95) 0%,rgba(20,32,45,.86) 50%,rgba(20,32,45,.55) 100%)"></div>
     <div class="gh-hero-inner" style="position:relative;max-width:1240px;margin:0 auto;padding:216px 28px 104px">
       <div style="max-width:730px">
-        <div data-reveal style="display:flex;align-items:center;gap:9px;font-size:13.5px;font-weight:600;color:#9BAAB7;margin-bottom:20px">
-          <a href="/services#top" style="color:#9BAAB7" class="gh-hover-396">Services</a>
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"></path></svg>
-          <span style="color:#6D9DC5">Oil Changes</span>
-        </div>
         <h1 data-reveal style="font-family:'Bricolage Grotesque';font-weight:700;font-size:58px;line-height:1.04;letter-spacing:-1.6px;color:#fff;margin:0 0 22px">Oil changes,<br>done right.</h1>
         <p data-reveal style="font-size:19.5px;line-height:1.55;color:#CBD6E0;font-weight:500;margin:0 0 34px;max-width:600px">The single most important thing you can do to protect your engine. Quick, honest, and done with the right oil for your vehicle, cars, trucks, and diesels.</p>
         <div data-reveal style="display:flex;gap:14px;flex-wrap:wrap">
@@ -131,9 +126,9 @@ export const OIL_CHANGES_HTML = `<div class="gh-service-page" style="min-height:
         <p class="gh-card-desc" style="line-height:1.6;color:#5C6B76;margin:0">Maximum protection for modern, turbocharged, and high-performance engines.</p>
       </div>
 
-      <div data-reveal style="background:#12202D;border:1px solid #0A121A;border-top:4px solid #6D9DC5;border-radius:16px;padding:30px 26px">
-        <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:20px;margin:0 0 8px;color:#fff">Diesel Oil</h3>
-        <p class="gh-card-desc" style="line-height:1.6;color:#BECAD6;margin:0">Heavy-duty diesel-rated oil and filtration for Power Stroke, Cummins &amp; Duramax.</p>
+      <div data-reveal style="background:#fff;border:1px solid #E7E3DB;border-top:4px solid #3E5C76;border-radius:16px;padding:30px 26px">
+        <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:20px;margin:0 0 8px;color:#14202B">Diesel Oil</h3>
+        <p class="gh-card-desc" style="line-height:1.6;color:#5C6B76;margin:0">Heavy-duty diesel-rated oil and filtration for Power Stroke, Cummins &amp; Duramax.</p>
       </div>
 
     </div>
@@ -160,7 +155,7 @@ export const OIL_CHANGES_HTML = `<div class="gh-service-page" style="min-height:
           <div style="display:flex;gap:16px;align-items:flex-start"><span style="flex:none;display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:#3E5C76;color:#fff;font-family:'Bricolage Grotesque';font-weight:700;font-size:15px">1</span><div><div style="font-weight:700;font-size:16.5px;color:#14202B;margin-bottom:2px">Drop off or schedule</div><div style="font-size:18px;line-height:1.55;color:#5C6B76">Call ahead or swing by, most oil changes are same-day.</div></div></div>
           <div style="display:flex;gap:16px;align-items:flex-start"><span style="flex:none;display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:#3E5C76;color:#fff;font-family:'Bricolage Grotesque';font-weight:700;font-size:15px">2</span><div><div style="font-weight:700;font-size:16.5px;color:#14202B;margin-bottom:2px">Oil, filter &amp; inspection</div><div style="font-size:18px;line-height:1.55;color:#5C6B76">We change the oil and filter and run a free digital inspection.</div></div></div>
           <div style="display:flex;gap:16px;align-items:flex-start"><span style="flex:none;display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:#3E5C76;color:#fff;font-family:'Bricolage Grotesque';font-weight:700;font-size:15px">3</span><div><div style="font-weight:700;font-size:16.5px;color:#14202B;margin-bottom:2px">Honest recommendations</div><div style="font-size:18px;line-height:1.55;color:#5C6B76">We show you what we found and what, if anything, needs attention.</div></div></div>
-          <div style="display:flex;gap:16px;align-items:flex-start"><span style="flex:none;display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:#6D9DC5;color:#14202B;font-family:'Bricolage Grotesque';font-weight:700;font-size:15px">4</span><div><div style="font-weight:700;font-size:16.5px;color:#14202B;margin-bottom:2px">Back on the road</div><div style="font-size:18px;line-height:1.55;color:#5C6B76">You leave knowing exactly what was done and when to return.</div></div></div>
+          <div style="display:flex;gap:16px;align-items:flex-start"><span style="flex:none;display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:#3E5C76;color:#fff;font-family:'Bricolage Grotesque';font-weight:700;font-size:15px">4</span><div><div style="font-weight:700;font-size:16.5px;color:#14202B;margin-bottom:2px">Back on the road</div><div style="font-size:18px;line-height:1.55;color:#5C6B76">You leave knowing exactly what was done and when to return.</div></div></div>
         </div>
       </div>
     </div>
@@ -173,7 +168,7 @@ export const OIL_CHANGES_HTML = `<div class="gh-service-page" style="min-height:
       <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:44px;line-height:1.06;letter-spacing:-1.2px;margin:0 0 16px">Due for an oil change?</h2>
       <p style="font-size:18px;line-height:1.6;color:#C6D2DD;margin:0 auto 32px;max-width:540px">Give us a call or request an appointment. We'll get you in quickly, use the right oil, and keep it honest.</p>
       <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;align-items:center">
-        <a href="tel:4173194798" style="display:inline-flex;align-items:center;gap:11px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:18px;padding:17px 30px;border-radius:10px" class="gh-btn-solid" class="gh-hover-399">
+        <a href="tel:4173194798" style="display:inline-flex;align-items:center;gap:11px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:18px;padding:17px 30px;border-radius:10px" class="gh-cta-phone gh-btn-solid">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.6 4.2h2.2c.5 0 .9.3 1 .8l.5 2.4a1 1 0 0 1-.3 1l-1.4 1.4a13.5 13.5 0 0 0 5.8 5.8l1.4-1.4a1 1 0 0 1 1-.3l2.4.5c.5.1.8.5.8 1v2.2a1.8 1.8 0 0 1-1.8 1.8C9.8 19.2 4.8 14.2 4.8 6.6A1.8 1.8 0 0 1 6.6 4.2z"></path></svg>
           417-319-4798
         </a>

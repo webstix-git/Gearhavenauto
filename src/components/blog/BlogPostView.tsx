@@ -9,14 +9,6 @@ import {
   SiteChrome,
 } from "@/components/blog/SiteChrome";
 
-function formatDate(iso: string) {
-  return new Date(iso).toLocaleDateString("en-US", {
-    month: "long",
-    day: "numeric",
-    year: "numeric",
-  });
-}
-
 export function BlogPostView({
   post,
   related,
@@ -48,24 +40,12 @@ export function BlogPostView({
               pointerEvents: "none",
             }}
           />
-          <div style={{ position: "absolute", inset: 0, overflow: "hidden" }}>
-            <img
-              src={post.image}
-              alt=""
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "cover",
-                filter: "brightness(.55)",
-              }}
-            />
-          </div>
           <div
             style={{
               position: "absolute",
               inset: 0,
               background:
-                "linear-gradient(180deg,rgba(14,23,32,.75) 0%,rgba(14,23,32,.92) 100%)",
+                "linear-gradient(180deg,rgba(14,23,32,.92) 0%,rgba(20,32,45,.98) 100%)",
             }}
           />
           <div
@@ -103,25 +83,15 @@ export function BlogPostView({
               style={{
                 fontFamily: "'Bricolage Grotesque', sans-serif",
                 fontWeight: 700,
-                fontSize: 46,
+                fontSize: 42,
                 lineHeight: 1.08,
                 letterSpacing: -1.2,
                 color: "#fff",
-                margin: "0 0 18px",
+                margin: 0,
               }}
             >
               {post.title}
             </h1>
-            <p
-              data-reveal
-              style={{
-                fontSize: 17,
-                color: "#B8C8D4",
-                margin: 0,
-              }}
-            >
-              {formatDate(post.publishedAt)} · {post.readTime}
-            </p>
           </div>
         </section>
 
@@ -133,12 +103,36 @@ export function BlogPostView({
           ]}
         />
 
+        <div
+          data-reveal
+          style={{
+            maxWidth: 760,
+            margin: "0 auto",
+            padding: "0 28px",
+          }}
+        >
+          <img
+            src={post.image}
+            alt=""
+            style={{
+              width: "100%",
+              height: "auto",
+              maxHeight: 420,
+              objectFit: "cover",
+              borderRadius: 16,
+              display: "block",
+              marginTop: 40,
+              boxShadow: "0 24px 48px -24px rgba(20,32,45,.35)",
+            }}
+          />
+        </div>
+
         <article
           className="gh-blog-article"
           style={{
             maxWidth: 760,
             margin: "0 auto",
-            padding: "56px 28px 40px",
+            padding: "40px 28px 40px",
           }}
         >
           <div

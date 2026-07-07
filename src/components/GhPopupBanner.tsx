@@ -2,14 +2,24 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useId, useState } from "react";
-import { POPUP_BANNER } from "@/lib/popup-banner";
+import { POPUP_BANNER, POPUP_SESSION_KEY } from "@/lib/popup-banner";
 
 export function GhPopupBanner() {
   const titleId = useId();
   const descId = useId();
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    const dismissed = sessionStorage.getItem(
+      `${POPUP_SESSION_KEY}:${POPUP_BANNER.id}`
+    );
+    if (!dismissed) {
+      setOpen(true);
+    }
+  }, []);
 
   const closePopup = useCallback(() => {
+    sessionStorage.setItem(`${POPUP_SESSION_KEY}:${POPUP_BANNER.id}`, "1");
     setOpen(false);
   }, []);
 
@@ -52,7 +62,7 @@ export function GhPopupBanner() {
         <button
           type="button"
           className="gh-popup-close"
-          aria-label={POPUP_BANNER.dismissLabel ?? "Close"}
+          aria-label="Close announcement"
           onClick={closePopup}
         >
           <svg
@@ -105,13 +115,6 @@ export function GhPopupBanner() {
             </svg>
             {POPUP_BANNER.ctaLabel}
           </Link>
-          <button
-            type="button"
-            className="gh-popup-dismiss"
-            onClick={closePopup}
-          >
-            {POPUP_BANNER.dismissLabel ?? "Close"}
-          </button>
         </div>
       </div>
     </div>

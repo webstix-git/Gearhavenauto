@@ -4,7 +4,6 @@ import { SITE_ADDRESS_HTML } from "./site-info";
 import {
   BREADCRUMB_CHEVRON,
   CHECK_ICON,
-  HERO_CHEVRON,
   PHONE_CTA_ICON,
   SERVICE_ICONS,
 } from "@/lib/service-page-icons";
@@ -50,11 +49,8 @@ function signItems(items: string[]) {
 function processSteps(steps: ServicePageData["process"]["steps"]) {
   return steps
     .map((step, i) => {
-      const isLast = i === steps.length - 1;
-      const bg = isLast ? "#6D9DC5" : "#3E5C76";
-      const color = isLast ? "#14202B" : "#fff";
       return `
-          <div style="display:flex;gap:16px;align-items:flex-start"><span style="flex:none;display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:${bg};color:${color};font-family:'Bricolage Grotesque';font-weight:700;font-size:15px">${i + 1}</span><div><div style="font-weight:700;font-size:16.5px;color:#14202B;margin-bottom:2px">${step.title}</div><div style="font-size:18px;line-height:1.55;color:#5C6B76">${step.description}</div></div></div>`;
+          <div style="display:flex;gap:16px;align-items:flex-start"><span style="flex:none;display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:#3E5C76;color:#fff;font-family:'Bricolage Grotesque';font-weight:700;font-size:15px">${i + 1}</span><div><div style="font-weight:700;font-size:16.5px;color:#14202B;margin-bottom:2px">${step.title}</div><div style="font-size:18px;line-height:1.55;color:#5C6B76">${step.description}</div></div></div>`;
     })
     .join("");
 }
@@ -66,20 +62,13 @@ function optionsSection(data: ServicePageData) {
     : "";
   const cols = data.options.items.length <= 3 ? 3 : 4;
   const cards = data.options.items
-    .map((item) => {
-      if (item.featured) {
-        return `
-      <div data-reveal style="background:#12202D;border:1px solid #0A121A;border-top:4px solid #6D9DC5;border-radius:16px;padding:30px 26px">
-        <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:20px;margin:0 0 8px;color:#fff">${item.title}</h3>
-        <p class="gh-card-desc" style="font-size:16px;line-height:1.6;color:#BECAD6;margin:0">${item.description}</p>
-      </div>`;
-      }
-      return `
+    .map(
+      (item) => `
       <div data-reveal style="background:#fff;border:1px solid #E7E3DB;border-top:4px solid #3E5C76;border-radius:16px;padding:30px 26px">
         <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:20px;margin:0 0 8px;color:#14202B">${item.title}</h3>
         <p class="gh-card-desc" style="font-size:16px;line-height:1.6;color:#5C6B76;margin:0">${item.description}</p>
-      </div>`;
-    })
+      </div>`
+    )
     .join("");
 
   return `
@@ -107,11 +96,6 @@ export function buildServicePageHtml(data: ServicePageData): string {
     <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,23,32,.95) 0%,rgba(20,32,45,.86) 50%,rgba(20,32,45,.55) 100%)"></div>
     <div class="gh-hero-inner" style="position:relative;max-width:1240px;margin:0 auto;padding:216px 28px 104px">
       <div style="max-width:730px">
-        <div data-reveal style="display:flex;align-items:center;gap:9px;font-size:13.5px;font-weight:600;color:#9BAAB7;margin-bottom:20px">
-          <a href="/services#top" style="color:#9BAAB7" class="gh-hover-svc">Services</a>
-          ${HERO_CHEVRON}
-          <span style="color:#6D9DC5">${data.breadcrumbLabel}</span>
-        </div>
         <h1 data-reveal style="font-family:'Bricolage Grotesque';font-weight:700;font-size:58px;line-height:1.04;letter-spacing:-1.6px;color:#fff;margin:0 0 22px">${data.hero.title}</h1>
         <p data-reveal style="font-size:19.5px;line-height:1.55;color:#CBD6E0;font-weight:500;margin:0 0 34px;max-width:600px">${data.hero.description}</p>
         <div data-reveal style="display:flex;gap:14px;flex-wrap:wrap">
@@ -192,7 +176,7 @@ export function buildServicePageHtml(data: ServicePageData): string {
       <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:44px;line-height:1.06;letter-spacing:-1.2px;margin:0 0 16px">${data.cta.title}</h2>
       <p style="font-size:18px;line-height:1.6;color:#C6D2DD;margin:0 auto 32px;max-width:540px">${data.cta.description}</p>
       <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;align-items:center">
-        <a href="tel:4173194798" style="display:inline-flex;align-items:center;gap:11px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:18px;padding:17px 30px;border-radius:10px" class="gh-btn-solid gh-hover-svc">
+        <a href="tel:4173194798" style="display:inline-flex;align-items:center;gap:11px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:18px;padding:17px 30px;border-radius:10px" class="gh-cta-phone gh-btn-solid gh-hover-svc">
           ${PHONE_CTA_ICON}
           417-319-4798
         </a>

@@ -248,6 +248,12 @@ a[class*="gh-hover-"]:not(.gh-btn-solid):not(.gh-btn-outline):hover {
   box-shadow: 0 14px 28px -10px rgba(44, 66, 87, 0.7) !important;
 }
 
+.gh-cta-phone.gh-btn-solid:hover {
+  background: #fff !important;
+  color: rgb(61, 109, 146) !important;
+  box-shadow: 0 14px 28px -10px rgba(255, 255, 255, 0.35) !important;
+}
+
 .gh-btn-solid:active {
   transform: translateY(-1px);
   box-shadow: 0 8px 18px -8px rgba(44, 66, 87, 0.55) !important;
@@ -499,7 +505,7 @@ button[class*="gh-hover-"] {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 4px;
-  row-gap: 0;
+  row-gap: 5px;
   background: #fff;
   border: 1px solid #e7e3db;
   border-radius: 14px;
@@ -513,7 +519,7 @@ button[class*="gh-hover-"] {
 
 .gh-nav-dropdown-link {
   display: block;
-  padding: 7px 10px;
+  padding: 12px 10px;
   border-radius: 6px;
   font-size: 16px;
   font-weight: 600;
@@ -657,7 +663,7 @@ button[class*="gh-hover-"] {
 
   .gh-nav-dropdown-link {
     color: #cfe0ee !important;
-    padding: 10px 0;
+    padding: 15px 0;
     font-size: 16px;
   }
 
@@ -780,6 +786,38 @@ details[open] .gh-chev {
   box-shadow: 0 0 0 3px rgba(109, 157, 197, 0.2);
 }
 
+/* Hero trust strip — equal columns, center card centered, sides left-aligned */
+.gh-hero-trust {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 20px 28px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
+  align-items: center;
+}
+
+.gh-hero-trust-item {
+  min-width: 0;
+  padding: 4px 0;
+  text-align: left;
+}
+
+.gh-hero-trust-item--center {
+  text-align: center;
+}
+
+.gh-hero-trust-item--end {
+  justify-self: end;
+  text-align: left;
+}
+
+.gh-hero-trust-divider {
+  width: 1px;
+  height: 40px;
+  background: rgba(109, 157, 197, 0.55);
+  justify-self: center;
+}
+
 /* ===== Responsive layout (mobile & tablet) ===== */
 
 .gh-footer-grid,
@@ -884,6 +922,25 @@ details[open] .gh-chev {
 }
 
 @media (max-width: 680px) {
+  .gh-hero-trust {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 20px 20px;
+  }
+
+  .gh-hero-trust-item,
+  .gh-hero-trust-item--center,
+  .gh-hero-trust-item--end {
+    text-align: left;
+    justify-self: stretch;
+  }
+
+  .gh-hero-trust-divider {
+    width: 100%;
+    height: 1px;
+    justify-self: stretch;
+  }
+
   .gh-footer-grid {
     grid-template-columns: 1fr !important;
     gap: 28px !important;

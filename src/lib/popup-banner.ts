@@ -29,3 +29,5 @@ export const POPUP_BANNER_DIGITAL_INSPECTION: PopupBannerConfig = {
   ctaHref: "/contact",
   dismissLabel: "Close",
 };
+
+export const POPUP_SESSION_KEY = "gh-popup-dismissed";
