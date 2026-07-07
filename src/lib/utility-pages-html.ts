@@ -32,7 +32,6 @@ const mainLinks = [
   { href: "/faqs", label: "FAQs" },
   { href: "/gallery", label: "Gallery" },
   { href: "/contact", label: "Contact Us" },
-  { href: "/get-a-quote", label: "Get a Quote" },
 ];
 
 const serviceLinks = [
@@ -203,7 +202,7 @@ export const AI_READINESS_SERVICE_INDEX_HTML = buildUtilityPageHtml({
         <li><strong>Phone:</strong> <a href="tel:4173194798" style="color:#3E5C76;font-weight:600">${SITE_PHONE}</a></li>
         <li><strong>Email:</strong> <a href="mailto:${SITE_EMAIL}" style="color:#3E5C76;font-weight:600">${SITE_EMAIL}</a></li>
         <li><strong>Hours:</strong> ${SITE_HOURS_CONTACT_HTML}</li>
-        <li><strong>Appointment:</strong> <a href="/contact" style="color:#3E5C76;font-weight:600">Contact page</a> or <a href="/get-a-quote" style="color:#3E5C76;font-weight:600">Get a Quote</a></li>
+        <li><strong>Appointment:</strong> <a href="/contact" style="color:#3E5C76;font-weight:600">Contact Us</a></li>
       </ul>
     </div>
 

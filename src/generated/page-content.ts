@@ -14,7 +14,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
         <p data-reveal style="font-size:18px;line-height:1.5;color:#CBD6E0;font-weight:500;margin:0 0 16px;max-width:600px">Trusted Auto &amp; Diesel Repair for Cars, Trucks &amp; Fleets in Nixa, Missouri</p>
         <p data-reveal style="font-size:18px;line-height:1.6;color:#9BAAB7;margin:0 0 34px;max-width:600px">Whether you're maintaining a family SUV, diagnosing a check engine light, repairing a work truck, or managing an entire fleet, Gear Haven Auto &amp; Diesel delivers honest recommendations, expert repairs, and clear communication every step of the way.</p>
         <div data-reveal style="display:flex;gap:14px;flex-wrap:wrap">
-          <a href="/get-a-quote" class="gh-btn-outline" style="display:inline-flex;align-items:center;background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px">Request an Estimate</a>
+          <a href="/contact" class="gh-btn-outline" style="display:inline-flex;align-items:center;background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px">Request an Estimate</a>
         </div>
       </div>
     </div>
