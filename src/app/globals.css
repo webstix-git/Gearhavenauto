@@ -69,7 +69,8 @@ footer .gh-footer-services a:hover {
 .gh-hover-19 p,
 .gh-hover-20 p,
 .gh-hover-21 p,
-.gh-hover-22 p {
+.gh-hover-22 p,
+.gh-home-service-card p {
   font-size: 16px !important;
 }
 
@@ -177,6 +178,17 @@ a {
   transform: translateY(-5px);
   box-shadow: 0 20px 40px -22px rgba(20, 32, 45, 0.22);
   border-color: #d8d4cc !important;
+}
+
+.gh-home-service-card {
+  cursor: pointer;
+}
+
+.gh-home-service-card:hover {
+  transform: none !important;
+  box-shadow: 0 1px 2px rgba(20, 32, 45, 0.04) !important;
+  border-color: #e7e3db !important;
+  background: #fff !important;
 }
 
 .gh-hover-106,

@@ -116,7 +116,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           <img src="/images/why-choose-truck.png" alt="Truck alignment service at Gear Haven" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block">
           <div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 15%,rgba(10,18,26,.55) 55%,rgba(10,18,26,.92) 100%)"></div>
           <div style="position:absolute;left:24px;right:24px;bottom:22px;display:flex;align-items:center;gap:16px">
-            <div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:52px;line-height:.9;color:#E0A32E">8</div>
+            <div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:52px;line-height:.9;color:rgb(61,109,146)">8</div>
             <div style="font-size:14.5px;line-height:1.4;color:#E6EDF3;font-weight:600">years keeping the<br>Ozarks safely on the road</div>
           </div>
         </div>
@@ -183,14 +183,11 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           <div style="display:inline-flex;align-items:center;gap:9px;align-self:flex-start;background:rgba(109,157,197,.18);border:1px solid rgba(109,157,197,.45);color:#CFE0EE;font-weight:600;font-size:13px;letter-spacing:.4px;text-transform:uppercase;padding:7px 14px;border-radius:100px;margin-bottom:20px">Our Specialty</div>
           <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:32px;line-height:1.08;letter-spacing:-.6px;color:#fff;margin:0 0 12px">Diesel done right.</h3>
           <p style="font-size:16px;line-height:1.6;color:#BECAD6;margin:0 0 22px;max-width:440px">From diagnostics and fuel systems to turbos, CP4-to-DCR conversions, and full engine builds, the trucks that work hardest get our deepest expertise.</p>
-          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:28px">
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
             <span style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);color:#DCE4EC;font-weight:600;font-size:13.5px;padding:8px 15px;border-radius:100px">Power Stroke</span>
             <span style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);color:#DCE4EC;font-weight:600;font-size:13.5px;padding:8px 15px;border-radius:100px">Cummins</span>
             <span style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);color:#DCE4EC;font-weight:600;font-size:13.5px;padding:8px 15px;border-radius:100px">Duramax</span>
           </div>
-          <a href="#contact" style="display:inline-flex;align-items:center;gap:9px;align-self:flex-start;color:#E0A32E;font-weight:700;font-size:15.5px" class="gh-hover-13">Talk diesel with us
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-          </a>
         </div>
         <div style="position:relative;min-height:320px">
           <img src="/images/asset-6-b0d4ecf6.jpg" alt="Diesel engine work" style="width:100%;height:100%;object-fit:cover">
@@ -201,7 +198,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       <!-- services grid -->
       <div class="gh-grid-3" style="display:grid;grid-template-columns:repeat(3,1fr);gap:32px">
 
-        <a href="/auto-shop" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s;text-decoration:none;color:inherit" class="gh-hover-14">
+        <a href="/auto-shop" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);text-decoration:none;color:inherit" class="gh-home-service-card">
           <div style="flex:none;display:grid;place-items:center;width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 10px 20px -12px rgba(62,92,118,.8)"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
           </div>
           <div>
@@ -211,7 +208,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           </div>
         </a>
 
-        <a href="/digital-inspection" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s;text-decoration:none;color:inherit" class="gh-hover-15">
+        <a href="/digital-inspection" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);text-decoration:none;color:inherit" class="gh-home-service-card">
           <div style="flex:none;display:grid;place-items:center;width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 10px 20px -12px rgba(62,92,118,.8)"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
           </div>
           <div>
@@ -221,7 +218,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           </div>
         </a>
 
-        <a href="/services#diesel" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s;text-decoration:none;color:inherit" class="gh-hover-16">
+        <a href="/services#diesel" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);text-decoration:none;color:inherit" class="gh-home-service-card">
           <div style="flex:none;display:grid;place-items:center;width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 10px 20px -12px rgba(62,92,118,.8)"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg>
           </div>
           <div>
@@ -231,7 +228,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           </div>
         </a>
 
-        <a href="/fleet-vehicles" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s;text-decoration:none;color:inherit" class="gh-hover-17">
+        <a href="/fleet-vehicles" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);text-decoration:none;color:inherit" class="gh-home-service-card">
           <div style="flex:none;display:grid;place-items:center;width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 10px 20px -12px rgba(62,92,118,.8)"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 17V5a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h1"></path><path d="M14 8h4l3 3v5a1 1 0 0 1-1 1h-1"></path><circle cx="6" cy="17.5" r="2"></circle><circle cx="17" cy="17.5" r="2"></circle></svg>
           </div>
           <div>
@@ -241,7 +238,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           </div>
         </a>
 
-        <a href="/tires" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s;text-decoration:none;color:inherit" class="gh-hover-18">
+        <a href="/tires" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);text-decoration:none;color:inherit" class="gh-home-service-card">
           <div style="flex:none;display:grid;place-items:center;width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 10px 20px -12px rgba(62,92,118,.8)"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><circle cx="12" cy="12" r="3"></circle></svg>
           </div>
           <div>
@@ -251,7 +248,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           </div>
         </a>
 
-        <a href="/auto-shop" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s;text-decoration:none;color:inherit" class="gh-hover-19">
+        <a href="/auto-shop" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);text-decoration:none;color:inherit" class="gh-home-service-card">
           <div style="flex:none;display:grid;place-items:center;width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 10px 20px -12px rgba(62,92,118,.8)"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><circle cx="12" cy="12" r="2"></circle><path d="M12 3v7"></path><path d="m5.2 17 5.8-5"></path><path d="m18.8 17-5.8-5"></path></svg>
           </div>
           <div>
@@ -261,7 +258,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           </div>
         </a>
 
-        <a href="/auto-shop" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s;text-decoration:none;color:inherit" class="gh-hover-20">
+        <a href="/auto-shop" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);text-decoration:none;color:inherit" class="gh-home-service-card">
           <div style="flex:none;display:grid;place-items:center;width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 10px 20px -12px rgba(62,92,118,.8)"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
           </div>
           <div>
@@ -271,7 +268,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           </div>
         </a>
 
-        <a href="/truck-accessories" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s;text-decoration:none;color:inherit" class="gh-hover-21">
+        <a href="/truck-accessories" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);text-decoration:none;color:inherit" class="gh-home-service-card">
           <div style="flex:none;display:grid;place-items:center;width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 10px 20px -12px rgba(62,92,118,.8)"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
           </div>
           <div>
@@ -281,7 +278,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           </div>
         </a>
 
-        <a href="/auto-shop" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s,border-color .35s;text-decoration:none;color:inherit" class="gh-hover-22">
+        <a href="/auto-shop" data-reveal style="display:flex;gap:16px;background:#fff;border:1px solid #E7E3DB;border-left:3px solid #E7E3DB;border-radius:16px;padding:26px 24px;box-shadow:0 1px 2px rgba(20,32,45,.04);text-decoration:none;color:inherit" class="gh-home-service-card">
           <div style="flex:none;display:grid;place-items:center;width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 10px 20px -12px rgba(62,92,118,.8)"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1"></rect><path d="m9 14 2 2 4-4"></path></svg>
           </div>
           <div>
@@ -304,9 +301,9 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
         <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:40px;line-height:1.08;letter-spacing:-1px;margin:0 0 16px">Worth the drive from across the Ozarks.</h2>
         <p style="font-size:17px;line-height:1.65;color:#C6D2DD;margin:0 0 22px;max-width:560px">We're based in Nixa, Missouri, right in the heart of the Ozarks. Drivers come from Bolivar, Springfield, and communities all around southwest Missouri.</p>
         <div style="display:flex;flex-direction:column;gap:12px">
-          <div style="display:flex;align-items:center;gap:11px;font-size:15.5px;color:rgb(61,109,146)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="rgb(61, 109, 146)" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Nixa, MO and the surrounding Ozarks</div>
-          <div style="display:flex;align-items:center;gap:11px;font-size:15.5px;color:rgb(61,109,146)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="rgb(61, 109, 146)" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Customers from Bolivar, Springfield &amp; beyond</div>
-          <div style="display:flex;align-items:center;gap:11px;font-size:15.5px;color:rgb(61,109,146)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="rgb(61, 109, 146)" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Arkansas drivers who trust us with their trucks</div>
+          <div style="display:flex;align-items:center;gap:11px;font-size:15.5px;color:#fff"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="rgb(61, 109, 146)" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Nixa, MO and the surrounding Ozarks</div>
+          <div style="display:flex;align-items:center;gap:11px;font-size:15.5px;color:#fff"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="rgb(61, 109, 146)" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Customers from Bolivar, Springfield &amp; beyond</div>
+          <div style="display:flex;align-items:center;gap:11px;font-size:15.5px;color:#fff"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="rgb(61, 109, 146)" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Arkansas drivers who trust us with their trucks</div>
         </div>
         </div>
       </div>
@@ -404,15 +401,15 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       </div>
       <div data-reveal style="background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:18px;padding:32px">
         <div style="display:flex;align-items:flex-start;gap:14px;padding-bottom:20px;border-bottom:1px solid rgba(255,255,255,.12)">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E0A32E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><path d="M12 21s6-5.2 6-10.5a6 6 0 1 0-12 0C6 15.8 12 21 12 21z"></path><circle cx="12" cy="10.5" r="2.2"></circle></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="rgb(61, 109, 146)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><path d="M12 21s6-5.2 6-10.5a6 6 0 1 0-12 0C6 15.8 12 21 12 21z"></path><circle cx="12" cy="10.5" r="2.2"></circle></svg>
           <div><div style="font-weight:700;font-size:16px;margin-bottom:2px">Visit the shop</div><div style="font-size:15px;color:#C6D2DD;line-height:1.5">1556 N Commercial Rd.<br>Nixa, MO 65714</div></div>
         </div>
         <div style="display:flex;align-items:flex-start;gap:14px;padding:20px 0;border-bottom:1px solid rgba(255,255,255,.12)">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E0A32E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="rgb(61, 109, 146)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
           <div><div style="font-weight:700;font-size:16px;margin-bottom:2px">Hours</div><div style="font-size:15px;color:#C6D2DD;line-height:1.5">Monday &ndash; Friday, 8:00 AM &ndash; 5:00 PM<br>Saturday &amp; Sunday: Closed</div></div>
         </div>
         <div style="display:flex;align-items:flex-start;gap:14px;padding-top:20px">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E0A32E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><rect x="3" y="5.5" width="18" height="13" rx="2"></rect><path d="m3 8 9 6.2L21 8"></path></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="rgb(61, 109, 146)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><rect x="3" y="5.5" width="18" height="13" rx="2"></rect><path d="m3 8 9 6.2L21 8"></path></svg>
           <div><div style="font-weight:700;font-size:16px;margin-bottom:2px">Email</div><div style="font-size:15px;color:#C6D2DD;line-height:1.5">office@gearhaven.com</div></div>
         </div>
       </div>
