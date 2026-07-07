@@ -1,0 +1,17 @@
+import {
+  GH_ICON_CHECK,
+  GH_ICON_CHEVRON,
+  GH_ICON_CHEVRON_HERO,
+  GH_ICON_PHONE_CTA,
+  GH_SERVICE_ICONS,
+} from "./gh-icons";
+
+export const SERVICE_ICONS = GH_SERVICE_ICONS;
+
+export const CHECK_ICON = GH_ICON_CHECK();
+
+export const PHONE_CTA_ICON = GH_ICON_PHONE_CTA();
+
+export const BREADCRUMB_CHEVRON = GH_ICON_CHEVRON();
+
+export const HERO_CHEVRON = GH_ICON_CHEVRON_HERO();
