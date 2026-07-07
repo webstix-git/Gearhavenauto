@@ -177,7 +177,7 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:44px;line-height:1.06;letter-spacing:-1.2px;margin:0 0 16px">Come see the difference for yourself.</h2>
       <p style="font-size:18px;line-height:1.6;color:#C6D2DD;margin:0 auto 32px;max-width:560px">Experience a repair shop that values honesty, communication, and relationships. We'd be honored to earn your trust.</p>
       <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;align-items:center">
-        <a href="tel:4173194798" style="display:inline-flex;align-items:center;gap:11px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:18px;padding:17px 30px;border-radius:10px" class="gh-hover-109 gh-btn-solid">
+        <a href="tel:4173194798" style="display:inline-flex;align-items:center;gap:11px;background:#fff;color:rgb(61, 109, 146);font-weight:700;font-size:18px;padding:17px 30px;border-radius:10px" class="gh-cta-phone gh-cta-phone--white gh-btn-solid">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.6 4.2h2.2c.5 0 .9.3 1 .8l.5 2.4a1 1 0 0 1-.3 1l-1.4 1.4a13.5 13.5 0 0 0 5.8 5.8l1.4-1.4a1 1 0 0 1 1-.3l2.4.5c.5.1.8.5.8 1v2.2a1.8 1.8 0 0 1-1.8 1.8C9.8 19.2 4.8 14.2 4.8 6.6A1.8 1.8 0 0 1 6.6 4.2z"></path></svg>
           417-319-4798
         </a>

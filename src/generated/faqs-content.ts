@@ -158,7 +158,7 @@ export const FAQS_HTML = `<div style="min-height:100vh;overflow-x:hidden">
         <div style="display:flex;flex-direction:column;gap:10px;font-size:14.5px">
           <a href="/about" class="gh-hover-313">About Us</a>
           <a href="/about#team" class="gh-hover-314">Our Team</a>
-          <a href="/faqs" class="gh-hover-315">FAQ</a>
+          <a href="/faqs" class="gh-hover-315">FAQs</a>
           <a href="/reviews" class="gh-hover-316">Reviews</a>
           <a href="#contact" class="gh-hover-317">Contact Us</a>
         </div>

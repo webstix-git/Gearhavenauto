@@ -202,7 +202,7 @@ export const OIL_CHANGES_HTML = `<div class="gh-service-page" style="min-height:
           <a href="/about" class="gh-hover-406">About Us</a>
           <a href="/about#team" class="gh-hover-407">Our Team</a>
           <a href="/reviews" class="gh-hover-408">Reviews</a>
-          <a href="/faqs" class="gh-hover-409">FAQ</a>
+          <a href="/faqs" class="gh-hover-409">FAQs</a>
           <a href="#contact" class="gh-hover-410">Contact Us</a>
         </div>
       </div>

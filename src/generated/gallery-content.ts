@@ -90,7 +90,7 @@ export const GALLERY_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           <a href="/about" class="gh-hover-373">About Us</a>
           <a href="#top" class="gh-hover-374">Gallery</a>
           <a href="/reviews" class="gh-hover-375">Reviews</a>
-          <a href="/faqs" class="gh-hover-376">FAQ</a>
+          <a href="/faqs" class="gh-hover-376">FAQs</a>
           <a href="/contact" class="gh-hover-377">Contact Us</a>
         </div>
       </div>

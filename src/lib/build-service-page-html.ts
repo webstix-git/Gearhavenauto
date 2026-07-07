@@ -210,7 +210,7 @@ export function buildServicePageHtml(data: ServicePageData): string {
           <a href="/about" class="gh-hover-svc">About Us</a>
           <a href="/about#team" class="gh-hover-svc">Our Team</a>
           <a href="/reviews" class="gh-hover-svc">Reviews</a>
-          <a href="/faqs" class="gh-hover-svc">FAQ</a>
+          <a href="/faqs" class="gh-hover-svc">FAQs</a>
           <a href="/contact" class="gh-hover-svc">Contact Us</a>
         </div>
       </div>

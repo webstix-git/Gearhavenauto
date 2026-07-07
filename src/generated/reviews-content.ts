@@ -370,7 +370,7 @@ export const REVIEWS_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           <a href="/about" class="gh-hover-343">About Us</a>
           <a href="/about#team" class="gh-hover-344">Our Team</a>
           <a href="#top" class="gh-hover-345">Reviews</a>
-          <a href="/faqs" class="gh-hover-346">FAQ</a>
+          <a href="/faqs" class="gh-hover-346">FAQs</a>
           <a href="#contact" class="gh-hover-347">Contact Us</a>
         </div>
       </div>

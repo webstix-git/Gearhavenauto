@@ -47,7 +47,7 @@ export const SERVICES_HTML = `<div style="min-height:100vh;overflow-x:hidden">
     <div class="gh-service-categories" style="display:grid;grid-template-columns:1fr 1fr;gap:26px">
 
       <!-- Auto Repair -->
-      <div id="auto" data-reveal style="scroll-margin-top:150px;background:#fff;border:1px solid #E7E3DB;border-radius:20px;padding:38px 36px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
+      <a href="/auto-shop" id="auto" data-reveal style="scroll-margin-top:150px;background:#fff;border:1px solid #E7E3DB;border-radius:20px;padding:38px 36px;box-shadow:0 2px 4px rgba(20,32,45,.04);text-decoration:none;color:inherit;display:block" class="gh-home-service-card">
         <div style="display:flex;align-items:center;gap:16px;margin-bottom:24px;padding-bottom:22px;border-bottom:1px solid #EEEAE2">
           <span style="flex:none;display:grid;place-items:center;width:58px;height:58px;border-radius:15px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 12px 24px -12px rgba(62,92,118,.8)">
             <svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
@@ -67,10 +67,10 @@ export const SERVICES_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Missouri State Inspections</div>
           <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Preventative Maintenance</div>
         </div>
-      </div>
+      </a>
 
       <!-- Diagnostics -->
-      <div id="diagnostics" data-reveal style="scroll-margin-top:150px;background:#fff;border:1px solid #E7E3DB;border-radius:20px;padding:38px 36px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
+      <a href="/digital-inspection" id="diagnostics" data-reveal style="scroll-margin-top:150px;background:#fff;border:1px solid #E7E3DB;border-radius:20px;padding:38px 36px;box-shadow:0 2px 4px rgba(20,32,45,.04);text-decoration:none;color:inherit;display:block" class="gh-home-service-card">
         <div style="display:flex;align-items:center;gap:16px;margin-bottom:24px;padding-bottom:22px;border-bottom:1px solid #EEEAE2">
           <span style="flex:none;display:grid;place-items:center;width:58px;height:58px;border-radius:15px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 12px 24px -12px rgba(62,92,118,.8)">
             <svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
@@ -89,10 +89,10 @@ export const SERVICES_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Drivability Concerns</div>
           <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Digital Vehicle Inspections</div>
         </div>
-      </div>
+      </a>
 
       <!-- Major Repairs -->
-      <div id="major" data-reveal style="scroll-margin-top:150px;background:#fff;border:1px solid #E7E3DB;border-radius:20px;padding:38px 36px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
+      <a href="/auto-shop" id="major" data-reveal style="scroll-margin-top:150px;background:#fff;border:1px solid #E7E3DB;border-radius:20px;padding:38px 36px;box-shadow:0 2px 4px rgba(20,32,45,.04);text-decoration:none;color:inherit;display:block" class="gh-home-service-card">
         <div style="display:flex;align-items:center;gap:16px;margin-bottom:24px;padding-bottom:22px;border-bottom:1px solid #EEEAE2">
           <span style="flex:none;display:grid;place-items:center;width:58px;height:58px;border-radius:15px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 12px 24px -12px rgba(62,92,118,.8)">
             <svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
@@ -110,10 +110,10 @@ export const SERVICES_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Gasket Repairs</div>
           <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Major Mechanical Repairs</div>
         </div>
-      </div>
+      </a>
 
       <!-- Steering, Suspension & Brakes -->
-      <div id="brakes" data-reveal style="scroll-margin-top:150px;background:#fff;border:1px solid #E7E3DB;border-radius:20px;padding:38px 36px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
+      <a href="/auto-shop" id="brakes" data-reveal style="scroll-margin-top:150px;background:#fff;border:1px solid #E7E3DB;border-radius:20px;padding:38px 36px;box-shadow:0 2px 4px rgba(20,32,45,.04);text-decoration:none;color:inherit;display:block" class="gh-home-service-card">
         <div style="display:flex;align-items:center;gap:16px;margin-bottom:24px;padding-bottom:22px;border-bottom:1px solid #EEEAE2">
           <span style="flex:none;display:grid;place-items:center;width:58px;height:58px;border-radius:15px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 12px 24px -12px rgba(62,92,118,.8)">
             <svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><circle cx="12" cy="12" r="3.2"></circle></svg>
@@ -132,10 +132,10 @@ export const SERVICES_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Tie Rods</div>
           <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Wheel Bearings</div>
         </div>
-      </div>
+      </a>
 
       <!-- Tires & Alignments -->
-      <div id="tires" data-reveal style="scroll-margin-top:150px;background:#fff;border:1px solid #E7E3DB;border-radius:20px;padding:38px 36px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
+      <a href="/tires" id="tires" data-reveal style="scroll-margin-top:150px;background:#fff;border:1px solid #E7E3DB;border-radius:20px;padding:38px 36px;box-shadow:0 2px 4px rgba(20,32,45,.04);text-decoration:none;color:inherit;display:block" class="gh-home-service-card">
         <div style="display:flex;align-items:center;gap:16px;margin-bottom:24px;padding-bottom:22px;border-bottom:1px solid #EEEAE2">
           <span style="flex:none;display:grid;place-items:center;width:58px;height:58px;border-radius:15px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 12px 24px -12px rgba(62,92,118,.8)">
             <svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><circle cx="12" cy="12" r="2"></circle><path d="M12 3v7"></path><path d="m5.2 17 5.8-5"></path><path d="m18.8 17-5.8-5"></path></svg>
@@ -153,10 +153,10 @@ export const SERVICES_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Tire Rotations</div>
           <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Alignments</div>
         </div>
-      </div>
+      </a>
 
       <!-- Diesel Repair -->
-      <div id="diesel" data-reveal style="scroll-margin-top:150px;background:#fff;border:1px solid #E7E3DB;border-radius:20px;padding:38px 36px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
+      <a href="/auto-shop" id="diesel" data-reveal style="scroll-margin-top:150px;background:#fff;border:1px solid #E7E3DB;border-radius:20px;padding:38px 36px;box-shadow:0 2px 4px rgba(20,32,45,.04);text-decoration:none;color:inherit;display:block" class="gh-home-service-card">
         <div style="display:flex;align-items:center;gap:16px;margin-bottom:24px;padding-bottom:22px;border-bottom:1px solid #EEEAE2">
           <span style="flex:none;display:grid;place-items:center;width:58px;height:58px;border-radius:15px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 12px 24px -12px rgba(62,92,118,.8)">
             <svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg>
@@ -176,10 +176,10 @@ export const SERVICES_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>FASS System Installation</div>
           <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>CP4 to DCR Conversions</div>
         </div>
-      </div>
+      </a>
 
       <!-- Fleet Services -->
-      <div id="fleet" data-reveal style="scroll-margin-top:150px;background:#fff;border:1px solid #E7E3DB;border-radius:20px;padding:38px 36px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
+      <a href="/fleet-vehicles" id="fleet" data-reveal style="scroll-margin-top:150px;background:#fff;border:1px solid #E7E3DB;border-radius:20px;padding:38px 36px;box-shadow:0 2px 4px rgba(20,32,45,.04);text-decoration:none;color:inherit;display:block" class="gh-home-service-card">
         <div style="display:flex;align-items:center;gap:16px;margin-bottom:24px;padding-bottom:22px;border-bottom:1px solid #EEEAE2">
           <span style="flex:none;display:grid;place-items:center;width:58px;height:58px;border-radius:15px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 12px 24px -12px rgba(62,92,118,.8)">
             <svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="6" width="13" height="10" rx="1"></rect><path d="M14 9h4l3 3v3a1 1 0 0 1-1 1h-1"></path><circle cx="5" cy="17" r="1.8"></circle><circle cx="16.5" cy="17" r="1.8"></circle></svg>
@@ -196,10 +196,10 @@ export const SERVICES_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Vehicle Inspections</div>
           <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500;grid-column:span 2"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Preventative Maintenance Programs</div>
         </div>
-      </div>
+      </a>
 
       <!-- Truck Accessories -->
-      <div id="accessories" data-reveal style="scroll-margin-top:150px;background:#fff;border:1px solid #E7E3DB;border-radius:20px;padding:38px 36px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
+      <a href="/truck-accessories" id="accessories" data-reveal style="scroll-margin-top:150px;background:#fff;border:1px solid #E7E3DB;border-radius:20px;padding:38px 36px;box-shadow:0 2px 4px rgba(20,32,45,.04);text-decoration:none;color:inherit;display:block" class="gh-home-service-card">
         <div style="display:flex;align-items:center;gap:16px;margin-bottom:24px;padding-bottom:22px;border-bottom:1px solid #EEEAE2">
           <span style="flex:none;display:grid;place-items:center;width:58px;height:58px;border-radius:15px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff;box-shadow:0 12px 24px -12px rgba(62,92,118,.8)">
             <svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
@@ -218,7 +218,7 @@ export const SERVICES_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Rough Country Products</div>
           <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500;grid-column:span 2"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Banks Diesel Products</div>
         </div>
-      </div>
+      </a>
 
     </div>
   </section>
