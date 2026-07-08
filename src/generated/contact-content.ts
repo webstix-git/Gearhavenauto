@@ -1,11 +1,11 @@
-// Auto-generated from Gear Haven Auto & Diesel - Contact.html
+// Auto-generated from Gearhaven Auto & Diesel - Contact.html
 export const CONTACT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
 
   <!-- HERO -->
   <section id="top" style="position:relative;background:#0E1720;overflow:hidden">
     <div id="gh-sentinel" style="position:absolute;top:0;left:0;width:1px;height:70px;pointer-events:none"></div>
     <div style="position:absolute;inset:0;overflow:hidden">
-      <img src="/images/contact-e51e322a.jpg" alt="Gear Haven shop exterior" style="width:100%;height:100%;object-fit:cover;animation:gh-kenburns 22s ease-in-out infinite alternate">
+      <img src="/images/contact-e51e322a.jpg" alt="Gearhaven shop exterior" style="width:100%;height:100%;object-fit:cover;animation:gh-kenburns 22s ease-in-out infinite alternate">
     </div>
     <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,23,32,.95) 0%,rgba(20,32,45,.86) 50%,rgba(20,32,45,.55) 100%)"></div>
     <div style="position:relative;max-width:1240px;margin:0 auto;padding:214px 28px 96px">
@@ -76,9 +76,9 @@ export const CONTACT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
             <div><div style="font-size:13px;color:#8A96A1;font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-bottom:2px">Call or Text</div><div style="font-family:'Bricolage Grotesque';font-weight:700;font-size:20px;color:#14202B">417-319-4798</div></div>
           </a>
 
-          <a href="mailto:office@gearhaven.com" style="display:flex;align-items:center;gap:16px;background:#fff;border:1px solid #E7E3DB;border-radius:14px;padding:20px 22px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
+          <a href="mailto:collen@gearhaven.com" style="display:flex;align-items:center;gap:16px;background:#fff;border:1px solid #E7E3DB;border-radius:14px;padding:20px 22px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
             <span style="flex:none;display:grid;place-items:center;width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5.5" width="18" height="13" rx="2"></rect><path d="m3 8 9 6.2L21 8"></path></svg></span>
-            <div><div style="font-size:13px;color:#8A96A1;font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-bottom:2px">Email</div><div style="font-family:'Bricolage Grotesque';font-weight:700;font-size:20px;color:#14202B">office@gearhaven.com</div></div>
+            <div><div style="font-size:13px;color:#8A96A1;font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-bottom:2px">Email</div><div style="font-family:'Bricolage Grotesque';font-weight:700;font-size:20px;color:#14202B">collen@gearhaven.com</div></div>
           </a>
 
           <div style="display:flex;align-items:center;gap:16px;background:#fff;border:1px solid #E7E3DB;border-radius:14px;padding:20px 22px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
@@ -88,7 +88,7 @@ export const CONTACT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
 
           <div style="display:flex;align-items:center;gap:16px;background:#fff;border:1px solid #E7E3DB;border-radius:14px;padding:20px 22px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
             <span style="flex:none;display:grid;place-items:center;width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,#3E5C76,#2C4257);color:#fff"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg></span>
-            <div><div style="font-size:13px;color:#8A96A1;font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-bottom:2px">Hours</div><div style="font-family:'Bricolage Grotesque';font-weight:700;font-size:19px;color:#14202B">Monday &ndash; Friday, 8:00 AM &ndash; 5:00 PM</div><div style="font-size:14px;color:#7C8B97;margin-top:1px">Saturday &amp; Sunday: Closed</div></div>
+            <div><div style="font-size:13px;color:#8A96A1;font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-bottom:2px">Hours</div><div style="font-family:'Bricolage Grotesque';font-weight:700;font-size:19px;color:#14202B">Monday &ndash; Thursday, 8:00 AM &ndash; 5:30 PM</div><div style="font-family:'Bricolage Grotesque';font-weight:700;font-size:19px;color:#14202B">Friday, 8:00 AM &ndash; 1:00 PM</div><div style="font-size:14px;color:#7C8B97;margin-top:1px">Saturday &amp; Sunday: Closed</div></div>
           </div>
         </div>
       </div>
@@ -100,9 +100,8 @@ export const CONTACT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
   <footer style="background:#0E1720;color:#8FA0AD">
     <div class="gh-footer-grid" style="max-width:1240px;margin:0 auto;padding:60px 28px 32px;display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px">
       <div>
-        <img src="/images/asset-0-a596b110.png" alt="Gear Haven Auto and Diesel" style="height:90px;width:auto;margin-bottom:18px">
+        <img src="/images/asset-0-a596b110.png" alt="Gearhaven Auto and Diesel" style="height:90px;width:auto;margin-bottom:18px">
         <p class="gh-footer-desc" style="font-size:14px;line-height:1.6;margin:0 0 18px;max-width:280px">Full-service auto &amp; diesel repair proudly serving Nixa and the Ozarks. Honest work, clear answers, treated like family.</p>
-        <div style="font-size:13px;color:#5E6E7B">Formerly Tom's Diesel &amp; Custom Truck</div>
       </div>
       <div>
         <div style="color:#fff;font-weight:700;font-size:18px;margin-bottom:16px;font-family:'Bricolage Grotesque'">Services</div>
@@ -135,16 +134,16 @@ export const CONTACT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3D6D92" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M6.6 4.2h2.2c.5 0 .9.3 1 .8l.5 2.4a1 1 0 0 1-.3 1l-1.4 1.4a13.5 13.5 0 0 0 5.8 5.8l1.4-1.4a1 1 0 0 1 1-.3l2.4.5c.5.1.8.5.8 1v2.2a1.8 1.8 0 0 1-1.8 1.8C9.8 19.2 4.8 14.2 4.8 6.6A1.8 1.8 0 0 1 6.6 4.2z"/></svg>
             <span>417-319-4798</span>
           </a>
-          <a href="mailto:office@gearhaven.com" style="display:flex;align-items:flex-start;gap:12px;color:#8FA0AD;text-decoration:none" class="gh-hover-441">
+          <a href="mailto:collen@gearhaven.com" style="display:flex;align-items:flex-start;gap:12px;color:#8FA0AD;text-decoration:none" class="gh-hover-441">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3D6D92" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="m3 8 9 6.2L21 8"/></svg>
-            <span>office@gearhaven.com</span>
+            <span>collen@gearhaven.com</span>
           </a>
         </div>
       </div>
     </div>
     <div style="border-top:1px solid rgba(255,255,255,.08)">
       <div class="gh-footer-bottom" style="max-width:1240px;margin:0 auto;padding:20px 28px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px;font-size:13px;color:#5E6E7B;text-align:center">
-        <span>© 2026 Gear Haven Auto &amp; Diesel. All rights reserved.</span><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/sitemap" class="gh-footer-legal-link">Sitemap</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/privacy-policy" class="gh-footer-legal-link">Privacy Policy</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/ai-policy" class="gh-footer-legal-link">AI Policy</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/ai-readiness-service-index" class="gh-footer-legal-link">AI Readiness Service Index</a>
+        <span>© 2026 Gearhaven Auto &amp; Diesel. All rights reserved.</span><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/sitemap" class="gh-footer-legal-link">Sitemap</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/privacy-policy" class="gh-footer-legal-link">Privacy Policy</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/ai-policy" class="gh-footer-legal-link">AI Policy</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/ai-readiness-service-index" class="gh-footer-legal-link">AI Readiness Service Index</a>
       </div>
     </div>
   </footer>

@@ -4,7 +4,7 @@ import { ContactPage } from "@/components/ContactPage";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Contact Gear Haven Auto & Diesel in Nixa, MO. Call 417-319-4798, email office@gearhaven.com, or request an appointment online.",
+    "Contact Gearhaven Auto & Diesel in Nixa, MO. Call 417-319-4798, email collen@gearhaven.com, or request an appointment online.",
   alternates: {
     canonical: "/contact",
   },

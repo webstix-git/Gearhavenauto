@@ -1,4 +1,4 @@
-/** Gear Haven icon system — consistent stroke, rounded caps, intentional automotive UI marks. */
+/** Gearhaven icon system — consistent stroke, rounded caps, intentional automotive UI marks. */
 
 const STROKE = 1.75;
 

@@ -5,7 +5,7 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
   <section id="top" style="position:relative;background:#0E1720;overflow:hidden">
     <div id="gh-sentinel" style="position:absolute;top:0;left:0;width:1px;height:70px;pointer-events:none"></div>
     <div style="position:absolute;inset:0;overflow:hidden">
-      <img src="/images/about-b400048d.jpg" alt="Inside Gear Haven" style="width:100%;height:100%;object-fit:cover;animation:gh-kenburns 22s ease-in-out infinite alternate">
+      <img src="/images/about-b400048d.jpg" alt="Inside Gearhaven" style="width:100%;height:100%;object-fit:cover;animation:gh-kenburns 22s ease-in-out infinite alternate">
     </div>
     <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,23,32,.94) 0%,rgba(20,32,45,.85) 46%,rgba(20,32,45,.5) 100%)"></div>
     <div style="position:relative;max-width:1240px;margin:0 auto;padding:230px 28px 118px">
@@ -27,9 +27,9 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
     <div class="gh-grid-asymmetric" style="display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:center">
       <div data-reveal>
         <div style="display:inline-flex;align-items:center;gap:9px;font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#3E5C76;margin-bottom:16px"><span style="width:26px;height:2px;background:#6D9DC5"></span>Our Story</div>
-        <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:40px;line-height:1.08;letter-spacing:-1px;margin:0 0 20px;color:#14202B">More Than Auto Repair. A Team You Can Trust.</h2>
-        <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 16px">At Gear Haven Auto &amp; Diesel, we believe every vehicle deserves expert care and every customer deserves honest answers.</p>
-        <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 16px">We started Gear Haven with a simple mission: create the kind of repair shop we'd want our own families to visit.</p>
+        <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:40px;line-height:1.08;letter-spacing:-1px;margin:0 0 20px;color:#14202B">Respecting Your Vehicle and Your Time.</h2>
+        <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 16px">At Gearhaven Auto &amp; Diesel, we believe every vehicle deserves expert care and every customer deserves honest answers.</p>
+        <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 16px">We started Gearhaven with a simple mission: create the kind of repair shop we'd want our own families to visit.</p>
         <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 16px">Too many people have experienced confusing estimates, poor communication, and pressure to approve repairs they don't fully understand. We wanted to build something different. A place where customers feel comfortable asking questions, receiving honest recommendations, and knowing their vehicle is being cared for by people who genuinely have their best interests in mind.</p>
         <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0">Today, that mission continues with every vehicle that enters our shop.</p>
       </div>
@@ -115,7 +115,7 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       <div data-reveal>
         <div style="display:inline-flex;align-items:center;gap:9px;font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#3E5C76;margin-bottom:16px"><span style="width:26px;height:2px;background:#6D9DC5"></span>Proudly Local</div>
         <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:40px;line-height:1.08;letter-spacing:-1px;margin:0 0 20px;color:#14202B">Neighbors serving neighbors.</h2>
-        <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 16px">Gear Haven Auto &amp; Diesel is proud to serve Nixa and the surrounding Ozarks communities.</p>
+        <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 16px">Gearhaven Auto &amp; Diesel is proud to serve Nixa and the surrounding Ozarks communities.</p>
         <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 16px">Our team lives here, raises families here, and believes in supporting the community that supports us.</p>
         <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0">We're grateful for the trust our customers place in us and we're committed to continuing that tradition for years to come.</p>
       </div>
@@ -190,9 +190,8 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
   <footer style="background:#0E1720;color:#8FA0AD">
     <div class="gh-footer-grid" style="max-width:1240px;margin:0 auto;padding:60px 28px 32px;display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px">
       <div>
-        <img src="/images/asset-0-a596b110.png" alt="Gear Haven Auto and Diesel" style="height:90px;width:auto;margin-bottom:18px">
+        <img src="/images/asset-0-a596b110.png" alt="Gearhaven Auto and Diesel" style="height:90px;width:auto;margin-bottom:18px">
         <p class="gh-footer-desc" style="font-size:14px;line-height:1.6;margin:0 0 18px;max-width:280px">Full-service auto &amp; diesel repair proudly serving Nixa and the Ozarks. Honest work, clear answers, treated like family.</p>
-        <div style="font-size:13px;color:#5E6E7B">Formerly Tom's Diesel &amp; Custom Truck</div>
       </div>
       <div>
         <div style="color:#fff;font-weight:700;font-size:18px;margin-bottom:16px;font-family:'Bricolage Grotesque'">Services</div>
@@ -225,16 +224,16 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3D6D92" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M6.6 4.2h2.2c.5 0 .9.3 1 .8l.5 2.4a1 1 0 0 1-.3 1l-1.4 1.4a13.5 13.5 0 0 0 5.8 5.8l1.4-1.4a1 1 0 0 1 1-.3l2.4.5c.5.1.8.5.8 1v2.2a1.8 1.8 0 0 1-1.8 1.8C9.8 19.2 4.8 14.2 4.8 6.6A1.8 1.8 0 0 1 6.6 4.2z"/></svg>
             <span>417-319-4798</span>
           </a>
-          <a href="mailto:office@gearhaven.com" style="display:flex;align-items:flex-start;gap:12px;color:#8FA0AD;text-decoration:none" class="gh-hover-121">
+          <a href="mailto:collen@gearhaven.com" style="display:flex;align-items:flex-start;gap:12px;color:#8FA0AD;text-decoration:none" class="gh-hover-121">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3D6D92" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="m3 8 9 6.2L21 8"/></svg>
-            <span>office@gearhaven.com</span>
+            <span>collen@gearhaven.com</span>
           </a>
         </div>
       </div>
     </div>
     <div style="border-top:1px solid rgba(255,255,255,.08)">
       <div class="gh-footer-bottom" style="max-width:1240px;margin:0 auto;padding:20px 28px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px;font-size:13px;color:#5E6E7B;text-align:center">
-        <span>© 2026 Gear Haven Auto &amp; Diesel. All rights reserved.</span><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/sitemap" class="gh-footer-legal-link">Sitemap</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/privacy-policy" class="gh-footer-legal-link">Privacy Policy</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/ai-policy" class="gh-footer-legal-link">AI Policy</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/ai-readiness-service-index" class="gh-footer-legal-link">AI Readiness Service Index</a>
+        <span>© 2026 Gearhaven Auto &amp; Diesel. All rights reserved.</span><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/sitemap" class="gh-footer-legal-link">Sitemap</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/privacy-policy" class="gh-footer-legal-link">Privacy Policy</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/ai-policy" class="gh-footer-legal-link">AI Policy</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/ai-readiness-service-index" class="gh-footer-legal-link">AI Readiness Service Index</a>
       </div>
     </div>
   </footer>

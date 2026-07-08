@@ -5,7 +5,7 @@ import { SITEMAP_HTML } from "@/lib/utility-pages-html";
 export const metadata: Metadata = {
   title: "Sitemap",
   description:
-    "HTML sitemap for Gear Haven Auto & Diesel. Find services, company pages, blog posts, and contact information.",
+    "HTML sitemap for Gearhaven Auto & Diesel. Find services, company pages, blog posts, and contact information.",
   alternates: {
     canonical: "/sitemap",
   },

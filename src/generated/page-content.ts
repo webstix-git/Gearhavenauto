@@ -5,14 +5,14 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
   <section id="top" style="position:relative;background:#0E1720;overflow:hidden">
     <div id="gh-sentinel" style="position:absolute;top:0;left:0;width:1px;height:70px;pointer-events:none"></div>
     <div style="position:absolute;inset:0;overflow:hidden">
-      <img src="/images/hero-banner.png" alt="Silver Ram pickup at Gear Haven Auto and Diesel in Nixa" style="width:100%;height:100%;object-fit:cover;object-position:60% center;animation:gh-kenburns 20s ease-in-out infinite alternate">
+      <img src="/images/hero-banner.png" alt="Silver Ram pickup at Gearhaven Auto and Diesel in Nixa" style="width:100%;height:100%;object-fit:cover;object-position:60% center;animation:gh-kenburns 20s ease-in-out infinite alternate">
     </div>
     <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,23,32,.94) 0%,rgba(20,32,45,.86) 42%,rgba(20,32,45,.45) 100%)"></div>
     <div class="gh-hero-inner" style="position:relative;max-width:1320px;margin:0 auto;padding:240px 28px 108px">
       <div style="max-width:660px">
         <h1 data-reveal style="font-family:'Bricolage Grotesque';font-weight:700;font-size:66px;line-height:1.02;letter-spacing:-1.5px;color:#fff;margin:0 0 20px">Your Vehicle's Safe Haven</h1>
         <p data-reveal style="font-size:18px;line-height:1.5;color:#CBD6E0;font-weight:500;margin:0 0 16px;max-width:600px">Trusted Auto &amp; Diesel Repair for Cars, Trucks &amp; Fleets in Nixa, Missouri</p>
-        <p data-reveal style="font-size:18px;line-height:1.6;color:#9BAAB7;margin:0 0 34px;max-width:600px">Whether you're maintaining a family SUV, diagnosing a check engine light, repairing a work truck, or managing an entire fleet, Gear Haven Auto &amp; Diesel delivers honest recommendations, expert repairs, and clear communication every step of the way.</p>
+        <p data-reveal style="font-size:18px;line-height:1.6;color:#9BAAB7;margin:0 0 34px;max-width:600px">Whether you're maintaining a family SUV, diagnosing a check engine light, repairing a work truck, or managing an entire fleet, Gearhaven Auto &amp; Diesel delivers honest recommendations, expert repairs, and clear communication every step of the way.</p>
         <div data-reveal style="display:flex;gap:14px;flex-wrap:wrap">
           <a href="/contact" class="gh-btn-outline" style="display:inline-flex;align-items:center;background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px">Request an Estimate</a>
         </div>
@@ -39,20 +39,20 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
     </div>
   </section>
 
-  <!-- SAME TEAM NEW NAME -->
+  <!-- ABOUT / OUR STORY -->
   <section class="gh-section-pad" style="max-width:1320px;margin:0 auto;padding:92px 28px">
     <div class="gh-grid-2" style="display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center">
       <div data-reveal>
-        <div style="font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#3E5C76;margin-bottom:12px">Same Team. New Name.</div>
-        <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:40px;line-height:1.1;letter-spacing:-1px;margin:0 0 18px;color:#14202B">Formerly Tom's Diesel &amp; Custom Truck</h2>
-        <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 16px">While our name has changed, our commitment hasn't.</p>
-        <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 26px">Gear Haven Auto &amp; Diesel is built on the same reputation for quality diesel repair, trusted relationships, and dependable service that customers have relied on for years. Today, we're expanding that expertise to serve drivers of cars, trucks, SUVs, fleet vehicles, and diesel pickups throughout Southwest Missouri.</p>
+        <div style="font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#3E5C76;margin-bottom:12px">About Gearhaven</div>
+        <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:40px;line-height:1.1;letter-spacing:-1px;margin:0 0 18px;color:#14202B">Grounded in Experience. Driven by Quality.</h2>
+        <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 16px">At Gearhaven Auto &amp; Diesel, we believe every vehicle deserves expert care and every customer deserves honest answers.</p>
+        <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 26px">From routine maintenance to complex diesel work, our team delivers quality repairs, clear communication, and dependable service for drivers of cars, trucks, SUVs, fleet vehicles, and diesel pickups throughout Southwest Missouri.</p>
         <a href="/about" style="display:inline-flex;align-items:center;gap:9px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:16px;padding:14px 24px;border-radius:9px;white-space:nowrap;box-shadow:0 8px 20px -8px rgba(61,109,146,.45)" class="gh-btn-solid">Read Our Story
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
         </a>
       </div>
       <div data-reveal style="position:relative">
-        <img src="/images/same-team-new-name.png" alt="Red Silverado truck in the Gear Haven shop" style="width:100%;height:470px;object-fit:cover;border-radius:16px;box-shadow:0 30px 60px -30px rgba(20,32,45,.55)">
+        <img src="/images/same-team-new-name.png" alt="Red Silverado truck in the Gearhaven shop" style="width:100%;height:470px;object-fit:cover;border-radius:16px;box-shadow:0 30px 60px -30px rgba(20,32,45,.55)">
       </div>
     </div>
   </section>
@@ -102,7 +102,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
     <div style="max-width:1320px;margin:0 auto;padding:100px 28px;position:relative">
 
       <div data-reveal style="margin-bottom:48px;max-width:720px">
-        <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:46px;line-height:1.02;letter-spacing:-1.4px;margin:0 0 20px;color:#fff">Why Drivers Choose Gear Haven</h2>
+        <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:46px;line-height:1.02;letter-spacing:-1.4px;margin:0 0 20px;color:#fff">Why Drivers Choose Gearhaven</h2>
         <p style="font-size:16.5px;line-height:1.65;color:#AEBECC;margin:0">Eight years of neighbors trusting us with the family car, the work truck, and everything in between. Here's what that trust is built on.</p>
       </div>
 
@@ -111,7 +111,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       <!-- LEFT: image panel -->
       <div data-reveal style="height:100%;align-self:stretch">
         <div style="position:relative;border-radius:18px;overflow:hidden;box-shadow:0 30px 60px -30px rgba(0,0,0,.7);height:100%;min-height:100%">
-          <img src="/images/why-choose-truck.png" alt="Truck alignment service at Gear Haven" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block">
+          <img src="/images/why-choose-truck.png" alt="Truck alignment service at Gearhaven" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block">
           <div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 15%,rgba(10,18,26,.55) 55%,rgba(10,18,26,.92) 100%)"></div>
           <div style="position:absolute;left:24px;right:24px;bottom:22px;display:flex;align-items:center;gap:16px">
             <div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:52px;line-height:.9;color:rgb(61,109,146)">8</div>
@@ -306,7 +306,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
         </div>
       </div>
       <div data-reveal style="position:relative;min-height:520px;width:100%;height:100%">
-        <img src="/images/asset-7-84b5e137.jpg" alt="Gear Haven serving the Ozarks" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block">
+        <img src="/images/asset-7-84b5e137.jpg" alt="Gearhaven serving the Ozarks" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block">
         <div style="position:absolute;inset:0;background:linear-gradient(90deg,#14202B 0%,rgba(20,32,45,0) 18%)"></div>
       </div>
     </div>
@@ -316,12 +316,12 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
   <section id="about" style="max-width:1320px;margin:0 auto;padding:92px 28px">
     <div class="gh-grid-2" style="display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center">
       <div data-reveal style="position:relative">
-        <img src="/images/asset-5-2a89faa0.jpg" alt="Inside Gear Haven" style="width:100%;height:470px;object-fit:cover;border-radius:16px;box-shadow:0 30px 60px -30px rgba(20,32,45,.55)">
+        <img src="/images/asset-5-2a89faa0.jpg" alt="Inside Gearhaven" style="width:100%;height:470px;object-fit:cover;border-radius:16px;box-shadow:0 30px 60px -30px rgba(20,32,45,.55)">
       </div>
       <div data-reveal>
         <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:40px;line-height:1.1;letter-spacing:-1px;margin:0 0 18px">Protect Your Investment</h2>
         <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 16px">Your vehicle is one of the biggest investments you make.</p>
-        <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 16px">At Gear Haven Auto &amp; Diesel, we don't just repair vehicles. We help you maintain them, understand them, and get the most life possible out of them.</p>
+        <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 16px">At Gearhaven Auto &amp; Diesel, we don't just repair vehicles. We help you maintain them, understand them, and get the most life possible out of them.</p>
         <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 26px">Our goal is simple: help you avoid costly breakdowns, make informed decisions, and stay safe on the road.</p>
         <div style="display:flex;gap:30px;flex-wrap:wrap">
           <div><div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:26px;color:#14202B">Honesty</div><div style="font-size:14px;color:#7C8B97">before profits</div></div>
@@ -404,11 +404,11 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
         </div>
         <div style="display:flex;align-items:flex-start;gap:14px;padding:20px 0;border-bottom:1px solid rgba(255,255,255,.12)">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
-          <div><div style="font-weight:700;font-size:16px;margin-bottom:2px">Hours</div><div style="font-size:15px;color:#C6D2DD;line-height:1.5">Monday &ndash; Friday, 8:00 AM &ndash; 5:00 PM<br>Saturday &amp; Sunday: Closed</div></div>
+          <div><div style="font-weight:700;font-size:16px;margin-bottom:2px">Hours</div><div style="font-size:15px;color:#C6D2DD;line-height:1.5">Monday &ndash; Thursday, 8:00 AM &ndash; 5:30 PM<br>Friday, 8:00 AM &ndash; 1:00 PM<br>Saturday &amp; Sunday: Closed</div></div>
         </div>
         <div style="display:flex;align-items:flex-start;gap:14px;padding-top:20px">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><rect x="3" y="5.5" width="18" height="13" rx="2"></rect><path d="m3 8 9 6.2L21 8"></path></svg>
-          <div><div style="font-weight:700;font-size:16px;margin-bottom:2px">Email</div><div style="font-size:15px;color:#C6D2DD;line-height:1.5">office@gearhaven.com</div></div>
+          <div><div style="font-weight:700;font-size:16px;margin-bottom:2px">Email</div><div style="font-size:15px;color:#C6D2DD;line-height:1.5">collen@gearhaven.com</div></div>
         </div>
       </div>
     </div>
@@ -418,9 +418,8 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
   <footer style="background:#0E1720;color:#8FA0AD">
     <div class="gh-footer-grid" style="max-width:1320px;margin:0 auto;padding:60px 28px 32px;display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px">
       <div>
-        <img src="/images/asset-0-a596b110.png" alt="Gear Haven Auto and Diesel" style="height: 90px; width: auto; margin-bottom: 18px">
+        <img src="/images/asset-0-a596b110.png" alt="Gearhaven Auto and Diesel" style="height: 90px; width: auto; margin-bottom: 18px">
         <p class="gh-footer-desc" style="font-size:14px;line-height:1.6;margin:0 0 18px;max-width:280px">Full-service auto &amp; diesel repair proudly serving Nixa and the Ozarks. Honest work, clear answers, treated like family.</p>
-        <div style="font-size:13px;color:#5E6E7B">Formerly Tom's Diesel &amp; Custom Truck</div>
       </div>
       <div>
         <div style="color:#fff;font-weight:700;font-size:18px;margin-bottom:16px;font-family:'Bricolage Grotesque'">Services</div>
@@ -453,16 +452,16 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3D6D92" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M6.6 4.2h2.2c.5 0 .9.3 1 .8l.5 2.4a1 1 0 0 1-.3 1l-1.4 1.4a13.5 13.5 0 0 0 5.8 5.8l1.4-1.4a1 1 0 0 1 1-.3l2.4.5c.5.1.8.5.8 1v2.2a1.8 1.8 0 0 1-1.8 1.8C9.8 19.2 4.8 14.2 4.8 6.6A1.8 1.8 0 0 1 6.6 4.2z"/></svg>
             <span>417-319-4798</span>
           </a>
-          <a href="mailto:office@gearhaven.com" style="display:flex;align-items:flex-start;gap:12px;color:#8FA0AD;text-decoration:none" class="gh-hover-40">
+          <a href="mailto:collen@gearhaven.com" style="display:flex;align-items:flex-start;gap:12px;color:#8FA0AD;text-decoration:none" class="gh-hover-40">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3D6D92" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="m3 8 9 6.2L21 8"/></svg>
-            <span>office@gearhaven.com</span>
+            <span>collen@gearhaven.com</span>
           </a>
         </div>
       </div>
     </div>
     <div style="border-top:1px solid rgba(255,255,255,.08)">
       <div class="gh-footer-bottom" style="max-width:1320px;margin:0 auto;padding:20px 28px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px;font-size:13px;color:#5E6E7B;text-align:center">
-        <span>© 2026 Gear Haven Auto &amp; Diesel. All rights reserved.</span><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/sitemap" class="gh-footer-legal-link">Sitemap</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/privacy-policy" class="gh-footer-legal-link">Privacy Policy</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/ai-policy" class="gh-footer-legal-link">AI Policy</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/ai-readiness-service-index" class="gh-footer-legal-link">AI Readiness Service Index</a>
+        <span>© 2026 Gearhaven Auto &amp; Diesel. All rights reserved.</span><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/sitemap" class="gh-footer-legal-link">Sitemap</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/privacy-policy" class="gh-footer-legal-link">Privacy Policy</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/ai-policy" class="gh-footer-legal-link">AI Policy</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/ai-readiness-service-index" class="gh-footer-legal-link">AI Readiness Service Index</a>
       </div>
     </div>
   </footer>

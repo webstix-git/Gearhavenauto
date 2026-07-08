@@ -57,7 +57,7 @@ export const SITEMAP_HTML = buildUtilityPageHtml({
   badge: "Site Map",
   title: "Sitemap",
   description:
-    "Browse every page on the Gear Haven Auto & Diesel website, from services and testimonials to contact and resources.",
+    "Browse every page on the Gearhaven Auto & Diesel website, from services and testimonials to contact and resources.",
   breadcrumbLabel: "Sitemap",
   bodyHtml: `
     <p data-reveal style="font-size:18px;line-height:1.65;color:#5C6B76;margin:0 0 40px;max-width:720px">Use this sitemap to find pages across our site quickly.</p>
@@ -95,7 +95,7 @@ const privacySections = [
   },
   {
     title: "Contact us",
-    body: `Gear Haven Auto &amp; Diesel<br>${SITE_ADDRESS_HTML}<br>Phone: <a href="tel:4173194798" style="color:#3E5C76;font-weight:600">${SITE_PHONE}</a><br>Email: <a href="mailto:${SITE_EMAIL}" style="color:#3E5C76;font-weight:600">${SITE_EMAIL}</a>`,
+    body: `Gearhaven Auto &amp; Diesel<br>${SITE_ADDRESS_HTML}<br>Phone: <a href="tel:4173194798" style="color:#3E5C76;font-weight:600">${SITE_PHONE}</a><br>Email: <a href="mailto:${SITE_EMAIL}" style="color:#3E5C76;font-weight:600">${SITE_EMAIL}</a>`,
   },
 ];
 
@@ -103,12 +103,12 @@ export const PRIVACY_POLICY_HTML = buildUtilityPageHtml({
   badge: "Legal",
   title: "Privacy Policy",
   description:
-    "How Gear Haven Auto & Diesel collects, uses, and protects information when you visit our website or contact our shop.",
+    "How Gearhaven Auto & Diesel collects, uses, and protects information when you visit our website or contact our shop.",
   breadcrumbLabel: "Privacy Policy",
   maxWidth: "900px",
   bodyHtml: `
     <p data-reveal style="font-size:18px;line-height:1.65;color:#5C6B76;margin:0 0 12px">Effective date: July 7, 2026</p>
-    <p data-reveal style="font-size:18px;line-height:1.65;color:#5C6B76;margin:0 0 40px">This Privacy Policy explains how Gear Haven Auto &amp; Diesel ("we," "us," or "our") handles information when you use gearhavenauto.com or contact our Nixa, Missouri shop.</p>
+    <p data-reveal style="font-size:18px;line-height:1.65;color:#5C6B76;margin:0 0 40px">This Privacy Policy explains how Gearhaven Auto &amp; Diesel ("we," "us," or "our") handles information when you use gearhavenauto.com or contact our Nixa, Missouri shop.</p>
     ${privacySections
       .map(
         (s) => `<div data-reveal style="margin-bottom:32px">
@@ -123,7 +123,7 @@ export const PRIVACY_POLICY_HTML = buildUtilityPageHtml({
 const aiPolicySections = [
   {
     title: "Purpose of this policy",
-    body: `This AI Policy explains how Gear Haven Auto &amp; Diesel approaches artificial intelligence (AI) systems that may read, summarize, or reference information from our website and shop communications. It is intended for visitors, customers, and AI assistants seeking accurate business information.`,
+    body: `This AI Policy explains how Gearhaven Auto &amp; Diesel approaches artificial intelligence (AI) systems that may read, summarize, or reference information from our website and shop communications. It is intended for visitors, customers, and AI assistants seeking accurate business information.`,
   },
   {
     title: "Public website content",
@@ -147,7 +147,7 @@ const aiPolicySections = [
   },
   {
     title: "Corrections and contact",
-    body: `If you find inaccurate information about Gear Haven Auto &amp; Diesel in an AI response or on our website, please contact us so we can correct it.<br><br>Gear Haven Auto &amp; Diesel<br>${SITE_ADDRESS_HTML}<br>Phone: <a href="tel:4173194798" style="color:#3E5C76;font-weight:600">${SITE_PHONE}</a><br>Email: <a href="mailto:${SITE_EMAIL}" style="color:#3E5C76;font-weight:600">${SITE_EMAIL}</a>`,
+    body: `If you find inaccurate information about Gearhaven Auto &amp; Diesel in an AI response or on our website, please contact us so we can correct it.<br><br>Gearhaven Auto &amp; Diesel<br>${SITE_ADDRESS_HTML}<br>Phone: <a href="tel:4173194798" style="color:#3E5C76;font-weight:600">${SITE_PHONE}</a><br>Email: <a href="mailto:${SITE_EMAIL}" style="color:#3E5C76;font-weight:600">${SITE_EMAIL}</a>`,
   },
 ];
 
@@ -155,12 +155,12 @@ export const AI_POLICY_HTML = buildUtilityPageHtml({
   badge: "Legal",
   title: "AI Policy",
   description:
-    "How Gear Haven Auto & Diesel approaches AI systems, website content accuracy, and customer information.",
+    "How Gearhaven Auto & Diesel approaches AI systems, website content accuracy, and customer information.",
   breadcrumbLabel: "AI Policy",
   maxWidth: "900px",
   bodyHtml: `
     <p data-reveal style="font-size:18px;line-height:1.65;color:#5C6B76;margin:0 0 12px">Effective date: July 7, 2026</p>
-    <p data-reveal style="font-size:18px;line-height:1.65;color:#5C6B76;margin:0 0 40px">This AI Policy describes how Gear Haven Auto &amp; Diesel ("we," "us," or "our") handles information that may be used by artificial intelligence systems when referencing our business online.</p>
+    <p data-reveal style="font-size:18px;line-height:1.65;color:#5C6B76;margin:0 0 40px">This AI Policy describes how Gearhaven Auto &amp; Diesel ("we," "us," or "our") handles information that may be used by artificial intelligence systems when referencing our business online.</p>
     ${aiPolicySections
       .map(
         (s) => `<div data-reveal style="margin-bottom:32px">
@@ -186,12 +186,12 @@ export const AI_READINESS_SERVICE_INDEX_HTML = buildUtilityPageHtml({
   badge: "AI Readiness",
   title: "AI Readiness Service Index",
   description:
-    "A structured index of Gear Haven Auto & Diesel services, contact details, and service area information for search engines and AI assistants.",
+    "A structured index of Gearhaven Auto & Diesel services, contact details, and service area information for search engines and AI assistants.",
   breadcrumbLabel: "AI Readiness Service Index",
   bodyHtml: `
     <div data-reveal style="margin-bottom:40px">
       <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:24px;color:#14202B;margin:0 0 14px">Business summary</h2>
-      <p style="font-size:18px;line-height:1.65;color:#5C6B76;margin:0 0 12px"><strong>Gear Haven Auto &amp; Diesel</strong> is a full-service auto and diesel repair shop in Nixa, Missouri, serving the Ozarks and surrounding communities. Formerly Tom's Diesel &amp; Custom Truck.</p>
+      <p style="font-size:18px;line-height:1.65;color:#5C6B76;margin:0 0 12px"><strong>Gearhaven Auto &amp; Diesel</strong> is a full-service auto and diesel repair shop in Nixa, Missouri, serving the Ozarks and surrounding communities.</p>
       <p style="font-size:18px;line-height:1.65;color:#5C6B76;margin:0"><strong>Primary services:</strong> diesel repair, auto repair, preventive maintenance, tires, fleet service, digital inspections, collision coordination, and truck accessories.</p>
     </div>
 

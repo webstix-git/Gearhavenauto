@@ -86,7 +86,7 @@ export function SiteFooter() {
         <div>
           <img
             src="/images/asset-0-a596b110.png"
-            alt="Gear Haven Auto and Diesel"
+            alt="Gearhaven Auto and Diesel"
             style={{ height: 90, width: "auto", marginBottom: 18 }}
           />
           <p
@@ -101,9 +101,6 @@ export function SiteFooter() {
             Full-service auto &amp; diesel repair proudly serving Nixa and the
             Ozarks. Honest work, clear answers, treated like family.
           </p>
-          <div style={{ fontSize: 13, color: "#5E6E7B" }}>
-            Formerly Tom&apos;s Diesel &amp; Custom Truck
-          </div>
         </div>
         <div>
           <div
@@ -205,7 +202,7 @@ export function SiteFooter() {
               <span>417-319-4798</span>
             </a>
             <a
-              href="mailto:office@gearhaven.com"
+              href="mailto:collen@gearhaven.com"
               style={{
                 display: "flex",
                 alignItems: "flex-start",
@@ -215,7 +212,7 @@ export function SiteFooter() {
               }}
             >
               <GhIcon html={GH_ICON_EMAIL()} />
-              <span>office@gearhaven.com</span>
+              <span>collen@gearhaven.com</span>
             </a>
           </div>
         </div>

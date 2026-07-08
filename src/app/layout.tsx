@@ -9,8 +9,8 @@ const siteUrl =
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Gear Haven Auto & Diesel",
-    template: "%s | Gear Haven Auto & Diesel",
+    default: "Gearhaven Auto & Diesel",
+    template: "%s | Gearhaven Auto & Diesel",
   },
   description:
     "Trusted auto and diesel repair for cars, trucks, and fleets in Nixa and the Ozarks. Honest recommendations, expert work, and clear communication.",
@@ -20,20 +20,20 @@ export const metadata: Metadata = {
     "fleet services",
     "Nixa MO",
     "Ozarks",
-    "Gear Haven Auto",
+    "Gearhaven Auto",
   ],
   openGraph: {
     type: "website",
     locale: "en_US",
     url: siteUrl,
-    siteName: "Gear Haven Auto & Diesel",
-    title: "Gear Haven Auto & Diesel",
+    siteName: "Gearhaven Auto & Diesel",
+    title: "Gearhaven Auto & Diesel",
     description:
       "Your vehicle's safe haven. Trusted auto and diesel repair in Nixa and the Ozarks.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gear Haven Auto & Diesel",
+    title: "Gearhaven Auto & Diesel",
     description:
       "Trusted auto and diesel repair for cars, trucks, and fleets in Nixa and the Ozarks.",
   },

@@ -52,11 +52,11 @@ const SERVICE_PAGES: ServicePageData[] = [
   {
     slug: "tires", breadcrumbLabel: "Tires", metaTitle: "Tires & Alignments", metaDescription:
       "Tire sales, installation, rotation, balancing, and alignments in Nixa, MO. Honest recommendations for cars, trucks, and fleet vehicles.", hero: {
-      image: "/images/gallery-8b2c3473.jpg", imageAlt: "Alignment service at Gear Haven", title: "Tires &amp; alignments,<br>done right.", description:
+      image: "/images/gallery-8b2c3473.jpg", imageAlt: "Alignment service at Gearhaven", title: "Tires &amp; alignments,<br>done right.", description:
         "Good tires and a straight alignment keep you safe on Ozarks roads, and save you money by wearing evenly. We'll help you pick the right set and install them properly.", ctaLabel: "Schedule Tire Service", ctaHref: "/contact", }, why: {
       label: "Why It Matters", title: "Where rubber meets the road.", paragraphs: [
         "Your tires are the only thing between you and the pavement. Worn tread, low pressure, or a bad alignment don't just feel off, they wear out tires faster, hurt fuel economy, and make stopping harder when you need it most.", "We'll measure tread depth, check pressure, and look at wear patterns before we recommend anything. If you need new rubber, we'll walk you through options that fit how you actually drive, not just the most expensive set on the shelf.", ], stats: [
-        { value: "Same-day", label: "most tire installs" }, { value: "Free", label: "pressure check" }, { value: "Cars & trucks", label: "all sizes" }, ], image: "/images/gallery-acc3bedf.jpg", imageAlt: "Tire and wheel service at Gear Haven", }, included: {
+        { value: "Same-day", label: "most tire installs" }, { value: "Free", label: "pressure check" }, { value: "Cars & trucks", label: "all sizes" }, ], image: "/images/gallery-acc3bedf.jpg", imageAlt: "Tire and wheel service at Gearhaven", }, included: {
       label: "What's Included", title: "Sales, service, and alignment.", items: [
         {
           icon: "tire", title: "Tire sales &amp; sizing", description:
@@ -98,11 +98,11 @@ const SERVICE_PAGES: ServicePageData[] = [
         "Give us a call or request an appointment. We'll give you a straight answer on what you need, and what can wait.", }, }, {
     slug: "preventive-maintenance", breadcrumbLabel: "Preventive Maintenance", metaTitle: "Preventive Maintenance", metaDescription:
       "Scheduled preventive maintenance in Nixa, MO for cars, trucks, and diesels. Stay ahead of breakdowns with honest service intervals.", hero: {
-      image: "/images/oil-changes-8b2c3473.jpg", imageAlt: "Technician performing maintenance at Gear Haven", title: "Stay ahead<br>of breakdowns.", description:
+      image: "/images/oil-changes-8b2c3473.jpg", imageAlt: "Technician performing maintenance at Gearhaven", title: "Stay ahead<br>of breakdowns.", description:
         "A little maintenance now beats a big repair bill later. We'll follow your manufacturer's schedule, or build a plan that fits how hard you actually use your vehicle.", ctaLabel: "Schedule Maintenance", ctaHref: "/contact", }, why: {
       label: "Why It Matters", title: "Small service now, big savings later.", paragraphs: [
         "Most expensive repairs start as small problems nobody caught in time. Fluids break down, filters clog, belts crack, and hoses get soft, long before anything leaves you stranded on Highway 160.", "We keep track of what your vehicle needs and when, so you're not guessing based on a sticker in the windshield. We'll tell you what's due now, what can wait, and why, no pressure to fix things that aren't ready.", ], stats: [
-        { value: "Factory", label: "schedules followed" }, { value: "Full records", label: "kept on file" }, { value: "Gas &amp; diesel", label: "all covered" }, ], image: "/images/oil-changes-e3bc5573.jpg", imageAlt: "Inside the Gear Haven service bay", }, included: {
+        { value: "Factory", label: "schedules followed" }, { value: "Full records", label: "kept on file" }, { value: "Gas &amp; diesel", label: "all covered" }, ], image: "/images/oil-changes-e3bc5573.jpg", imageAlt: "Inside the Gearhaven service bay", }, included: {
       label: "What's Included", title: "The basics that keep you rolling.", items: [
         {
           icon: "gauge", title: "Fluid checks &amp; top-offs", description:
@@ -144,11 +144,11 @@ const SERVICE_PAGES: ServicePageData[] = [
         "Don't wait for a warning light. Call or book online, we'll keep your vehicle on schedule without the upsell.", }, }, {
     slug: "truck-accessories", breadcrumbLabel: "Truck Accessories", metaTitle: "Truck Accessories & Upgrades", metaDescription:
       "Truck accessories and upgrades in Nixa, MO, lift kits, leveling kits, lighting, wheels, suspension, and diesel performance. Installed right.", hero: {
-      image: "/images/gallery-b6bb2c4d.jpg", imageAlt: "Truck suspension upgrade at Gear Haven", title: "Build the truck<br>you want.", description:
+      image: "/images/gallery-b6bb2c4d.jpg", imageAlt: "Truck suspension upgrade at Gearhaven", title: "Build the truck<br>you want.", description:
         "From leveling kits to lighting upgrades, we help Ozarks truck owners get the look and capability they're after, installed properly, not just bolted on.", ctaLabel: "Talk About Your Build", ctaHref: "/contact", }, why: {
       label: "Why It Matters", title: "Installed right the first time.", paragraphs: [
-        "A lift kit or set of bigger tires changes more than just how your truck looks, it affects alignment, ride quality, braking, and sometimes your warranty. Cutting corners on installation leads to uneven tire wear, vibrations, and headaches down the road.", "We've been building and working on trucks in this community for years, it's in our DNA from the Tom's Diesel days. We'll talk through what you want, what it'll actually take, and install it so it drives right when you leave the lot.", ], stats: [
-        { value: "Lift &amp; level", label: "kits installed" }, { value: "Alignment", label: "after every lift" }, { value: "Diesel &amp; gas", label: "trucks welcome" }, ], image: "/images/gallery-5f2d242d.jpg", imageAlt: "Truck on the lift at Gear Haven", }, included: {
+        "A lift kit or set of bigger tires changes more than just how your truck looks, it affects alignment, ride quality, braking, and sometimes your warranty. Cutting corners on installation leads to uneven tire wear, vibrations, and headaches down the road.", "We've been building and working on trucks in this community for years, it's in our DNA. We'll talk through what you want, what it'll actually take, and install it so it drives right when you leave the lot.", ], stats: [
+        { value: "Lift &amp; level", label: "kits installed" }, { value: "Alignment", label: "after every lift" }, { value: "Diesel &amp; gas", label: "trucks welcome" }, ], image: "/images/gallery-5f2d242d.jpg", imageAlt: "Truck on the lift at Gearhaven", }, included: {
       label: "What We Install", title: "Upgrades done in-house.", items: [
         {
           icon: "truck", title: "Lift &amp; leveling kits", description:
@@ -190,11 +190,11 @@ const SERVICE_PAGES: ServicePageData[] = [
         "Stop by or give us a call. We'll talk through your build like neighbors, honest advice, fair pricing, solid work.", }, }, {
     slug: "fleet-vehicles", breadcrumbLabel: "Fleet Vehicles", metaTitle: "Fleet Vehicle Service", metaDescription:
       "Fleet maintenance and repair in Nixa, MO. Keep your work trucks and company vehicles on the road with scheduled service and priority scheduling.", hero: {
-      image: "/images/gallery-e51e322a.jpg", imageAlt: "Fleet vehicles at Gear Haven", title: "Keep your fleet<br>moving.", description:
+      image: "/images/gallery-e51e322a.jpg", imageAlt: "Fleet vehicles at Gearhaven", title: "Keep your fleet<br>moving.", description:
         "When your vehicles are down, work stops. We help Ozarks businesses stay on schedule with honest maintenance, fast turnaround, and clear communication.", ctaLabel: "Talk Fleet Service", ctaHref: "/contact", }, why: {
       label: "Why It Matters", title: "Downtime costs more than maintenance.", paragraphs: [
         "Every hour a work truck sits in the bay is an hour your crew isn't earning. We get that, because a lot of our customers run businesses right here in Nixa, Springfield, and the surrounding area.", "We'll build a maintenance plan around your vehicles, your schedule, and your budget. You get clear records, digital inspections you can share with your team, and a shop that picks up the phone when something urgent comes up.", ], stats: [
-        { value: "Priority", label: "fleet scheduling" }, { value: "Digital", label: "inspection reports" }, { value: "Diesel &amp; gas", label: "fleet ready" }, ], image: "/images/gallery-c2c9d21f.jpg", imageAlt: "Fleet service work at Gear Haven", }, included: {
+        { value: "Priority", label: "fleet scheduling" }, { value: "Digital", label: "inspection reports" }, { value: "Diesel &amp; gas", label: "fleet ready" }, ], image: "/images/gallery-c2c9d21f.jpg", imageAlt: "Fleet service work at Gearhaven", }, included: {
       label: "What's Included", title: "Built for businesses that run on wheels.", items: [
         {
           icon: "calendar", title: "Scheduled maintenance", description:
@@ -236,11 +236,11 @@ const SERVICE_PAGES: ServicePageData[] = [
         "Call us or send a message. We'll learn how you operate and show you how we can help keep your vehicles earning.", }, }, {
     slug: "digital-inspection", breadcrumbLabel: "Free Digital Inspection", metaTitle: "Free Digital Inspection", metaDescription:
       "Free digital vehicle inspections in Nixa, MO. Photos, color-coded reports, and plain-language notes, no pressure, no surprises.", hero: {
-      image: "/images/gallery-29e50684.jpg", imageAlt: "Digital vehicle inspection at Gear Haven", title: "See what we see.<br>No surprises.", description:
+      image: "/images/gallery-29e50684.jpg", imageAlt: "Digital vehicle inspection at Gearhaven", title: "See what we see.<br>No surprises.", description:
         "Every service visit includes a free digital inspection, photos, plain-language notes, and an honest look at what's fine, what's worth watching, and what needs attention now.", ctaLabel: "Schedule a Visit", ctaHref: "/contact", }, why: {
       label: "Why It Matters", title: "Trust starts with transparency.", paragraphs: [
         "Nobody likes walking into a shop blind and getting hit with a list of repairs they can't see or understand. Our digital inspection puts you in the driver's seat, literally. You get photos of what we're looking at, color-coded by urgency, and notes in plain English.", "There's no pressure to approve anything on the spot. We send the report so you can look it over, ask questions, and decide what makes sense for your budget and timeline. That's how neighbors should treat neighbors.", ], stats: [
-        { value: "50+", label: "point inspection" }, { value: "Free", label: "with any service" }, { value: "Photos", label: "you can keep" }, ], image: "/images/gallery-3f402a8e.jpg", imageAlt: "Diesel engine inspection at Gear Haven", }, included: {
+        { value: "50+", label: "point inspection" }, { value: "Free", label: "with any service" }, { value: "Photos", label: "you can keep" }, ], image: "/images/gallery-3f402a8e.jpg", imageAlt: "Diesel engine inspection at Gearhaven", }, included: {
       label: "What's Included", title: "A full picture of your vehicle.", items: [
         {
           icon: "camera", title: "Photo documentation", description:
@@ -282,11 +282,11 @@ const SERVICE_PAGES: ServicePageData[] = [
         "Book any service and your digital inspection is on us. Clear photos, honest notes, zero pressure.", }, }, {
     slug: "auto-shop", breadcrumbLabel: "Auto Shop", metaTitle: "Auto Shop Services", metaDescription:
       "Full-service auto repair in Nixa, MO, brakes, diagnostics, cooling, electrical, state inspections, and everyday maintenance for cars and SUVs.", hero: {
-      image: "/images/services-5f2d242d.jpg", imageAlt: "Vehicle on the lift at Gear Haven", title: "Your local<br>auto shop.", description:
+      image: "/images/services-5f2d242d.jpg", imageAlt: "Vehicle on the lift at Gearhaven", title: "Your local<br>auto shop.", description:
         "From check-engine lights to brake jobs, we're the shop Nixa drivers trust for honest answers and solid work, on daily drivers, family SUVs, and work trucks alike.", ctaLabel: "Schedule Service", ctaHref: "/contact", }, why: {
       label: "Why It Matters", title: "One shop for the whole vehicle.", paragraphs: [
         "Your car or SUV is how you get to work, get the kids to school, and get around the Ozarks. When something's off, you need a shop that actually diagnoses the problem, not one that throws parts at it until the light goes away.", "We handle the full range of auto repair and maintenance right here in Nixa. You'll talk to the people working on your vehicle, get a clear explanation of what's wrong, and never feel pushed into work you don't need.", ], stats: [
-        { value: "Full-service", label: "auto repair" }, { value: "MO state", label: "inspections" }, { value: "Same shop", label: "gas &amp; diesel" }, ], image: "/images/gallery-b400048d.jpg", imageAlt: "Inside the Gear Haven auto shop", }, included: {
+        { value: "Full-service", label: "auto repair" }, { value: "MO state", label: "inspections" }, { value: "Same shop", label: "gas &amp; diesel" }, ], image: "/images/gallery-b400048d.jpg", imageAlt: "Inside the Gearhaven auto shop", }, included: {
       label: "What We Handle", title: "Repairs and maintenance, done right.", items: [
         {
           icon: "wrench", title: "Oil changes &amp; fluids", description:
@@ -325,14 +325,14 @@ const SERVICE_PAGES: ServicePageData[] = [
           title: "Fixed &amp; explained", description:
             "We do the work, test-drive it, and walk you through what was done and why.", }, ], }, cta: {
       title: "Something not right with your vehicle?", description:
-        "Bring it to Gear Haven. We'll diagnose it honestly, explain it clearly, and get you back on the road.", }, }, {
+        "Bring it to Gearhaven. We'll diagnose it honestly, explain it clearly, and get you back on the road.", }, }, {
     slug: "collision-services", breadcrumbLabel: "Collision Services", metaTitle: "Collision Services", metaDescription:
       "Collision repair coordination in Nixa, MO. Damage assessment, insurance support, and mechanical repairs to get you back on the road safely.", hero: {
-      image: "/images/gallery-a9df4350.jpg", imageAlt: "Vehicle repair at Gear Haven", title: "Get back on<br>the road.", description:
+      image: "/images/gallery-a9df4350.jpg", imageAlt: "Vehicle repair at Gearhaven", title: "Get back on<br>the road.", description:
         "Accidents happen, on I-44, in a parking lot, or on a back road in Christian County. We'll assess the damage, help you navigate the process, and get your vehicle safe to drive again.", ctaLabel: "Get an Assessment", ctaHref: "/contact", }, why: {
       label: "Why It Matters", title: "More than body damage.", paragraphs: [
         "After a collision, there's often more going on than what you can see, bent suspension parts, misaligned wheels, damaged steering components, or frame issues that affect how the vehicle handles at speed.", "We'll give you an honest assessment of mechanical and structural damage, help coordinate with your insurance company when needed, and make sure the vehicle is safe before you get back behind the wheel. We'll walk you through every step so you're not guessing.", ], stats: [
-        { value: "Honest", label: "damage assessments" }, { value: "Insurance", label: "coordination help" }, { value: "Safety first", label: "every repair" }, ], image: "/images/contact-e51e322a.jpg", imageAlt: "Gear Haven shop exterior", }, included: {
+        { value: "Honest", label: "damage assessments" }, { value: "Insurance", label: "coordination help" }, { value: "Safety first", label: "every repair" }, ], image: "/images/contact-e51e322a.jpg", imageAlt: "Gearhaven shop exterior", }, included: {
       label: "What We Handle", title: "From assessment to repair.", items: [
         {
           icon: "clipboard", title: "Damage assessment", description:

@@ -60,7 +60,7 @@ export function SiteHeader() {
           <img
             id="gh-logo"
             src="/images/asset-0-a596b110.png"
-            alt="Gear Haven Auto and Diesel"
+            alt="Gearhaven Auto and Diesel"
             style={{
               width: 190,
               maxWidth: "46vw",

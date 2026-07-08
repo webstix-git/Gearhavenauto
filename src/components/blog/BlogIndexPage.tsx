@@ -63,7 +63,7 @@ function BlogCard({ post }: { post: BlogPost }) {
               boxShadow: "0 8px 16px -8px rgba(62,92,118,.6)",
             }}
           >
-            Gear Haven Blog
+            Gearhaven Blog
           </span>
         </div>
         <div
@@ -156,7 +156,7 @@ export function BlogIndexPage({ posts }: { posts: BlogPost[] }) {
           <div style={{ position: "absolute", inset: 0, overflow: "hidden" }}>
             <img
               src="/images/asset-2-d0ad8181.jpg"
-              alt="Gear Haven service bay"
+              alt="Gearhaven service bay"
               style={{
                 width: "100%",
                 height: "100%",
