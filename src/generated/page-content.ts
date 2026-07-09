@@ -145,10 +145,10 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
         </div>
 
         <div data-reveal style="background:rgba(62,92,118,.18);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:24px" class="gh-card-why">
-          <span style="display:grid;place-items:center;width:48px;height:48px;border-radius:12px;background:rgba(62,92,118,.35);border:1px solid rgba(143,176,206,.25);color:#CFE0EE;margin-bottom:16px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"></circle><path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"></path></svg>
+          <span style="display:grid;place-items:center;width:48px;height:48px;border-radius:12px;background:rgba(62,92,118,.35);border:1px solid rgba(143,176,206,.25);color:#CFE0EE;margin-bottom:16px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
           </span>
-          <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:20px;margin:0 0 8px;color:#fff">Quality Work You Can Trust</h3>
-          <p style="font-size:15px;line-height:1.6;color:#AEBECC;margin:0">We're not interested in being the cheapest shop in town. We're focused on providing repairs done right the first time.</p>
+          <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:20px;margin:0 0 8px;color:#fff">Driven by Quality Craftsmanship</h3>
+          <p style="font-size:15px;line-height:1.6;color:#AEBECC;margin:0">Every repair reflects our commitment to honest work, attention to detail, and service you can trust mile after mile.</p>
         </div>
 
       </div>
