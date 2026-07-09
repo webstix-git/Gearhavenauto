@@ -7,7 +7,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
     <div style="position:absolute;inset:0;overflow:hidden">
       <img src="/images/hero-banner.png" alt="Mechanic repairing a vehicle at Gearhaven Auto and Diesel in Nixa" style="width:100%;height:100%;object-fit:cover;object-position:right center;animation:gh-kenburns 20s ease-in-out infinite alternate">
     </div>
-    <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,23,32,.94) 0%,rgba(20,32,45,.86) 42%,rgba(20,32,45,.45) 100%)"></div>
+    <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,23,32,.72) 0%,rgba(20,32,45,.56) 42%,rgba(20,32,45,.25) 100%)"></div>
     <div class="gh-hero-inner" style="position:relative;max-width:1320px;margin:0 auto;padding:240px 28px 108px">
       <div style="max-width:660px">
         <h1 data-reveal style="font-family:'Bricolage Grotesque';font-weight:700;font-size:66px;line-height:1.02;letter-spacing:-1.5px;color:#fff;margin:0 0 20px">Your Vehicle's Safe Haven</h1>
