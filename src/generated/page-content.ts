@@ -5,7 +5,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
   <section id="top" style="position:relative;background:#0E1720;overflow:hidden">
     <div id="gh-sentinel" style="position:absolute;top:0;left:0;width:1px;height:70px;pointer-events:none"></div>
     <div style="position:absolute;inset:0;overflow:hidden">
-      <img src="/images/hero-banner.png" alt="Silver Ram pickup at Gearhaven Auto and Diesel in Nixa" style="width:100%;height:100%;object-fit:cover;object-position:60% center;animation:gh-kenburns 20s ease-in-out infinite alternate">
+      <img src="/images/hero-banner.png" alt="Mechanic repairing a vehicle at Gearhaven Auto and Diesel in Nixa" style="width:100%;height:100%;object-fit:cover;object-position:right center;animation:gh-kenburns 20s ease-in-out infinite alternate">
     </div>
     <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,23,32,.94) 0%,rgba(20,32,45,.86) 42%,rgba(20,32,45,.45) 100%)"></div>
     <div class="gh-hero-inner" style="position:relative;max-width:1320px;margin:0 auto;padding:240px 28px 108px">
