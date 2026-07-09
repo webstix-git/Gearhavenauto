@@ -120,6 +120,26 @@ a {
   }
 }
 
+/* Home hero — native image size, no upscale blur */
+.gh-hero-banner {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: #0e1720;
+}
+
+.gh-hero-banner-img {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: min(100%, 1024px);
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: right center;
+}
+
 @keyframes gh-fadeup {
   from {
     opacity: 0;
