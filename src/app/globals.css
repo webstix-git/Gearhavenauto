@@ -120,20 +120,16 @@ a {
   }
 }
 
-/* Home hero — full width, sharp (no zoom animation) */
+/* Home hero — full-bleed background, no img intrinsic-size constraints */
 .gh-hero-banner {
   position: absolute;
   inset: 0;
   overflow: hidden;
-  background: #0e1720;
-}
-
-.gh-hero-banner-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: right center;
-  display: block;
+  background-color: #0e1720;
+  background-image: url("/images/hero-banner.jpg?v=1");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
 }
 
 @keyframes gh-fadeup {
