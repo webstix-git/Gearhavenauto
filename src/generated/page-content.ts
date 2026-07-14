@@ -5,12 +5,12 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
   <section id="top" style="position:relative;background:#0E1720;overflow:hidden">
     <div id="gh-sentinel" style="position:absolute;top:0;left:0;width:1px;height:70px;pointer-events:none"></div>
     <div class="gh-hero-banner" role="img" aria-label="Professional car workshop at Gearhaven Auto and Diesel in Nixa"></div>
-    <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,23,32,.72) 0%,rgba(20,32,45,.56) 42%,rgba(20,32,45,.25) 100%)"></div>
+    <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,23,32,.72) 0%,rgb(20 32 45 / 66%) 42%,rgba(20,32,45,.25) 100%)"></div>
     <div class="gh-hero-inner" style="position:relative;max-width:1320px;margin:0 auto;padding:240px 28px 108px">
       <div style="max-width:660px">
         <h1 data-reveal style="font-family:'Bricolage Grotesque';font-weight:700;font-size:66px;line-height:1.02;letter-spacing:-1.5px;color:#fff;margin:0 0 20px">Your Vehicle's Safe Haven</h1>
         <p data-reveal style="font-size:18px;line-height:1.5;color:#CBD6E0;font-weight:500;margin:0 0 16px;max-width:600px">Trusted Auto &amp; Diesel Repair for Cars, Trucks &amp; Fleets in Nixa, Missouri</p>
-        <p data-reveal style="font-size:18px;line-height:1.6;color:#9BAAB7;margin:0 0 34px;max-width:600px">Whether you're maintaining a family SUV, diagnosing a check engine light, repairing a work truck, or managing an entire fleet, Gearhaven Auto &amp; Diesel delivers honest recommendations, expert repairs, and clear communication every step of the way.</p>
+        <p data-reveal style="font-size:18px;line-height:1.6;color:#b2c0cd;margin:0 0 34px;max-width:600px">Whether you're maintaining a family SUV, diagnosing a check engine light, repairing a work truck, or managing an entire fleet, Gearhaven Auto &amp; Diesel delivers honest recommendations, expert repairs, and clear communication every step of the way.</p>
         <div data-reveal style="display:flex;gap:14px;flex-wrap:wrap">
           <a href="/contact" class="gh-btn-outline" style="display:inline-flex;align-items:center;background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px">Request an Estimate</a>
         </div>
@@ -178,7 +178,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
         <div style="padding:46px 46px 48px;display:flex;flex-direction:column;justify-content:center">
           <div style="display:inline-flex;align-items:center;gap:9px;align-self:flex-start;background:rgba(109,157,197,.18);border:1px solid rgba(109,157,197,.45);color:#CFE0EE;font-weight:600;font-size:13px;letter-spacing:.4px;text-transform:uppercase;padding:7px 14px;border-radius:100px;margin-bottom:20px">Our Specialty</div>
           <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:32px;line-height:1.08;letter-spacing:-.6px;color:#fff;margin:0 0 12px">Diesel done right.</h3>
-          <p style="font-size:16px;line-height:1.6;color:#BECAD6;margin:0 0 22px;max-width:440px">From diagnostics and fuel systems to turbos, CP4-to-DCR conversions, and full engine builds, the trucks that work hardest get our deepest expertise.</p>
+          <p style="font-size:16px;line-height:1.6;color:#BECAD6;margin:0 0 22px;max-width:440px">From diagnostics and fuel systems to turbos, CP4-to-DCR conversions, and full engine repairs, the trucks that work hardest get our deepest expertise.</p>
           <div style="display:flex;gap:10px;flex-wrap:wrap">
             <span style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);color:#DCE4EC;font-weight:600;font-size:13.5px;padding:8px 15px;border-radius:100px">Power Stroke</span>
             <span style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);color:#DCE4EC;font-weight:600;font-size:13.5px;padding:8px 15px;border-radius:100px">Cummins</span>
@@ -418,6 +418,10 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       <div>
         <img src="/images/asset-0-a596b110.png" alt="Gearhaven Auto and Diesel" style="height: 90px; width: auto; margin-bottom: 18px">
         <p class="gh-footer-desc" style="font-size:14px;line-height:1.6;margin:0 0 18px;max-width:280px">Full-service auto &amp; diesel repair proudly serving Nixa and the Ozarks. Honest work, clear answers, treated like family.</p>
+        <div class="gh-footer-social" style="display:flex;align-items:center;gap:10px">
+          <span style="font-size:14px;color:#8FA0AD">Follow Us On</span>
+          <a href="https://www.facebook.com/people/GearHaven/61591811460065/" target="_blank" rel="noopener noreferrer" aria-label="Follow Gearhaven on Facebook" class="gh-footer-social-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="#3D6D92" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+        </div>
       </div>
       <div>
         <div style="color:#fff;font-weight:700;font-size:18px;margin-bottom:16px;font-family:'Bricolage Grotesque'">Services</div>

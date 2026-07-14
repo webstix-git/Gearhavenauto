@@ -15,3 +15,5 @@ export const SITE_HOURS_CONTACT_HTML = `${SITE_HOURS_WEEKDAY_HTML}<br>${SITE_HOU
 export const SITE_COPYRIGHT = "© 2026 Gearhaven Auto & Diesel. All rights reserved.";
 export const SITE_COPYRIGHT_HTML =
   "© 2026 Gearhaven Auto &amp; Diesel. All rights reserved.";
+export const SITE_FACEBOOK_URL =
+  "https://www.facebook.com/people/GearHaven/61591811460065/";

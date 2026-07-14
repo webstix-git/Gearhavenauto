@@ -1,10 +1,16 @@
 import {
   SITE_ADDRESS_HTML,
   SITE_EMAIL,
+  SITE_FACEBOOK_URL,
   SITE_PHONE,
   SITE_PHONE_TEL,
 } from "./site-info";
-import { GH_ICON_EMAIL, GH_ICON_LOCATION, GH_ICON_PHONE } from "./gh-icons";
+import {
+  GH_ICON_EMAIL,
+  GH_ICON_FACEBOOK,
+  GH_ICON_LOCATION,
+  GH_ICON_PHONE,
+} from "./gh-icons";
 import { buildFooterBottomBarHtml } from "./footer-legal";
 
 export type FooterLink = { href: string; label: string; className: string };
@@ -15,6 +21,13 @@ export type FooterOptions = {
   companyLinks: FooterLink[];
   contactHoverClass: string;
 };
+
+export function buildFooterFollowUsHtml(): string {
+  return `<div class="gh-footer-social" style="display:flex;align-items:center;gap:10px">
+        <span style="font-size:14px;color:#8FA0AD">Follow Us On</span>
+        <a href="${SITE_FACEBOOK_URL}" target="_blank" rel="noopener noreferrer" aria-label="Follow Gearhaven on Facebook" class="gh-footer-social-link">${GH_ICON_FACEBOOK()}</a>
+      </div>`;
+}
 
 export function buildGetInTouchHtml(contactHoverClass: string): string {
   return `<div style="display:flex;flex-direction:column;gap:14px;font-size:14.5px">
@@ -51,6 +64,7 @@ export function buildFooterHtml(options: FooterOptions): string {
       <div>
         <img src="/images/asset-0-a596b110.png" alt="Gearhaven Auto and Diesel" style="height:90px;width:auto;margin-bottom:18px">
         <p class="gh-footer-desc" style="font-size:14px;line-height:1.6;margin:0 0 18px;max-width:280px">Full-service auto &amp; diesel repair proudly serving Nixa and the Ozarks. Honest work, clear answers, treated like family.</p>
+        ${buildFooterFollowUsHtml()}
       </div>
       <div>
         <div style="color:#fff;font-weight:700;font-size:18px;margin-bottom:16px;font-family:'Bricolage Grotesque'">Services</div>

@@ -4,6 +4,7 @@ import { FOOTER_LEGAL_LINKS } from "@/lib/footer-legal";
 import {
   GH_ICON_CHEVRON,
   GH_ICON_EMAIL,
+  GH_ICON_FACEBOOK,
   GH_ICON_LOCATION,
   GH_ICON_PHONE,
 } from "@/lib/gh-icons";
@@ -11,6 +12,7 @@ import {
   SITE_ADDRESS_LINE1,
   SITE_ADDRESS_LINE2,
   SITE_COPYRIGHT_HTML,
+  SITE_FACEBOOK_URL,
 } from "@/lib/site-info";
 
 type SiteChromeProps = {
@@ -101,6 +103,21 @@ export function SiteFooter() {
             Full-service auto &amp; diesel repair proudly serving Nixa and the
             Ozarks. Honest work, clear answers, treated like family.
           </p>
+          <div
+            className="gh-footer-social"
+            style={{ display: "flex", alignItems: "center", gap: 10 }}
+          >
+            <span style={{ fontSize: 14, color: "#8FA0AD" }}>Follow Us On</span>
+            <a
+              href={SITE_FACEBOOK_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Follow Gearhaven on Facebook"
+              className="gh-footer-social-link"
+            >
+              <GhIcon html={GH_ICON_FACEBOOK()} />
+            </a>
+          </div>
         </div>
         <div>
           <div

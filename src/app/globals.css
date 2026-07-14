@@ -62,6 +62,16 @@ footer .gh-footer-services a:hover {
   white-space: normal !important;
 }
 
+footer .gh-footer-social-link {
+  display: inline-flex;
+  line-height: 0;
+  transition: opacity 0.2s ease;
+}
+
+footer .gh-footer-social-link:hover {
+  opacity: 0.75;
+}
+
 .gh-icon svg {
   display: block;
 }

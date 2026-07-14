@@ -1,5 +1,5 @@
 import { buildFooterBottomBarHtml } from "./footer-legal";
-import { buildGetInTouchHtml } from "./build-footer-html";
+import { buildFooterFollowUsHtml, buildGetInTouchHtml } from "./build-footer-html";
 
 const BREADCRUMB_CHEVRON = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#A8B2BB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>`;
 
@@ -63,6 +63,7 @@ export function buildUtilityPageHtml(options: UtilityPageOptions): string {
       <div>
         <img src="/images/asset-0-a596b110.png" alt="Gearhaven Auto and Diesel" style="height:90px;width:auto;margin-bottom:18px">
         <p class="gh-footer-desc" style="font-size:14px;line-height:1.6;margin:0 0 18px;max-width:280px">Full-service auto &amp; diesel repair proudly serving Nixa and the Ozarks. Honest work, clear answers, treated like family.</p>
+        ${buildFooterFollowUsHtml()}
       </div>
       <div>
         <div style="color:#fff;font-weight:700;font-size:18px;margin-bottom:16px;font-family:'Bricolage Grotesque'">Services</div>
