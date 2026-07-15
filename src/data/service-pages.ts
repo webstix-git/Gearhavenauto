@@ -1,4 +1,14 @@
 import { buildServicePageHtml } from "@/lib/build-service-page-html";
+import { CHECK_ICON } from "@/lib/service-page-icons";
+
+function faqCheckList(items: string[]) {
+  return `<div style="display:flex;flex-direction:column;gap:10px">${items
+    .map(
+      (item) =>
+        `<div style="display:flex;align-items:flex-start;gap:10px;font-size:16px;line-height:1.55;color:#5C6B76;font-weight:500">${CHECK_ICON}<span>${item}</span></div>`
+    )
+    .join("")}</div>`;
+}
 
 export type ServicePageData = {
   slug: string;
@@ -10,41 +20,95 @@ export type ServicePageData = {
     imageAlt: string;
     title: string;
     description: string;
+    extra?: string;
     ctaLabel: string;
     ctaHref: string;
+    hideCta?: boolean;
   };
   why: {
     label: string;
     title: string;
     paragraphs: [string, string];
-    stats: { value: string; label: string }[];
+    extraParagraphs?: string[];
+    callout?: {
+      title: string;
+      ctaLabel: string;
+      ctaHref: string;
+    };
+    stats?: { value: string; label: string }[];
     image: string;
     imageAlt: string;
   };
   included: {
     label: string;
     title: string;
+    intro?: string;
+    introParagraphs?: string[];
+    headerWidth?: number;
     items: { icon: string; title: string; description: string }[];
   };
   options?: {
-    label: string;
+    label?: string;
     title: string;
     description?: string;
+    outro?: string;
+    headerWidth?: number;
     items: { title: string; description: string; featured?: boolean }[];
   };
   signs: {
-    label: string;
+    label?: string;
     title: string;
+    intro?: string;
+    outro?: string;
     items: string[];
   };
   process: {
-    label: string;
+    label?: string;
     title: string;
+    intro?: string;
     steps: { title: string; description: string }[];
   };
   cta: {
     title: string;
     description: string;
+    extra?: string;
+    extraParagraphs?: string[];
+    align?: "left" | "center";
+  };
+  sectionLayout?: "default" | "stacked";
+  spotlight?: {
+    variant: "light" | "dark";
+    label: string;
+    title: string;
+    paragraphs: string[];
+    paragraphsAfter?: string[];
+    bullets?: string[];
+    bulletCards?: { icon: string; title: string }[];
+    contentWidth?: number;
+    layout?: "default" | "impact-inspection";
+    outcomeLabels?: [string, string];
+    image?: string;
+    imageAlt?: string;
+    imagePosition?: "left" | "right";
+  }[];
+  spotlightAfter?: {
+    variant: "light" | "dark";
+    label: string;
+    title: string;
+    paragraphs: string[];
+    paragraphsAfter?: string[];
+    bullets?: string[];
+    bulletCards?: { icon: string; title: string }[];
+    contentWidth?: number;
+    layout?: "default" | "impact-inspection";
+    outcomeLabels?: [string, string];
+    image?: string;
+    imageAlt?: string;
+    imagePosition?: "left" | "right";
+  }[];
+  faqs?: {
+    title: string;
+    items: { question: string; answer: string }[];
   };
 };
 
@@ -326,52 +390,308 @@ const SERVICE_PAGES: ServicePageData[] = [
             "We do the work, test-drive it, and walk you through what was done and why.", }, ], }, cta: {
       title: "Something not right with your vehicle?", description:
         "Bring it to Gearhaven. We'll diagnose it honestly, explain it clearly, and get you back on the road.", }, }, {
-    slug: "collision-services", breadcrumbLabel: "Collision Services", metaTitle: "Collision Services", metaDescription:
-      "Collision repair coordination in Nixa, MO. Damage assessment, insurance support, and mechanical repairs to get you back on the road safely.", hero: {
-      image: "/images/gallery-a9df4350.jpg", imageAlt: "Vehicle repair at Gearhaven", title: "Get back on<br>the road.", description:
-        "Accidents happen, on I-44, in a parking lot, or on a back road in Christian County. We'll assess the damage, help you navigate the process, and get your vehicle safe to drive again.", ctaLabel: "Get an Assessment", ctaHref: "/contact", }, why: {
-      label: "Why It Matters", title: "More than body damage.", paragraphs: [
-        "After a collision, there's often more going on than what you can see, bent suspension parts, misaligned wheels, damaged steering components, or frame issues that affect how the vehicle handles at speed.", "We'll give you an honest assessment of mechanical and structural damage, help coordinate with your insurance company when needed, and make sure the vehicle is safe before you get back behind the wheel. We'll walk you through every step so you're not guessing.", ], stats: [
-        { value: "Honest", label: "damage assessments" }, { value: "Insurance", label: "coordination help" }, { value: "Safety first", label: "every repair" }, ], image: "/images/contact-e51e322a.jpg", imageAlt: "Gearhaven shop exterior", }, included: {
-      label: "What We Handle", title: "From assessment to repair.", items: [
+    slug: "collision-services",
+    breadcrumbLabel: "Collision Services",
+    metaTitle: "Collision Repair & Post-Accident Mechanical Repair",
+    metaDescription:
+      "Collision repair and post-accident mechanical repair in Nixa, MO. Damage assessment, insurance documentation, suspension and steering repairs, and coordination with trusted body shops.",
+    hero: {
+      image: "/images/car-workshop.jpg",
+      imageAlt: "Gearhaven service bay",
+      title: "Collision Repair &amp; Post-Accident Mechanical Repair in Nixa, MO",
+      description: "",
+      ctaLabel: "Request an Assessment",
+      ctaHref: "/contact",
+      hideCta: true,
+    },
+    why: {
+      label: "Post-Accident Repair",
+      title: "Get Back on the Road with Confidence",
+      paragraphs: [
+        "Accidents can happen anywhere, on I-44 during your morning commute, in a busy parking lot, or on a back road in Christian County. Whether it's a minor fender bender or a more serious collision, the damage to your vehicle isn't always limited to what you can see.",
+        "At Gearhaven Auto &amp; Diesel, we specialize in the mechanical repairs that often follow a collision. Our experienced technicians inspect your vehicle for damage to critical systems like the suspension, steering, brakes, cooling system, drivetrain, and wheel alignment to make sure it's safe and reliable before you get back behind the wheel.",
+      ],
+      extraParagraphs: [
+        "While we don't perform paint, body work, or frame straightening, we'll gladly help coordinate those repairs with a trusted local collision repair shop if they're needed. Our goal is to make the process as straightforward as possible while giving you honest answers every step of the way.",
+      ],
+      callout: {
+        title: "Need a collision assessment?",
+        ctaLabel: "Request an Appointment Today",
+        ctaHref: "/contact",
+      },
+      image: "/images/about-repair-truck.jpg",
+      imageAlt: "Truck in the Gearhaven service bay",
+    },
+    spotlight: [
+      {
+        variant: "light",
+        label: "Why Start Here",
+        title: "Why Start with Gearhaven?",
+        paragraphs: [
+          "After an accident, it's natural to focus on the visible damage. A dented fender, cracked bumper, or broken headlight is easy to spot. What many drivers don't realize is that even a relatively minor collision can affect the parts of your vehicle that keep it driving safely.",
+          "A curb strike can throw off your alignment. A low-speed impact can damage suspension or steering components. Even a small front-end collision can affect your radiator, cooling system, or other mechanical parts that aren't immediately visible.",
+          "That's where we come in.",
+          "Our team focuses on identifying and repairing the mechanical systems that impact your vehicle's safety, performance, and reliability. We'll explain what we find in plain language, answer your questions, and recommend the repairs your vehicle actually needs.",
+          "If your vehicle also requires paint, body work, or frame repair, we'll let you know and help connect you with a trusted collision repair partner. By focusing on the mechanical repairs we do best and working alongside experienced body shops when needed, we're able to provide the level of service and attention every customer deserves.",
+        ],
+        image: "/images/contact-e51e322a.jpg",
+        imageAlt: "Gearhaven shop exterior",
+        imagePosition: "left",
+      },
+      {
+        variant: "light",
+        label: "After a Collision",
+        title: "What Happens to a Vehicle After a Collision?",
+        layout: "impact-inspection",
+        outcomeLabels: ["Our Goal", "Trusted Body Shop Partners"],
+        paragraphs: [
+          "Not every collision leaves obvious damage.",
+          "Even if your vehicle still drives, an impact can affect systems that are designed to work together with tight tolerances. A bent suspension component, damaged steering linkage, cracked radiator, or wheel that's slightly out of alignment may not seem like a major issue today, but it can lead to uneven tire wear, poor handling, additional repairs, or safety concerns over time.",
+          "That's why it's important to have your vehicle inspected after an accident, even if the damage appears minor.",
+          "At Gearhaven Auto &amp; Diesel, we perform a thorough mechanical inspection to look for both visible and hidden damage. Depending on the type of collision, we may inspect:",
+        ],
+        bulletCards: [
+          { icon: "wrench", title: "Suspension components" },
+          { icon: "gauge", title: "Steering components" },
+          { icon: "shield", title: "Brake system components" },
+          { icon: "gauge", title: "Wheel alignment" },
+          { icon: "tire", title: "Wheels and tires" },
+          { icon: "bolt", title: "Radiator and cooling system" },
+          { icon: "truck", title: "Engine and drivetrain components" },
+          { icon: "wrench", title: "Fluid leaks caused by the impact" },
+          { icon: "gauge", title: "Dashboard warning lights and related mechanical systems" },
+        ],
+        paragraphsAfter: [
+          "Our goal isn't just to repair what's broken. It's to help restore your vehicle's safety, reliability, and performance so you can drive with confidence.",
+          "If we discover your vehicle needs services outside the scope of our shop, such as paint, dent repair, body panel replacement, or frame straightening, we'll explain exactly what we've found and help point you toward a trusted local body shop that can complete those repairs.",
+        ],
+      },
+      {
+        variant: "dark",
+        label: "Inspection Matters",
+        title: "Why a Mechanical Inspection Matters",
+        paragraphs: [
+          "Some collision damage is easy to see. Other problems don't become noticeable until days or even weeks later.",
+          "If your steering wheel feels off-center, your vehicle pulls to one side, you notice new vibrations, or warning lights appear after an accident, those can all be signs of hidden mechanical damage.",
+          "A professional inspection can identify issues before they lead to additional wear, reduce the risk of more costly repairs, and help ensure your vehicle is operating the way it was designed to.",
+          "Whether you've been in a parking lot accident, a rear-end collision, or a highway crash, our technicians will take the time to inspect your vehicle thoroughly, explain what we find, and help you determine the next steps.",
+        ],
+        image: "/images/about-8b2c3473.jpg",
+        imageAlt: "Technician inspecting a vehicle at Gearhaven",
+        imagePosition: "left",
+      },
+    ],
+    spotlightAfter: [
+      {
+        variant: "light",
+        label: "Serving the Ozarks",
+        title: "Why Drivers Throughout the Ozarks Choose Gearhaven",
+        paragraphs: [
+          "When you've been in an accident, you don't just need someone to repair your vehicle. You need someone who will explain what's going on, answer your questions, and help you make informed decisions.",
+          "That's the approach we take every day.",
+          "Whether you're coming from Nixa, Springfield, Ozark, Republic, Highlandville, or another nearby community, our team is committed to providing clear communication, dependable repairs, and service you can feel good about from start to finish.",
+          "If we can complete the repairs in-house, we'll do the work with the same attention to detail we'd expect for our own vehicles. If another specialist is needed, we'll point you in the right direction and work with them to help keep your repair moving forward.",
+          "Our goal is simple: to help you get back on the road safely and with confidence.",
+        ],
+        image: "/images/gallery-a9df4350.jpg",
+        imageAlt: "Vehicle service at Gearhaven",
+        imagePosition: "right",
+      },
+    ],
+    included: {
+      label: "What We Handle",
+      title: "Mechanical Collision Repairs You Can Count On",
+      headerWidth: 80,
+      introParagraphs: [
+        "Every accident is different, and so is every repair. Some vehicles need only a mechanical inspection for peace of mind, while others require more extensive repairs before they're safe to drive again.",
+        "At Gearhaven Auto &amp; Diesel, we focus on the mechanical systems that are commonly affected by a collision. Our experienced technicians will inspect your vehicle, explain what we find, and recommend the repairs needed to restore safe, dependable performance.",
+      ],
+      items: [
         {
-          icon: "clipboard", title: "Damage assessment", description:
-            "A thorough look at visible and hidden damage, mechanical, structural, and cosmetic.", }, {
-          icon: "phone", title: "Insurance coordination", description:
-            "We work with your adjuster, provide documentation, and help keep the process moving.", }, {
-          icon: "wrench", title: "Mechanical repair", description:
-            "Suspension, steering, brakes, and drivetrain damage repaired to safe standards.", }, {
-          icon: "tire", title: "Alignment &amp; suspension", description:
-            "Post-collision alignment and suspension work so it drives straight and true.", }, {
-          icon: "check", title: "Quality parts", description:
-            "OEM and quality aftermarket parts, we don't cut corners on safety items.", }, {
-          icon: "camera", title: "Documented inspection", description:
-            "Photos and notes for your records, your insurance, and your peace of mind.", }, ], }, options: {
-      label: "Types of Work", title: "We meet you where you are.", description:
-        "Every accident is different. We'll tell you honestly what we can handle in-house and what needs a body shop partner.", items: [
+          icon: "clipboard",
+          title: "Collision Damage Assessment",
+          description:
+            "We'll perform a thorough inspection to identify both visible and hidden mechanical damage caused by the accident. Our goal is to give you a clear understanding of your vehicle's condition before repairs begin.",
+        },
         {
-          title: "Minor Damage", description:
-            "Bumper covers, brackets, lights, and cosmetic mechanical repairs.", }, {
-          title: "Mechanical After Collision", description:
-            "Radiator, A/C, suspension, steering, the stuff that affects how it drives.", }, {
-          title: "Frame &amp; Suspension", description:
-            "Structural and alignment concerns checked and corrected for safe handling.", }, {
-          title: "Insurance Claim Support", description:
-            "Estimates, photos, and documentation to help your claim go smoothly.", featured: true, }, ], }, signs: {
-      label: "After an Accident", title: "When to come see us", items: [
-        "Visible damage to bumpers, fenders, lights, or wheels", "Vehicle pulls to one side or steering wheel is off-center", "New noises, vibrations, or fluid leaks after the impact", "Airbag deployed or safety systems triggered", "Insurance needs an estimate or mechanical assessment", ], }, process: {
-      label: "How It Works", title: "Simple, start to finish", steps: [
+          icon: "camera",
+          title: "Insurance Documentation",
+          description:
+            "If you're filing an insurance claim, we'll provide estimates, repair documentation, and photos to help support the process. We're also happy to communicate with your insurance adjuster when needed.",
+        },
         {
-          title: "Bring it in for assessment", description:
-            "We'll look at the damage and give you a clear picture of what needs attention.", }, {
-          title: "Estimate &amp; documentation", description:
-            "Photos, notes, and a written estimate, for you and your insurance if needed.", }, {
-          title: "Repair &amp; coordinate", description:
-            "We handle mechanical work in-house and coordinate body repair when necessary.", }, {
-          title: "Safety check &amp; delivery", description:
-            "Alignment, test drive, and a final walkthrough before you take it home.", }, ], }, cta: {
-      title: "Had an accident?", description:
-        "Call us first. We'll assess the damage honestly, explain your options, and help you get back on the road safely.", }, },
+          icon: "wrench",
+          title: "Mechanical Repairs",
+          description:
+            "From damaged suspension components and steering systems to cooling system repairs and drivetrain issues, we'll complete the mechanical repairs needed to get your vehicle back on the road safely.",
+        },
+        {
+          icon: "tire",
+          title: "Wheel Alignments &amp; Suspension Repairs",
+          description:
+            "Even a relatively minor impact can knock your vehicle out of alignment or damage suspension components. We'll inspect your steering and suspension system and perform the necessary repairs so your vehicle drives the way it should.",
+        },
+        {
+          icon: "check",
+          title: "Quality Replacement Parts",
+          description:
+            "We use OEM or high-quality aftermarket parts whenever possible because dependable repairs begin with dependable components.",
+        },
+        {
+          icon: "phone",
+          title: "Coordination with Trusted Body Shops",
+          description:
+            "If your vehicle needs paint, body work, dent repair, or frame straightening, we'll help coordinate with a trusted local collision repair shop so every part of the repair process is handled by the right specialists.",
+        },
+      ],
+    },
+    options: {
+      title: "Mechanical Repairs We Commonly Perform After a Collision",
+      headerWidth: 80,
+      description:
+        "Not every accident causes the same type of damage, but these are some of the mechanical repairs we frequently perform after a vehicle has been involved in a collision:",
+      outro:
+        "If additional body repairs are needed, we'll help guide you through the next steps and work alongside your preferred collision repair facility whenever possible.",
+      items: [
+        {
+          title: "Suspension repairs",
+          description: "Struts, control arms, and related components damaged by impact or curb strikes.",
+        },
+        {
+          title: "Steering system repairs",
+          description: "Linkage, racks, and steering components that affect control and alignment.",
+        },
+        {
+          title: "Brake system repairs",
+          description: "Lines, calipers, and hardware affected by front-end or wheel-area damage.",
+        },
+        {
+          title: "Wheel alignments",
+          description: "Correcting pull, off-center steering, and uneven tire wear after an impact.",
+        },
+        {
+          title: "Cooling system repairs",
+          description: "Radiator, hoses, and related components commonly damaged in front-end collisions.",
+        },
+        {
+          title: "Radiator replacement",
+          description: "Front-end impacts often damage radiators and cooling components that must be addressed before safe driving.",
+        },
+        {
+          title: "Engine diagnostics",
+          description: "Identifying mechanical issues triggered by collision force or related component damage.",
+        },
+        {
+          title: "Drivetrain repairs",
+          description: "Inspecting and repairing drivetrain systems affected by impact or misalignment.",
+        },
+        {
+          title: "Replacement of damaged mechanical components",
+          description: "Replacing mechanical parts that cannot be safely repaired after an accident.",
+        },
+        {
+          title: "Post-repair safety inspections",
+          description: "Final checks to confirm your vehicle is safe, aligned, and ready for the road.",
+          featured: true,
+        },
+      ],
+    },
+    signs: {
+      title: "Signs Your Vehicle Should Be Inspected After an Accident",
+      intro:
+        "Even if your vehicle appears drivable, it's a good idea to have it inspected if you notice any of the following after a collision:",
+      outro:
+        "If something feels different, trust your instincts. Catching mechanical damage early can help prevent additional wear, improve safety, and reduce the chance of more expensive repairs later.",
+      items: [
+        "Your steering wheel is no longer centered",
+        "The vehicle pulls to one side while driving",
+        "You hear new clunks, rattles, or vibrations",
+        "Warning lights appear on the dashboard",
+        "Fluid is leaking underneath the vehicle",
+        "One tire or wheel appears damaged",
+        "Your hood, bumper, or fender doesn't line up correctly",
+        "The vehicle simply doesn't feel the same as it did before the accident",
+        "Your insurance company requests a mechanical inspection or repair estimate",
+      ],
+    },
+    process: {
+      title: "Our Collision Repair Process",
+      intro:
+        "We know dealing with an accident can feel overwhelming. That's why we keep the repair process simple and make sure you know what to expect along the way.",
+      steps: [
+        {
+          title: "Schedule Your Inspection",
+          description:
+            "Bring your vehicle to our shop, and our technicians will perform a thorough mechanical inspection to evaluate any collision-related damage.",
+        },
+        {
+          title: "Review the Findings",
+          description:
+            "We'll explain what we found, answer your questions, and provide a written estimate along with any documentation needed for your insurance claim.",
+        },
+        {
+          title: "Complete the Mechanical Repairs",
+          description:
+            "Our team will repair the mechanical systems affected by the collision, including suspension, steering, brakes, cooling system components, drivetrain repairs, and other related work. If your vehicle also requires paint, body work, or frame repairs, we'll help coordinate those services with a trusted collision repair shop.",
+        },
+        {
+          title: "Final Inspection &amp; Road Test",
+          description:
+            "Before your vehicle leaves our shop, we'll perform a final inspection and road test to help ensure everything is operating properly and safely.",
+        },
+      ],
+    },
+    faqs: {
+      title: "Frequently Asked Questions",
+      items: [
+        {
+          question: "Do you perform paint and body work?",
+          answer:
+            "<p style=\"margin:0 0 12px\">No. Gearhaven Auto &amp; Diesel specializes in the mechanical side of collision repair. We do not offer paint, dent repair, body panel replacement, or frame straightening.</p><p style=\"margin:0\">If your vehicle needs those services, we're happy to recommend a trusted local collision repair shop and work alongside them to help keep your repairs moving forward.</p>",
+        },
+        {
+          question: "Do you repair frame damage?",
+          answer:
+            "<p style=\"margin:0 0 12px\">We inspect vehicles for signs of frame or structural damage, but we do not perform frame straightening or structural body repairs.</p><p style=\"margin:0\">If we discover frame damage during your inspection, we'll explain what we found and help direct you to a qualified body shop that specializes in structural repairs.</p>",
+        },
+        {
+          question: "Can you work with my insurance company?",
+          answer:
+            "<p style=\"margin:0\">Yes. We can provide repair estimates, photos, and documentation to support your insurance claim, and we're happy to communicate with your insurance adjuster when needed. Our goal is to make the mechanical repair process as smooth and straightforward as possible.</p>",
+        },
+        {
+          question: "What collision-related repairs do you perform?",
+          answer:
+            `<p style="margin:0 0 12px">We repair many of the mechanical systems that are commonly affected by an accident, including:</p>${faqCheckList(["Suspension repairs", "Steering repairs", "Brake system repairs", "Wheel alignments", "Cooling system repairs", "Radiator replacement", "Drivetrain repairs", "Engine diagnostics", "Replacement of damaged mechanical components"])}<p style="margin:12px 0 0">If your vehicle requires cosmetic or structural repairs outside our scope, we'll help connect you with a trusted body shop.</p>`,
+        },
+        {
+          question: "Should I have my vehicle inspected even if it still drives?",
+          answer:
+            "<p style=\"margin:0 0 12px\">Yes. It's common for vehicles to remain drivable after a collision, even when mechanical damage is present. Steering, suspension, wheel alignment, cooling system components, or brake parts can all be affected without obvious warning signs.</p><p style=\"margin:0\">If your vehicle doesn't feel quite the same after an accident, it's worth having it inspected. Identifying hidden damage early can help prevent additional wear and ensure your vehicle is safe to drive.</p>",
+        },
+        {
+          question: "Can I choose where my vehicle is repaired after an accident?",
+          answer:
+            "<p style=\"margin:0 0 12px\">In most cases, yes. You have the right to choose the repair shop you trust.</p><p style=\"margin:0\">If your vehicle needs both mechanical repairs and body work, we'll gladly coordinate with your preferred collision repair facility to help make the process as seamless as possible.</p>",
+        },
+        {
+          question: "Why should I choose Gearhaven for collision-related mechanical repairs?",
+          answer:
+            "<p style=\"margin:0 0 12px\">Because we focus on what we do best. Our technicians specialize in diagnosing and repairing the mechanical systems that affect how your vehicle drives, steers, stops, and performs after an accident. We believe in clear communication, honest recommendations, and repairing your vehicle the right way.</p><p style=\"margin:0\">If another specialist is needed for paint or body work, we'll tell you. We'd rather help you get the right repair than try to be everything to everyone.</p>",
+        },
+      ],
+    },
+    cta: {
+      title: "Let's Get You Back on the Road",
+      description:
+        "An accident can leave you with a lot of questions, but finding the right repair shop shouldn't be one of them.",
+      extraParagraphs: [
+        "Whether you've noticed a new vibration, your steering doesn't feel quite right, or you simply want the peace of mind that comes from a professional inspection, our team is here to help.",
+        "We'll take the time to inspect your vehicle, explain what we find, answer your questions, and recommend the repairs needed to get you safely back on the road. If your vehicle requires paint, body work, or frame repairs, we'll help connect you with a trusted collision repair partner so every part of the process is handled by the right experts.",
+        "No pressure. No confusing explanations. Just honest advice and quality mechanical repairs from a team that's committed to doing the job right.",
+      ],
+      align: "left",
+    }, },
 ];
 
 export function getServicePage(slug: string): ServicePageData | undefined {

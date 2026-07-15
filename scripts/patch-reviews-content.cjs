@@ -131,7 +131,7 @@ const reviews = [
   },
   {
     name: "Ray Holguin",
-    text: `Highly recommend Tom's Diesel & Custom Truck. I will only go here from now on for truck work. High integrity, super honest, and quality work. Collen was absolutely awesome and treated us like family. Collen made sure that all work was done to the highest standard and went out of his way to follow up with our repairs and feedback.`,
+    text: `Highly recommend them. I will only go here from now on for truck work. High integrity, super honest, and quality work. Collen was absolutely awesome and treated us like family. Collen made sure that all work was done to the highest standard and went out of his way to follow up with our repairs and feedback.`,
   },
   {
     name: "Diana Johnson",

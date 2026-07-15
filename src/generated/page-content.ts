@@ -180,7 +180,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:32px;line-height:1.08;letter-spacing:-.6px;color:#fff;margin:0 0 12px">Diesel done right.</h3>
           <p style="font-size:16px;line-height:1.6;color:#BECAD6;margin:0 0 22px;max-width:440px">From diagnostics and fuel systems to turbos, CP4-to-DCR conversions, and full engine repairs, the trucks that work hardest get our deepest expertise.</p>
           <div style="display:flex;gap:10px;flex-wrap:wrap">
-            <span style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);color:#DCE4EC;font-weight:600;font-size:13.5px;padding:8px 15px;border-radius:100px">Power Stroke</span>
+            <span style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);color:#DCE4EC;font-weight:600;font-size:13.5px;padding:8px 15px;border-radius:100px">Full Engine Repairs</span>
             <span style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);color:#DCE4EC;font-weight:600;font-size:13.5px;padding:8px 15px;border-radius:100px">Cummins</span>
             <span style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);color:#DCE4EC;font-weight:600;font-size:13.5px;padding:8px 15px;border-radius:100px">Duramax</span>
           </div>

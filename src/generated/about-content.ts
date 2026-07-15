@@ -43,11 +43,19 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
   <section style="background:#12202D;color:#fff;position:relative;overflow:hidden">
     <div style="position:absolute;top:-140px;right:-120px;width:460px;height:460px;border-radius:50%;background:radial-gradient(circle,rgba(62,92,118,.35),transparent 70%);pointer-events:none"></div>
     <div style="position:absolute;bottom:-160px;left:-120px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(109,157,197,.12),transparent 70%);pointer-events:none"></div>
-    <div data-reveal style="max-width:900px;margin:0 auto;padding:90px 28px;text-align:center;position:relative">
-      <div style="display:inline-flex;align-items:center;gap:9px;font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#8FB0CE;margin-bottom:20px"><span style="width:26px;height:2px;background:#6D9DC5"></span>Our Why<span style="width:26px;height:2px;background:#6D9DC5"></span></div>
-      <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:42px;line-height:1.1;letter-spacing:-1px;margin:0 0 22px;color:#fff">We believe trust is earned.</h2>
-      <p style="font-size:18.5px;line-height:1.65;color:#BECAD6;margin:0 auto 14px;max-width:720px">That's why we focus on clear communication, quality workmanship, and doing what's right for our customers even when it's not the easiest option.</p>
-      <p style="font-size:18.5px;line-height:1.65;color:#BECAD6;margin:0 auto;max-width:720px">Whether you're coming in for an oil change, a major repair, or a complex diesel diagnostic, our goal is to provide the same level of care and attention we'd want for our own vehicles.</p>
+    <div data-reveal class="gh-grid-asymmetric" style="max-width:1240px;margin:0 auto;padding:90px 28px;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:stretch;position:relative">
+      <div class="gh-stretch-media">
+        <img src="/images/about-repair-truck.jpg?v=1" alt="Truck in the Gearhaven service bay" style="border-radius:18px;box-shadow:0 30px 60px -30px rgba(0,0,0,.45)">
+      </div>
+      <div>
+        <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:40px;line-height:1.08;letter-spacing:-1px;margin:0 0 18px;color:#fff">Repairing vehicles isn't just about replacing parts.</h2>
+        <p style="font-size:19px;line-height:1.6;color:#DCE4EC;margin:0 0 22px;font-weight:600">It's about helping people make informed decisions with confidence.</p>
+        <p style="font-size:17px;line-height:1.65;color:#BECAD6;margin:0 0 16px">We know that unexpected repairs can be stressful, which is why we prioritize clear communication throughout the process. You'll understand what we found, why we recommend a repair, what can safely wait, and what your options are before any work begins.</p>
+        <p style="font-size:17px;line-height:1.65;color:#BECAD6;margin:0 0 16px">Every vehicle has different needs depending on its age, mileage, and how it's used. Our technicians have experience servicing everything from daily commuters and family SUVs to work trucks, fleet vehicles, and heavy-duty diesel pickups.</p>
+        <p style="font-size:17px;line-height:1.65;color:#BECAD6;margin:0 0 16px">Whether you drive a Honda Civic, Toyota Camry, Ford F-150, Chevy Silverado, work van, or diesel truck, our team has the knowledge and equipment to help keep it running reliably.</p>
+        <p style="font-size:17px;line-height:1.65;color:#BECAD6;margin:0 0 16px">Our services include preventative maintenance, oil changes, brake repair, suspension repairs, steering components, engine diagnostics, transmission service, diesel diagnostics, major engine repairs, and complete engine rebuilds.</p>
+        <p style="font-size:17px;line-height:1.65;color:#BECAD6;margin:0">No matter what brings you into the shop, our goal remains the same: provide honest recommendations, dependable repairs, and help keep your vehicle safely on the road.</p>
+      </div>
     </div>
   </section>
 
@@ -167,6 +175,58 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
         </div>
       </div>
 
+    </div>
+  </section>
+
+  <!-- FAQS -->
+  <section id="faqs" style="background:#FBFAF7;border-top:1px solid #E9E5DD">
+    <div style="max-width:900px;margin:0 auto;padding:96px 28px">
+      <div data-reveal style="text-align:center;margin:0 auto 48px">
+        <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:42px;line-height:1.06;letter-spacing:-1.1px;margin:0;color:#14202B">Frequently Asked Questions</h2>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px">
+
+        <details open data-reveal style="background:#fff;border:1px solid #E7E3DB;border-radius:16px;padding:4px 26px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
+          <summary style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0"><span class="gh-q" style="font-family:'Bricolage Grotesque';font-weight:700;font-size:19px;color:#14202B">What makes Gearhaven Auto &amp; Diesel different?</span><svg class="gh-chev" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3E5C76" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="m6 9 6 6 6-6"></path></svg></summary>
+          <p style="font-size:16px;line-height:1.65;color:#5C6B76;margin:0 0 22px">We know taking your vehicle to a repair shop isn't always something you look forward to. That's why we focus on making the experience as straightforward as possible. We'll explain what we find, answer your questions, and help you understand your options so you can make the decision that's right for you.</p>
+        </details>
+
+        <details open data-reveal style="background:#fff;border:1px solid #E7E3DB;border-radius:16px;padding:4px 26px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
+          <summary style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0"><span class="gh-q" style="font-family:'Bricolage Grotesque';font-weight:700;font-size:19px;color:#14202B">What types of vehicles do you work on?</span><svg class="gh-chev" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3E5C76" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="m6 9 6 6 6-6"></path></svg></summary>
+          <p style="font-size:16px;line-height:1.65;color:#5C6B76;margin:0 0 22px">We work on most domestic and import cars, trucks, SUVs, vans, fleet vehicles, and diesel pickups. Whether you drive a Honda, Toyota, Ford, Chevrolet, RAM, Jeep, GMC, Nissan, or another make, our team is equipped to handle routine maintenance, diagnostics, and repairs.</p>
+        </details>
+
+        <details open data-reveal style="background:#fff;border:1px solid #E7E3DB;border-radius:16px;padding:4px 26px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
+          <summary style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0"><span class="gh-q" style="font-family:'Bricolage Grotesque';font-weight:700;font-size:19px;color:#14202B">Do you work on both gas and diesel vehicles?</span><svg class="gh-chev" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3E5C76" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="m6 9 6 6 6-6"></path></svg></summary>
+          <p style="font-size:16px;line-height:1.65;color:#5C6B76;margin:0 0 22px">Yes. While diesel repair is one of our specialties, we also service gasoline-powered vehicles every day. From family cars and SUVs to work trucks and fleet vehicles, we're here to help keep them running their best.</p>
+        </details>
+
+        <details open data-reveal style="background:#fff;border:1px solid #E7E3DB;border-radius:16px;padding:4px 26px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
+          <summary style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0"><span class="gh-q" style="font-family:'Bricolage Grotesque';font-weight:700;font-size:19px;color:#14202B">Do you only handle major repairs?</span><svg class="gh-chev" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3E5C76" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="m6 9 6 6 6-6"></path></svg></summary>
+          <p style="font-size:16px;line-height:1.65;color:#5C6B76;margin:0 0 22px">Not at all. Many of our customers come to us for routine maintenance like oil changes, brake service, inspections, and fluid changes. Regular maintenance helps your vehicle perform better and can often catch small issues before they turn into bigger repairs.</p>
+        </details>
+
+        <details open data-reveal style="background:#fff;border:1px solid #E7E3DB;border-radius:16px;padding:4px 26px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
+          <summary style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0"><span class="gh-q" style="font-family:'Bricolage Grotesque';font-weight:700;font-size:19px;color:#14202B">Will you explain what's wrong before you start the repair?</span><svg class="gh-chev" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3E5C76" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="m6 9 6 6 6-6"></path></svg></summary>
+          <p style="font-size:16px;line-height:1.65;color:#5C6B76;margin:0 0 22px">Absolutely. We believe you should understand what's going on with your vehicle before any work begins. We'll walk you through what we found, explain why we recommend a repair, answer your questions, and let you know if something can safely wait.</p>
+        </details>
+
+        <details open data-reveal style="background:#fff;border:1px solid #E7E3DB;border-radius:16px;padding:4px 26px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
+          <summary style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0"><span class="gh-q" style="font-family:'Bricolage Grotesque';font-weight:700;font-size:19px;color:#14202B">Do I have to own a diesel truck to bring my vehicle to Gearhaven?</span><svg class="gh-chev" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3E5C76" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="m6 9 6 6 6-6"></path></svg></summary>
+          <p style="font-size:16px;line-height:1.65;color:#5C6B76;margin:0 0 22px">No. We work on much more than diesel trucks. Whether you drive a commuter car, a family SUV, a work van, a pickup, or a diesel truck, we're here to help with everything from regular maintenance to more involved repairs.</p>
+        </details>
+
+        <details open data-reveal style="background:#fff;border:1px solid #E7E3DB;border-radius:16px;padding:4px 26px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
+          <summary style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0"><span class="gh-q" style="font-family:'Bricolage Grotesque';font-weight:700;font-size:19px;color:#14202B">Where are you located?</span><svg class="gh-chev" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3E5C76" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="m6 9 6 6 6-6"></path></svg></summary>
+          <p style="font-size:16px;line-height:1.65;color:#5C6B76;margin:0 0 22px">Our shop is in Nixa, Missouri, and we're proud to serve drivers from throughout the Ozarks, including Springfield, Ozark, Republic, Highlandville, and nearby communities.</p>
+        </details>
+
+        <details open data-reveal style="background:#fff;border:1px solid #E7E3DB;border-radius:16px;padding:4px 26px;box-shadow:0 2px 4px rgba(20,32,45,.04)">
+          <summary style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0"><span class="gh-q" style="font-family:'Bricolage Grotesque';font-weight:700;font-size:19px;color:#14202B">Why choose a locally owned repair shop?</span><svg class="gh-chev" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3E5C76" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="m6 9 6 6 6-6"></path></svg></summary>
+          <p style="font-size:16px;line-height:1.65;color:#5C6B76;margin:0 0 22px">When you visit a local shop, you're working with people who live in the same community you do. We take pride in getting to know our customers, being available when questions come up, and earning your trust one visit at a time.</p>
+        </details>
+
+      </div>
     </div>
   </section>
 
