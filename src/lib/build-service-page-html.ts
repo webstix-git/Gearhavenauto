@@ -438,7 +438,7 @@ export function buildServicePageHtml(data: ServicePageData): string {
           <div style="font-family:'Bricolage Grotesque';font-weight:700;font-size:22px;color:#14202B;margin:0 0 14px">${data.why.callout.title}</div>
           <div style="display:flex;gap:12px;flex-wrap:wrap">
             <a href="tel:4173194798" class="gh-btn-solid" style="display:inline-flex;align-items:center;gap:10px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:15px;padding:14px 22px;border-radius:9px">Call 417-319-4798</a>
-            <a href="${data.why.callout.ctaHref}" class="gh-btn-outline" style="display:inline-flex;align-items:center;gap:10px;background:#fff;border:1.5px solid #D8D3CB;color:#14202B;font-weight:700;font-size:15px;padding:14px 22px;border-radius:9px">${data.why.callout.ctaLabel}</a>
+            <a href="/contact" class="gh-btn-outline" style="display:inline-flex;align-items:center;gap:10px;background:#fff;border:1.5px solid #D8D3CB;color:#14202B;font-weight:700;font-size:15px;padding:14px 22px;border-radius:9px">${data.why.callout.ctaLabel}</a>
           </div>
         </div>` : ""}
         ${data.why.stats?.length ? `<div style="display:flex;gap:30px;flex-wrap:wrap">
