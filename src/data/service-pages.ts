@@ -53,7 +53,10 @@ export type ServicePageData = {
     description?: string;
     outro?: string;
     headerWidth?: number;
-    items: { title: string; description: string; featured?: boolean }[];
+    layout?: "default" | "split-ticks";
+    image?: string;
+    imageAlt?: string;
+    items: { title: string; description?: string; featured?: boolean }[];
   };
   signs: {
     label?: string;
@@ -547,53 +550,24 @@ const SERVICE_PAGES: ServicePageData[] = [
     },
     options: {
       title: "Mechanical Repairs We Commonly Perform After a Collision",
-      headerWidth: 80,
+      layout: "split-ticks",
+      image: "/images/asset-6-b0d4ecf6.jpg",
+      imageAlt: "Engine repair at Gearhaven",
       description:
         "Not every accident causes the same type of damage, but these are some of the mechanical repairs we frequently perform after a vehicle has been involved in a collision:",
       outro:
         "If additional body repairs are needed, we'll help guide you through the next steps and work alongside your preferred collision repair facility whenever possible.",
       items: [
-        {
-          title: "Suspension repairs",
-          description: "Struts, control arms, and related components damaged by impact or curb strikes.",
-        },
-        {
-          title: "Steering system repairs",
-          description: "Linkage, racks, and steering components that affect control and alignment.",
-        },
-        {
-          title: "Brake system repairs",
-          description: "Lines, calipers, and hardware affected by front-end or wheel-area damage.",
-        },
-        {
-          title: "Wheel alignments",
-          description: "Correcting pull, off-center steering, and uneven tire wear after an impact.",
-        },
-        {
-          title: "Cooling system repairs",
-          description: "Radiator, hoses, and related components commonly damaged in front-end collisions.",
-        },
-        {
-          title: "Radiator replacement",
-          description: "Front-end impacts often damage radiators and cooling components that must be addressed before safe driving.",
-        },
-        {
-          title: "Engine diagnostics",
-          description: "Identifying mechanical issues triggered by collision force or related component damage.",
-        },
-        {
-          title: "Drivetrain repairs",
-          description: "Inspecting and repairing drivetrain systems affected by impact or misalignment.",
-        },
-        {
-          title: "Replacement of damaged mechanical components",
-          description: "Replacing mechanical parts that cannot be safely repaired after an accident.",
-        },
-        {
-          title: "Post-repair safety inspections",
-          description: "Final checks to confirm your vehicle is safe, aligned, and ready for the road.",
-          featured: true,
-        },
+        { title: "Suspension repairs" },
+        { title: "Steering system repairs" },
+        { title: "Brake system repairs" },
+        { title: "Wheel alignments" },
+        { title: "Cooling system repairs" },
+        { title: "Radiator replacement" },
+        { title: "Engine diagnostics" },
+        { title: "Drivetrain repairs" },
+        { title: "Replacement of damaged mechanical components" },
+        { title: "Post-repair safety inspections" },
       ],
     },
     signs: {

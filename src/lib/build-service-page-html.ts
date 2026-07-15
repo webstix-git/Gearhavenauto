@@ -59,6 +59,35 @@ function processSteps(steps: ServicePageData["process"]["steps"]) {
 
 function optionsSection(data: ServicePageData) {
   if (!data.options) return "";
+
+  if (data.options.layout === "split-ticks" && data.options.image) {
+    const label = data.options.label
+      ? `<div style="display:inline-flex;align-items:center;gap:9px;font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#3E5C76;margin-bottom:16px"><span style="width:26px;height:2px;background:#6D9DC5"></span>${data.options.label}</div>`
+      : "";
+    const tickList = data.options.items
+      .map(
+        (item) =>
+          `<div class="gh-impact-tick-item">${CHECK_ICON}<span>${item.title}</span></div>`
+      )
+      .join("");
+
+    return `
+  <section style="max-width:1240px;margin:0 auto;padding:92px 28px">
+    <div class="gh-options-split gh-grid-asymmetric" style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:stretch">
+      <div data-reveal>
+        ${label}
+        <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:40px;line-height:1.08;letter-spacing:-1px;margin:0 0 16px;color:#14202B">${data.options.title}</h2>
+        ${data.options.description ? `<p style="font-size:18px;line-height:1.65;color:#5C6B76;margin:0 0 24px">${data.options.description}</p>` : ""}
+        <div class="gh-options-tick-list">${tickList}</div>
+        ${data.options.outro ? `<p style="font-size:18px;line-height:1.65;color:#5C6B76;margin:24px 0 0">${data.options.outro}</p>` : ""}
+      </div>
+      <div class="gh-stretch-media" data-reveal>
+        <img src="${data.options.image}" alt="${data.options.imageAlt ?? ""}" style="width:100%;height:100%;min-height:420px;object-fit:cover;border-radius:18px;box-shadow:0 30px 60px -30px rgba(20,32,45,.55)">
+      </div>
+    </div>
+  </section>`;
+  }
+
   const desc = data.options.description
     ? `<p style="font-size:18px;line-height:1.6;color:#5C6B76;margin:0">${data.options.description}</p>`
     : "";
