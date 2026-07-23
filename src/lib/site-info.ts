@@ -19,3 +19,8 @@ export const SITE_COPYRIGHT_HTML =
   "© 2026 Gearhaven Auto &amp; Diesel. All rights reserved.";
 export const SITE_FACEBOOK_URL =
   "https://www.facebook.com/people/GearHaven/61591811460065/";
+
+/** Default image shown when the site URL is shared on social apps. */
+export const SITE_OG_IMAGE = "/images/car-workshop.jpg";
+export const SITE_OG_IMAGE_ALT =
+  "Gearhaven Auto & Diesel — professional auto and diesel repair shop in Nixa, MO";

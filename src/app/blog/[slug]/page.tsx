@@ -35,6 +35,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: post.publishedAt,
       images: [{ url: post.image }],
     },
+    twitter: {
+      card: "summary_large_image",
+      title: `${post.metaTitle} | Gearhaven`,
+      description: post.metaDescription,
+      images: [post.image],
+    },
   };
 }
 

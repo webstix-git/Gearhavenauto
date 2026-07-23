@@ -7,17 +7,28 @@ import {
   localBusinessSchema,
   websiteSchema,
 } from "@/lib/structured-data";
+import { SITE_OG_IMAGE, SITE_OG_IMAGE_ALT } from "@/lib/site-info";
 import { SITE_URL } from "@/lib/site-url";
 import "./globals.css";
+
+const siteTitle = "Auto & Diesel Repair in Nixa, MO | Gearhaven";
+const siteDescription =
+  "Trusted auto and diesel repair in Nixa, MO for cars, trucks, and fleets. Honest recommendations, clear answers, and expert work you can count on.";
+
+const shareImage = {
+  url: SITE_OG_IMAGE,
+  width: 1920,
+  height: 800,
+  alt: SITE_OG_IMAGE_ALT,
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Auto & Diesel Repair in Nixa, MO | Gearhaven",
+    default: siteTitle,
     template: "%s | Gearhaven",
   },
-  description:
-    "Trusted auto and diesel repair in Nixa, MO for cars, trucks, and fleets. Honest recommendations, clear answers, and expert work you can count on.",
+  description: siteDescription,
   keywords: [
     "auto repair",
     "diesel repair",
@@ -31,15 +42,15 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: SITE_URL,
     siteName: "Gearhaven Auto & Diesel",
-    title: "Auto & Diesel Repair in Nixa, MO | Gearhaven",
-    description:
-      "Trusted auto and diesel repair in Nixa, MO for cars, trucks, and fleets. Honest recommendations, clear answers, and expert work you can count on.",
+    title: siteTitle,
+    description: siteDescription,
+    images: [shareImage],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Auto & Diesel Repair in Nixa, MO | Gearhaven",
-    description:
-      "Trusted auto and diesel repair in Nixa, MO for cars, trucks, and fleets. Honest recommendations, clear answers, and expert work you can count on.",
+    title: siteTitle,
+    description: siteDescription,
+    images: [SITE_OG_IMAGE],
   },
   robots: {
     index: true,

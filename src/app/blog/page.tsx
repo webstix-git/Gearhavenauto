@@ -16,6 +16,11 @@ export const metadata: Metadata = {
     title: "Auto & Diesel Repair Blog | Gearhaven",
     description:
       "Practical auto and diesel tips from Gearhaven in Nixa, MO. Maintenance checklists, diagnostics guidance, and useful advice for Missouri drivers.",
+    images: [{ url: "/images/car-workshop.jpg" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/images/car-workshop.jpg"],
   },
 };
 
