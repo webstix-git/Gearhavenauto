@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { absoluteUrl } from "@/lib/site-url";
 import { AboutPage } from "@/components/AboutPage";
 
 export const metadata: Metadata = {
@@ -6,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Meet the Gearhaven team in Nixa. Learn our story, values, and how we deliver honest auto and diesel repair for drivers across the Ozarks every day.",
   alternates: {
-    canonical: "/about-us",
+    canonical: absoluteUrl("/about-us"),
   },
 };
 

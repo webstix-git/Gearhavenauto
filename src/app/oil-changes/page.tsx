@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { absoluteUrl } from "@/lib/site-url";
 import { OilChangesPage } from "@/components/OilChangesPage";
 
 export const metadata: Metadata = {
@@ -6,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Professional oil changes in Nixa for cars, trucks, and diesels. Quality oil, a careful multi-point check, and honest recommendations every visit.",
   alternates: {
-    canonical: "/oil-changes",
+    canonical: absoluteUrl("/oil-changes"),
   },
 };
 

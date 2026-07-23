@@ -1,13 +1,11 @@
 import type { Metadata, Viewport } from "next";
 import { GhHeaderScroll } from "@/components/GhHeaderScroll";
 import { SiteHeader } from "@/components/SiteHeader";
+import { SITE_URL } from "@/lib/site-url";
 import "./globals.css";
 
-const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://gearhavenauto.com";
-
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "Auto & Diesel Repair in Nixa, MO | Gearhaven",
     template: "%s | Gearhaven",
@@ -25,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: siteUrl,
+    url: SITE_URL,
     siteName: "Gearhaven Auto & Diesel",
     title: "Auto & Diesel Repair in Nixa, MO | Gearhaven",
     description:
@@ -42,7 +40,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "/",
+    canonical: SITE_URL,
   },
 };
 

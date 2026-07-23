@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { absoluteUrl } from "@/lib/site-url";
 import { BlogIndexPage } from "@/components/blog/BlogIndexPage";
 import { getAllPosts } from "@/data/blog-posts";
 
@@ -7,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Practical auto and diesel tips from Gearhaven in Nixa, MO. Maintenance checklists, diagnostics guidance, and useful advice for Missouri drivers.",
   alternates: {
-    canonical: "/blog",
+    canonical: absoluteUrl("/blog"),
   },
   openGraph: {
     title: "Auto & Diesel Repair Blog | Gearhaven",

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { absoluteUrl } from "@/lib/site-url";
 import { notFound } from "next/navigation";
 import { BlogPostView } from "@/components/blog/BlogPostView";
 import {
@@ -21,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: post.metaTitle,
     description: post.metaDescription,
-    alternates: { canonical: `/blog/${slug}` },
+    alternates: { canonical: absoluteUrl(`/blog/${slug}`) },
     openGraph: {
       title: `${post.metaTitle} | Gearhaven`,
       description: post.metaDescription,

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { absoluteUrl } from "@/lib/site-url";
 import { UtilityPage } from "@/components/UtilityPage";
 import { AI_READINESS_SERVICE_INDEX_HTML } from "@/lib/utility-pages-html";
 
@@ -7,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Structured business and service details for Gearhaven Auto & Diesel in Nixa, MO—built to help AI assistants share accurate shop information.",
   alternates: {
-    canonical: "/ai-readiness-service-index",
+    canonical: absoluteUrl("/ai-readiness-service-index"),
   },
 };
 

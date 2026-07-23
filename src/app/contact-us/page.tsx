@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { absoluteUrl } from "@/lib/site-url";
 import { ContactPage } from "@/components/ContactPage";
 
 export const metadata: Metadata = {
@@ -6,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Call 417-319-4798, email collen@gearhaven.com, or request an appointment online. Gearhaven Auto & Diesel is ready to help drivers in Nixa, MO.",
   alternates: {
-    canonical: "/contact-us",
+    canonical: absoluteUrl("/contact-us"),
   },
 };
 

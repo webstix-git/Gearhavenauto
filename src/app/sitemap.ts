@@ -1,103 +1,48 @@
 import type { MetadataRoute } from "next";
 import { getAllPosts } from "@/data/blog-posts";
 import { getAllServiceSlugs } from "@/data/service-pages";
+import { SITE_URL } from "@/lib/site-url";
 
-const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://gearhavenauto.com";
+const lastmod = new Date();
 
+/** Homepage 1.0; all other public pages 0.8 */
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts();
 
+  const mainPaths = [
+    "/about-us",
+    "/services",
+    "/blog",
+    "/gallery",
+    "/faqs",
+    "/reviews",
+    "/oil-changes",
+    ...getAllServiceSlugs().map((slug) => `/${slug}`),
+    "/contact-us",
+    "/sitemap",
+    "/privacy-policy",
+    "/ai-policy",
+    "/ai-readiness-service-index",
+  ];
+
   return [
     {
-      url: siteUrl,
-      lastModified: new Date(),
+      url: SITE_URL,
+      lastModified: lastmod,
       changeFrequency: "monthly",
-      priority: 1,
+      priority: 1.0,
     },
-    {
-      url: `${siteUrl}/about-us`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${siteUrl}/services`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${siteUrl}/blog`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.85,
-    },
-    {
-      url: `${siteUrl}/gallery`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.75,
-    },
-    {
-      url: `${siteUrl}/faqs`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.75,
-    },
-    {
-      url: `${siteUrl}/reviews`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${siteUrl}/oil-changes`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    ...getAllServiceSlugs().map((slug) => ({
-      url: `${siteUrl}/${slug}`,
-      lastModified: new Date(),
+    ...mainPaths.map((path) => ({
+      url: `${SITE_URL}${path}`,
+      lastModified: lastmod,
       changeFrequency: "monthly" as const,
-      priority: 0.85,
+      priority: 0.8,
     })),
-    {
-      url: `${siteUrl}/contact-us`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${siteUrl}/sitemap`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.4,
-    },
-    {
-      url: `${siteUrl}/privacy-policy`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.4,
-    },
-    {
-      url: `${siteUrl}/ai-policy`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.4,
-    },
-    {
-      url: `${siteUrl}/ai-readiness-service-index`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.5,
-    },
     ...posts.map((post) => ({
-      url: `${siteUrl}/blog/${post.slug}`,
+      url: `${SITE_URL}/blog/${post.slug}`,
       lastModified: new Date(post.publishedAt),
       changeFrequency: "monthly" as const,
-      priority: 0.7,
+      priority: 0.8,
     })),
   ];
 }
