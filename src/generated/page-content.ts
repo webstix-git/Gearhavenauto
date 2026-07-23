@@ -10,7 +10,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       <div style="max-width:660px">
         <h1 data-reveal style="font-family:'Bricolage Grotesque';font-weight:700;font-size:66px;line-height:1.02;letter-spacing:-1.5px;color:#fff;margin:0 0 20px">Your Vehicle's Safe Haven</h1>
         <p data-reveal style="font-size:18px;line-height:1.5;color:#CBD6E0;font-weight:500;margin:0 0 16px;max-width:600px">Trusted Auto &amp; Diesel Repair for Cars, Trucks &amp; Fleets in Nixa, Missouri</p>
-        <p data-reveal style="font-size:18px;line-height:1.6;color:#b2c0cd;margin:0 0 34px;max-width:600px">Whether you're maintaining a family SUV, diagnosing a check engine light, repairing a work truck, or managing an entire fleet, Gearhaven Auto &amp; Diesel delivers honest recommendations, expert repairs, and clear communication every step of the way.</p>
+        <p data-reveal style="font-size:18px;line-height:1.6;color:#b2c0cd;margin:0 0 34px;max-width:600px">Whether you're maintaining a family SUV, diagnosing a check engine light, repairing a work truck, or managing an entire <a href="/fleet-vehicles" class="gh-inline-link gh-inline-link--on-dark">fleet</a>, Gearhaven Auto &amp; Diesel delivers honest recommendations, expert repairs, and clear communication every step of the way.</p>
         <div data-reveal style="display:flex;gap:14px;flex-wrap:wrap">
           <a href="/contact-us" class="gh-btn-outline" style="display:inline-flex;align-items:center;background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px">Request an Estimate</a>
         </div>
@@ -44,7 +44,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
         <div style="font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#3E5C76;margin-bottom:12px">About Gearhaven</div>
         <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:40px;line-height:1.1;letter-spacing:-1px;margin:0 0 18px;color:#14202B">Grounded in Experience. Driven by Quality.</h2>
         <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 16px">At Gearhaven Auto &amp; Diesel, we believe every vehicle deserves expert care and every customer deserves honest answers.</p>
-        <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 26px">From routine maintenance to complex diesel work, our team delivers quality repairs, clear communication, and dependable service for drivers of cars, trucks, SUVs, fleet vehicles, and diesel pickups throughout Southwest Missouri.</p>
+        <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 26px">From <a href="/preventive-maintenance" class="gh-inline-link">routine maintenance</a> to complex <a href="/auto-shop" class="gh-inline-link">diesel work</a>, our team delivers quality repairs, clear communication, and dependable service for drivers of cars, trucks, SUVs, fleet vehicles, and diesel pickups throughout Southwest Missouri.</p>
         <a href="/about-us" style="display:inline-flex;align-items:center;gap:9px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:16px;padding:14px 24px;border-radius:9px;white-space:nowrap;box-shadow:0 8px 20px -8px rgba(61,109,146,.45)" class="gh-btn-solid">Read Our Story
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
         </a>
@@ -69,7 +69,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
         <div style="padding:26px 26px 30px">
           <div style="margin-bottom:12px"><h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:24px;margin:0">Cars</h3>
           </div>
-          <p style="font-size:15.5px;line-height:1.6;color:#5C6B76;margin:0">Preventative maintenance, diagnostics, repairs, tires, alignments, inspections, and more.</p>
+          <p style="font-size:15.5px;line-height:1.6;color:#5C6B76;margin:0">Preventative maintenance, diagnostics, repairs, <a href="/tires" class="gh-inline-link">tires</a>, alignments, inspections, and more.</p>
         </div>
       </div>
       <!-- Trucks -->
@@ -321,7 +321,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
         <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:40px;line-height:1.1;letter-spacing:-1px;margin:0 0 18px">Protect Your Investment</h2>
         <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 16px">Your vehicle is one of the biggest investments you make.</p>
         <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 16px">At Gearhaven Auto &amp; Diesel, we don't just repair vehicles. We help you maintain them, understand them, and get the most life possible out of them.</p>
-        <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 26px">Our goal is simple: help you avoid costly breakdowns, make informed decisions, and stay safe on the road.</p>
+        <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 26px">Our goal is simple: help you avoid costly breakdowns, make informed decisions, and stay safe on the road, starting with regular <a href="/oil-changes" class="gh-inline-link">oil changes</a> and honest recommendations.</p>
         <div style="display:flex;gap:30px;flex-wrap:wrap">
           <div><div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:26px;color:#14202B">Honesty</div><div style="font-size:14px;color:#4A5A66">before profits</div></div>
           <div style="width:1px;background:#E7E4DD"></div>

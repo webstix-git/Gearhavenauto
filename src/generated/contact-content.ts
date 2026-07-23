@@ -45,7 +45,8 @@ export const CONTACT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
             </div>
             <div>
               <label style="display:block;font-size:13.5px;font-weight:600;color:#3D4B56;margin-bottom:7px">Phone <span style="color:#B42318" aria-hidden="true">*</span></label>
-              <input class="gh-input" type="tel" name="phone" placeholder="+1 (417) 000-0000" inputmode="tel" autocomplete="tel" required="" pattern="\+?[\d\s().\-]{8,22}" title="Enter a valid phone number with 8–15 digits. The + is optional.">
+              <input class="gh-input" type="tel" name="phone" placeholder="+1 (417) 319-4798" inputmode="tel" autocomplete="tel" required="" title="Enter a valid international phone number (8–15 digits). Example: +1 (417) 319-4798">
+
             </div>
           </div>
           <div>

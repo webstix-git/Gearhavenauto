@@ -97,8 +97,33 @@ export function useGhContactForm() {
       'input[name="phone"]'
     ) as HTMLInputElement | null;
 
-    const clearPhoneError = () => {
-      phoneInput?.setCustomValidity("");
+    const applyPhoneValidity = () => {
+      if (!phoneInput) return true;
+      if (!isValidInternationalPhone(phoneInput.value)) {
+        phoneInput.setCustomValidity(PHONE_VALIDATION_MESSAGE);
+        return false;
+      }
+      phoneInput.setCustomValidity("");
+      return true;
+    };
+
+    const onPhoneInput = () => {
+      // Clear stale errors while typing; re-check when value looks complete enough
+      if (!phoneInput) return;
+      if (!phoneInput.value.trim()) {
+        phoneInput.setCustomValidity("");
+        return;
+      }
+      applyPhoneValidity();
+    };
+
+    const onPhoneBlur = () => {
+      if (!phoneInput?.value.trim()) {
+        phoneInput?.setCustomValidity("");
+        return;
+      }
+      applyPhoneValidity();
+      phoneInput?.reportValidity();
     };
 
     const onSubmit = async (e: Event) => {
@@ -110,13 +135,10 @@ export function useGhContactForm() {
         'button[type="submit"]'
       ) as HTMLButtonElement | null;
 
-      if (phoneInput) {
-        if (!isValidInternationalPhone(phoneInput.value)) {
-          phoneInput.setCustomValidity(PHONE_VALIDATION_MESSAGE);
-          phoneInput.reportValidity();
-          return;
-        }
-        phoneInput.setCustomValidity("");
+      applyPhoneValidity();
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
       }
 
       if (submitBtn) {
@@ -184,10 +206,12 @@ export function useGhContactForm() {
       }
     };
 
-    phoneInput?.addEventListener("input", clearPhoneError);
+    phoneInput?.addEventListener("input", onPhoneInput);
+    phoneInput?.addEventListener("blur", onPhoneBlur);
     form.addEventListener("submit", onSubmit);
     return () => {
-      phoneInput?.removeEventListener("input", clearPhoneError);
+      phoneInput?.removeEventListener("input", onPhoneInput);
+      phoneInput?.removeEventListener("blur", onPhoneBlur);
       form.removeEventListener("submit", onSubmit);
     };
   }, []);

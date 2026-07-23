@@ -1,4 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
+import {
+  isValidInternationalPhone,
+  normalizeInternationalPhone,
+  PHONE_VALIDATION_MESSAGE,
+} from "@/lib/phone";
 import { verifyTurnstileToken } from "@/lib/turnstile";
 
 const FORM_SUBMIT_URL =
@@ -23,6 +28,17 @@ export async function POST(request: NextRequest) {
         { status: 400 }
       );
     }
+
+    const phone = String(formData.get("phone") || "");
+    if (!isValidInternationalPhone(phone)) {
+      return NextResponse.json(
+        { ok: false, error: PHONE_VALIDATION_MESSAGE },
+        { status: 400 }
+      );
+    }
+
+    // Store a normalized international value (optional + and digits only)
+    formData.set("phone", normalizeInternationalPhone(phone));
 
     // Do not forward captcha fields to the form backend
     formData.delete("cf-turnstile-response");

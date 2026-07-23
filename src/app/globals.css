@@ -1040,8 +1040,28 @@ details[open] .gh-chev {
   }
 }
 
-/* Contact form */
-.gh-input {
+/* Contextual in-content links */
+.gh-inline-link {
+  color: #3e5c76;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  transition: color 0.2s ease;
+}
+
+.gh-inline-link:hover {
+  color: #2c4257;
+}
+
+.gh-inline-link--on-dark {
+  color: #6d9dc5;
+}
+
+.gh-inline-link--on-dark:hover {
+  color: #9ec2e0;
+}
+
   width: 100%;
   border: 1px solid #e4e0d8;
   border-radius: 10px;
