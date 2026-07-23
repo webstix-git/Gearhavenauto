@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Meet the Gearhaven team in Nixa. Learn our story, values, and how we deliver honest auto and diesel repair for drivers across the Ozarks every day.",
   alternates: {
-    canonical: "/about",
+    canonical: "/about-us",
   },
 };
 

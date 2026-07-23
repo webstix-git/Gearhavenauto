@@ -10,7 +10,17 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/get-a-quote",
-        destination: "/contact",
+        destination: "/contact-us",
+        permanent: true,
+      },
+      {
+        source: "/about",
+        destination: "/about-us",
+        permanent: true,
+      },
+      {
+        source: "/contact",
+        destination: "/contact-us",
         permanent: true,
       },
     ];

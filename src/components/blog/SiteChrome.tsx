@@ -169,13 +169,13 @@ export function SiteFooter() {
               fontSize: 14.5,
             }}
           >
-            <Link href="/about">About Us</Link>
-            <Link href="/about#team">Our Team</Link>
+            <Link href="/about-us">About Us</Link>
+            <Link href="/about-us#team">Our Team</Link>
             <Link href="/#reviews">Reviews</Link>
             <Link href="/blog">Blog</Link>
             <Link href="/gallery">Gallery</Link>
             <Link href="/faqs">FAQs</Link>
-            <Link href="/#contact">Contact Us</Link>
+            <Link href="/contact-us">Contact Us</Link>
           </div>
         </div>
         <div>

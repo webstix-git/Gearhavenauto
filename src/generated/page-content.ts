@@ -12,7 +12,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
         <p data-reveal style="font-size:18px;line-height:1.5;color:#CBD6E0;font-weight:500;margin:0 0 16px;max-width:600px">Trusted Auto &amp; Diesel Repair for Cars, Trucks &amp; Fleets in Nixa, Missouri</p>
         <p data-reveal style="font-size:18px;line-height:1.6;color:#b2c0cd;margin:0 0 34px;max-width:600px">Whether you're maintaining a family SUV, diagnosing a check engine light, repairing a work truck, or managing an entire fleet, Gearhaven Auto &amp; Diesel delivers honest recommendations, expert repairs, and clear communication every step of the way.</p>
         <div data-reveal style="display:flex;gap:14px;flex-wrap:wrap">
-          <a href="/contact" class="gh-btn-outline" style="display:inline-flex;align-items:center;background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px">Request an Estimate</a>
+          <a href="/contact-us" class="gh-btn-outline" style="display:inline-flex;align-items:center;background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px">Request an Estimate</a>
         </div>
       </div>
     </div>
@@ -45,7 +45,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
         <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:40px;line-height:1.1;letter-spacing:-1px;margin:0 0 18px;color:#14202B">Grounded in Experience. Driven by Quality.</h2>
         <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 16px">At Gearhaven Auto &amp; Diesel, we believe every vehicle deserves expert care and every customer deserves honest answers.</p>
         <p style="font-size:17px;line-height:1.65;color:#5C6B76;margin:0 0 26px">From routine maintenance to complex diesel work, our team delivers quality repairs, clear communication, and dependable service for drivers of cars, trucks, SUVs, fleet vehicles, and diesel pickups throughout Southwest Missouri.</p>
-        <a href="/about" style="display:inline-flex;align-items:center;gap:9px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:16px;padding:14px 24px;border-radius:9px;white-space:nowrap;box-shadow:0 8px 20px -8px rgba(61,109,146,.45)" class="gh-btn-solid">Read Our Story
+        <a href="/about-us" style="display:inline-flex;align-items:center;gap:9px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:16px;padding:14px 24px;border-radius:9px;white-space:nowrap;box-shadow:0 8px 20px -8px rgba(61,109,146,.45)" class="gh-btn-solid">Read Our Story
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
         </a>
       </div>
@@ -393,7 +393,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.6 4.2h2.2c.5 0 .9.3 1 .8l.5 2.4a1 1 0 0 1-.3 1l-1.4 1.4a13.5 13.5 0 0 0 5.8 5.8l1.4-1.4a1 1 0 0 1 1-.3l2.4.5c.5.1.8.5.8 1v2.2a1.8 1.8 0 0 1-1.8 1.8C9.8 19.2 4.8 14.2 4.8 6.6A1.8 1.8 0 0 1 6.6 4.2z"></path></svg>
             417-319-4798
           </a>
-          <a href="/contact" style="display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 28px;border-radius:10px" class="gh-hover-26">Request an Appointment</a>
+          <a href="/contact-us" style="display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 28px;border-radius:10px" class="gh-hover-26">Request an Appointment</a>
         </div>
       </div>
       <div data-reveal style="background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:18px;padding:32px">
@@ -437,11 +437,11 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       <div id="fleet">
         <div style="color:#fff;font-weight:700;font-size:18px;margin-bottom:16px;font-family:'Bricolage Grotesque'">Company</div>
         <div class="gh-footer-company" style="display:flex;flex-direction:column;gap:10px;font-size:14.5px">
-          <a href="/about" class="gh-hover-32">About Us</a>
+          <a href="/about-us" class="gh-hover-32">About Us</a>
           <a href="/reviews" class="gh-hover-33">Reviews</a>
           <a href="/blog" class="gh-hover-34">Blog</a>
           <a href="/gallery" class="gh-hover-35">Gallery</a>
-          <a href="#contact" class="gh-hover-36">Contact Us</a>
+          <a href="/contact-us" class="gh-hover-36">Contact Us</a>
         </div>
       </div>
       <div>

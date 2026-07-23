@@ -16,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${siteUrl}/about`,
+      url: `${siteUrl}/about-us`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
@@ -64,7 +64,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     })),
     {
-      url: `${siteUrl}/contact`,
+      url: `${siteUrl}/contact-us`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.9,

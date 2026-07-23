@@ -370,11 +370,11 @@ export const REVIEWS_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       <div>
         <div style="color:#fff;font-weight:700;font-size:18px;margin-bottom:16px;font-family:'Bricolage Grotesque'">Company</div>
         <div class="gh-footer-company" style="display:flex;flex-direction:column;gap:10px;font-size:14.5px">
-          <a href="/about" class="gh-hover-343">About Us</a>
-          <a href="/about#team" class="gh-hover-344">Our Team</a>
+          <a href="/about-us" class="gh-hover-343">About Us</a>
+          <a href="/about-us#team" class="gh-hover-344">Our Team</a>
           <a href="#top" class="gh-hover-345">Reviews</a>
           <a href="/faqs" class="gh-hover-346">FAQs</a>
-          <a href="#contact" class="gh-hover-347">Contact Us</a>
+          <a href="/contact-us" class="gh-hover-347">Contact Us</a>
         </div>
       </div>
       <div>

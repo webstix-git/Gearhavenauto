@@ -25,13 +25,13 @@ function linkGroup(title: string, links: { href: string; label: string }[]) {
 
 const mainLinks = [
   { href: "/", label: "Home" },
-  { href: "/about", label: "About Us" },
+  { href: "/about-us", label: "About Us" },
   { href: "/services", label: "Services" },
   { href: "/reviews", label: "Testimonials" },
   { href: "/blog", label: "Blog" },
   { href: "/faqs", label: "FAQs" },
   { href: "/gallery", label: "Gallery" },
-  { href: "/contact", label: "Contact Us" },
+  { href: "/contact-us", label: "Contact Us" },
 ];
 
 const serviceLinks = [
@@ -202,7 +202,7 @@ export const AI_READINESS_SERVICE_INDEX_HTML = buildUtilityPageHtml({
         <li><strong>Phone:</strong> <a href="tel:4173194798" style="color:#3E5C76;font-weight:600">${SITE_PHONE}</a></li>
         <li><strong>Email:</strong> <a href="mailto:${SITE_EMAIL}" style="color:#3E5C76;font-weight:600">${SITE_EMAIL}</a></li>
         <li><strong>Hours:</strong> ${SITE_HOURS_CONTACT_HTML}</li>
-        <li><strong>Appointment:</strong> <a href="/contact" style="color:#3E5C76;font-weight:600">Contact Us</a></li>
+        <li><strong>Appointment:</strong> <a href="/contact-us" style="color:#3E5C76;font-weight:600">Contact Us</a></li>
       </ul>
     </div>
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Call 417-319-4798, email collen@gearhaven.com, or request an appointment online. Gearhaven Auto & Diesel is ready to help drivers in Nixa, MO.",
   alternates: {
-    canonical: "/contact",
+    canonical: "/contact-us",
   },
 };
 

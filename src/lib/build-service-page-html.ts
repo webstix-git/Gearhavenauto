@@ -379,7 +379,7 @@ function ctaSection(data: ServicePageData): string {
             ${PHONE_CTA_ICON}
             417-319-4798
           </a>
-          <a href="/contact" style="display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 28px;border-radius:10px" class="gh-btn-outline">Request Appointment</a>
+          <a href="/contact-us" style="display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 28px;border-radius:10px" class="gh-btn-outline">Request Appointment</a>
           <a href="/services#top" style="display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 28px;border-radius:10px" class="gh-btn-outline">All Services</a>
         </div>
       </div>
@@ -438,7 +438,7 @@ export function buildServicePageHtml(data: ServicePageData): string {
           <div style="font-family:'Bricolage Grotesque';font-weight:700;font-size:22px;color:#14202B;margin:0 0 14px">${data.why.callout.title}</div>
           <div style="display:flex;gap:12px;flex-wrap:wrap">
             <a href="tel:4173194798" class="gh-btn-solid" style="display:inline-flex;align-items:center;gap:10px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:15px;padding:14px 22px;border-radius:9px">Call 417-319-4798</a>
-            <a href="/contact" class="gh-btn-outline" style="display:inline-flex;align-items:center;gap:10px;background:#fff;border:1.5px solid #D8D3CB;color:#14202B;font-weight:700;font-size:15px;padding:14px 22px;border-radius:9px">${data.why.callout.ctaLabel}</a>
+            <a href="/contact-us" class="gh-btn-outline" style="display:inline-flex;align-items:center;gap:10px;background:#fff;border:1.5px solid #D8D3CB;color:#14202B;font-weight:700;font-size:15px;padding:14px 22px;border-radius:9px">${data.why.callout.ctaLabel}</a>
           </div>
         </div>` : ""}
         ${data.why.stats?.length ? `<div style="display:flex;gap:30px;flex-wrap:wrap">
@@ -503,11 +503,11 @@ export function buildServicePageHtml(data: ServicePageData): string {
       <div>
         <div style="color:#fff;font-weight:700;font-size:18px;margin-bottom:16px;font-family:'Bricolage Grotesque'">Company</div>
         <div class="gh-footer-company" style="display:flex;flex-direction:column;gap:10px;font-size:14.5px">
-          <a href="/about" class="gh-hover-svc">About Us</a>
-          <a href="/about#team" class="gh-hover-svc">Our Team</a>
+          <a href="/about-us" class="gh-hover-svc">About Us</a>
+          <a href="/about-us#team" class="gh-hover-svc">Our Team</a>
           <a href="/reviews" class="gh-hover-svc">Reviews</a>
           <a href="/faqs" class="gh-hover-svc">FAQs</a>
-          <a href="/contact" class="gh-hover-svc">Contact Us</a>
+          <a href="/contact-us" class="gh-hover-svc">Contact Us</a>
         </div>
       </div>
       <div>

@@ -11,12 +11,12 @@ const DEFAULT_SERVICES_LINKS = `
           <a href="/digital-inspection" class="gh-footer-legal-link">Free Digital Inspection</a>`;
 
 const DEFAULT_COMPANY_LINKS = `
-          <a href="/about" class="gh-footer-legal-link">About Us</a>
+          <a href="/about-us" class="gh-footer-legal-link">About Us</a>
           <a href="/reviews" class="gh-footer-legal-link">Reviews</a>
           <a href="/blog" class="gh-footer-legal-link">Blog</a>
           <a href="/gallery" class="gh-footer-legal-link">Gallery</a>
           <a href="/faqs" class="gh-footer-legal-link">FAQs</a>
-          <a href="/contact" class="gh-footer-legal-link">Contact Us</a>`;
+          <a href="/contact-us" class="gh-footer-legal-link">Contact Us</a>`;
 
 export type UtilityPageOptions = {
   badge: string;

@@ -38,12 +38,12 @@ export const MAIN_NAV: NavLink[] = [
     match: SERVICE_PATHS,
     children: SERVICE_LINKS,
   },
-  { label: "About Us", href: "/about", match: ["/about"] },
+  { label: "About Us", href: "/about-us", match: ["/about-us"] },
   { label: "Testimonials", href: "/reviews", match: ["/reviews"] },
   { label: "Blog", href: "/blog", match: ["/blog"] },
   { label: "FAQs", href: "/faqs", match: ["/faqs"] },
   { label: "Gallery", href: "/gallery", match: ["/gallery"] },
-  { label: "Contact Us", href: "/contact", match: ["/contact"] },
+  { label: "Contact Us", href: "/contact-us", match: ["/contact-us"] },
 ];
 
 export function isNavActive(pathname: string, item: NavLink): boolean {

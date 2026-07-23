@@ -121,7 +121,7 @@ export const CONTACT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       <div>
         <div style="color:#fff;font-weight:700;font-size:18px;margin-bottom:16px;font-family:'Bricolage Grotesque'">Company</div>
         <div class="gh-footer-company" style="display:flex;flex-direction:column;gap:10px;font-size:14.5px">
-          <a href="/about" class="gh-hover-436">About Us</a>
+          <a href="/about-us" class="gh-hover-436">About Us</a>
           <a href="/gallery" class="gh-hover-437">Gallery</a>
           <a href="/reviews" class="gh-hover-438">Reviews</a>
           <a href="/faqs" class="gh-hover-439">FAQs</a>

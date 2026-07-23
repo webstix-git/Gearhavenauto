@@ -19,7 +19,7 @@ const posts: BlogPost[] = [
         <li><strong>Oxygen sensor failure</strong>, affects fuel trim and emissions; hurts MPG if ignored</li>
         <li><strong>Catalytic converter issues</strong>, often a downstream result of unaddressed misfires</li>
         <li><strong>Mass airflow or EVAP system faults</strong>, common on higher-mileage vehicles</li>
-      </ul>`, `<h2>What to do when the light comes on</h2>`, `<p>If the light is steady (not flashing) and the vehicle drives normally, schedule a diagnostic appointment within a few days. A <strong>flashing</strong> check engine light usually indicates an active misfire, reduce load and get it checked promptly to avoid catalytic converter damage.</p>`, `<p>At Gearhaven, we use professional scan tools and live data to pinpoint the root cause, not just replace parts and hope. We'll explain what we find in plain language and give you honest options before any work begins.</p>`, `<p><a href="/contact">Schedule a diagnostic appointment</a> or call us at <a href="tel:4173194798">417-319-4798</a>.</p>`
+      </ul>`, `<h2>What to do when the light comes on</h2>`, `<p>If the light is steady (not flashing) and the vehicle drives normally, schedule a diagnostic appointment within a few days. A <strong>flashing</strong> check engine light usually indicates an active misfire, reduce load and get it checked promptly to avoid catalytic converter damage.</p>`, `<p>At Gearhaven, we use professional scan tools and live data to pinpoint the root cause, not just replace parts and hope. We'll explain what we find in plain language and give you honest options before any work begins.</p>`, `<p><a href="/contact-us">Schedule a diagnostic appointment</a> or call us at <a href="tel:4173194798">417-319-4798</a>.</p>`
     ), }, {
     slug: "summer-vehicle-maintenance-missouri", title: "Summer Vehicle Maintenance Checklist for Missouri Drivers",
       metaTitle: "Summer Car Maintenance for Missouri",
@@ -50,7 +50,7 @@ const posts: BlogPost[] = [
         <li>Diesel trucks, many independents specialize deeper than general dealer lanes</li>
         <li>Fleet accounts needing flexible scheduling and consolidated billing</li>
         <li>Drivers who want to talk directly with the technician working on their car</li>
-      </ul>`, `<h2>What to look for in any shop</h2>`, `<p>ASE certifications, clear written estimates, photos or digital inspections, and willingness to explain repairs in plain language. At Gearhaven, we treat every vehicle like it belongs to family, because in Nixa, it often does.</p>`, `<p><a href="/about">Learn about our team</a> or <a href="/services">see our full service list</a>.</p>`
+      </ul>`, `<h2>What to look for in any shop</h2>`, `<p>ASE certifications, clear written estimates, photos or digital inspections, and willingness to explain repairs in plain language. At Gearhaven, we treat every vehicle like it belongs to family, because in Nixa, it often does.</p>`, `<p><a href="/about-us">Learn about our team</a> or <a href="/services">see our full service list</a>.</p>`
     ), },
 ];
 
