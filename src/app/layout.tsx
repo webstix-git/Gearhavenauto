@@ -58,9 +58,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <a href="#main-content" className="gh-skip-link">
+          Skip to main content
+        </a>
         <SiteHeader />
         <GhHeaderScroll />
-        {children}
+        <main id="main-content" tabIndex={-1}>
+          {children}
+        </main>
       </body>
     </html>
   );

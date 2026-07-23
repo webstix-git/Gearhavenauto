@@ -23,6 +23,36 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* G1: Skip link — first focusable control; visible on focus */
+.gh-skip-link {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  z-index: 10000;
+  padding: 12px 18px;
+  background: #14202b;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 2px solid #6d9dc5;
+  box-shadow: 0 8px 24px -12px rgba(0, 0, 0, 0.45);
+  transform: translateY(-160%);
+  transition: transform 0.15s ease;
+}
+
+.gh-skip-link:focus,
+.gh-skip-link:focus-visible {
+  outline: 3px solid #6d9dc5;
+  outline-offset: 3px;
+  transform: translateY(0);
+}
+
+#main-content:focus {
+  outline: none;
+}
+
 /* Body copy in generated pages */
 body p {
   font-size: 18px !important;
