@@ -57,7 +57,10 @@ export function SiteHeader() {
           gap: 20,
         }}
       >
-        <Link href="/" style={{ display: "flex", alignItems: "center", flexShrink: 0 }}>
+        <Link
+          href="/"
+          style={{ display: "flex", alignItems: "center", flexShrink: 0 }}
+        >
           <img
             id="gh-logo"
             src="/images/asset-0-a596b110.png"
@@ -73,6 +76,7 @@ export function SiteHeader() {
         </Link>
 
         <nav
+          id="gh-site-nav"
           className={`gh-site-nav ${mobileOpen ? "gh-site-nav-open" : ""}`}
           aria-label="Main navigation"
         >
@@ -110,7 +114,9 @@ export function SiteHeader() {
                         aria-expanded={servicesOpen}
                         aria-haspopup="true"
                         onClick={(e) => {
-                          if (window.matchMedia("(max-width: 1024px)").matches) {
+                          if (
+                            window.matchMedia("(max-width: 1024px)").matches
+                          ) {
                             e.preventDefault();
                             setServicesOpen((o) => !o);
                           } else {
@@ -155,7 +161,10 @@ export function SiteHeader() {
                       <ul className="gh-nav-dropdown-grid">
                         {item.children.map((child) => (
                           <li key={child.href + child.label}>
-                            <Link href={child.href} className="gh-nav-dropdown-link">
+                            <Link
+                              href={child.href}
+                              className="gh-nav-dropdown-link"
+                            >
                               {child.label}
                             </Link>
                           </li>
@@ -168,7 +177,11 @@ export function SiteHeader() {
 
               return (
                 <li key={item.label}>
-                  <Link href={item.href} style={linkStyle(active)} className="gh-nav-link">
+                  <Link
+                    href={item.href}
+                    style={linkStyle(active)}
+                    className="gh-nav-link"
+                  >
                     {item.label}
                   </Link>
                 </li>
@@ -219,11 +232,12 @@ export function SiteHeader() {
           className="gh-nav-toggle"
           aria-label={mobileOpen ? "Close menu" : "Open menu"}
           aria-expanded={mobileOpen}
+          aria-controls="gh-site-nav"
           onClick={() => setMobileOpen((o) => !o)}
         >
-          <span />
-          <span />
-          <span />
+          <span aria-hidden="true" />
+          <span aria-hidden="true" />
+          <span aria-hidden="true" />
         </button>
       </div>
     </header>
