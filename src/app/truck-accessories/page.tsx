@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { absoluteUrl } from "@/lib/site-url";
-import { ServiceDetailPage } from "@/components/ServiceDetailPage";
+import { ServicePageWithSchema } from "@/components/ServicePageWithSchema";
 import { getServicePage } from "@/data/service-pages";
 
 const slug = "truck-accessories";
@@ -13,5 +13,5 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <ServiceDetailPage slug={slug} />;
+  return <ServicePageWithSchema slug={slug} />;
 }

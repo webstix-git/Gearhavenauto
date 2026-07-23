@@ -2,11 +2,16 @@ import type { Metadata } from "next";
 import { absoluteUrl } from "@/lib/site-url";
 import { notFound } from "next/navigation";
 import { BlogPostView } from "@/components/blog/BlogPostView";
+import { JsonLd } from "@/components/JsonLd";
 import {
   getAllSlugs,
   getPostBySlug,
   getRelatedPosts,
 } from "@/data/blog-posts";
+import {
+  blogPostingSchema,
+  breadcrumbSchema,
+} from "@/lib/structured-data";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -39,5 +44,19 @@ export default async function BlogArticlePage({ params }: Props) {
   if (!post) notFound();
 
   const related = getRelatedPosts(post);
-  return <BlogPostView post={post} related={related} />;
+  return (
+    <>
+      <JsonLd
+        data={[
+          blogPostingSchema(post),
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Blog", path: "/blog" },
+            { name: post.title, path: `/blog/${post.slug}` },
+          ]),
+        ]}
+      />
+      <BlogPostView post={post} related={related} />
+    </>
+  );
 }

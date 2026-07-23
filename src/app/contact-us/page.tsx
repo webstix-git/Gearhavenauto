@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import { absoluteUrl } from "@/lib/site-url";
 import { ContactPage } from "@/components/ContactPage";
+import { JsonLd } from "@/components/JsonLd";
+import {
+  breadcrumbSchema,
+  contactPageSchema,
+} from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "Contact Us in Nixa, MO",
@@ -12,5 +17,18 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <ContactPage />;
+  return (
+    <>
+      <JsonLd
+        data={[
+          contactPageSchema(),
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Contact Us", path: "/contact-us" },
+          ]),
+        ]}
+      />
+      <ContactPage />
+    </>
+  );
 }

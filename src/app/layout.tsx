@@ -1,6 +1,12 @@
 import type { Metadata, Viewport } from "next";
 import { GhHeaderScroll } from "@/components/GhHeaderScroll";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
+import { JsonLd } from "@/components/JsonLd";
 import { SiteHeader } from "@/components/SiteHeader";
+import {
+  localBusinessSchema,
+  websiteSchema,
+} from "@/lib/structured-data";
 import { SITE_URL } from "@/lib/site-url";
 import "./globals.css";
 
@@ -58,9 +64,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <GoogleAnalytics />
         <a href="#main-content" className="gh-skip-link">
           Skip to main content
         </a>
+        <JsonLd data={[localBusinessSchema(), websiteSchema()]} />
         <SiteHeader />
         <GhHeaderScroll />
         <main id="main-content" tabIndex={-1}>
