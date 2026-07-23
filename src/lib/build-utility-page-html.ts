@@ -37,7 +37,7 @@ export function buildUtilityPageHtml(options: UtilityPageOptions): string {
     <div style="position:absolute;inset:0;background:linear-gradient(135deg,#14202B 0%,#2C4257 55%,#3E5C76 100%)"></div>
     <div style="position:relative;max-width:1240px;margin:0 auto;padding:200px 28px 88px" class="gh-hero-inner gh-utility-hero-inner">
       <div style="max-width:760px">
-        <div data-reveal style="display:inline-flex;align-items:center;gap:9px;background:rgba(109,157,197,.18);border:1px solid rgba(109,157,197,.45);color:#CFE0EE;font-weight:600;font-size:13.5px;letter-spacing:.4px;text-transform:uppercase;padding:8px 15px;border-radius:100px;margin-bottom:26px">
+        <div data-reveal style="display:inline-flex;align-items:center;gap:9px;background:rgba(109,157,197,.18);border:1px solid rgba(109,157,197,.45);color:#ffffff;font-weight:600;font-size:13.5px;letter-spacing:.4px;text-transform:uppercase;padding:8px 15px;border-radius:100px;margin-bottom:26px">
           <span style="width:7px;height:7px;border-radius:50%;background:#6D9DC5"></span>${options.badge}
         </div>
         <h1 data-reveal style="font-family:'Bricolage Grotesque';font-weight:700;font-size:52px;line-height:1.06;letter-spacing:-1.4px;color:#fff;margin:0 0 18px">${options.title}</h1>
@@ -72,7 +72,7 @@ export function buildUtilityPageHtml(options: UtilityPageOptions): string {
       </div>
       <div>
         <div style="color:#fff;font-weight:700;font-size:18px;margin-bottom:16px;font-family:'Bricolage Grotesque'">Company</div>
-        <div style="display:flex;flex-direction:column;gap:10px;font-size:14.5px">${DEFAULT_COMPANY_LINKS}
+        <div class="gh-footer-company" style="display:flex;flex-direction:column;gap:10px;font-size:14.5px">${DEFAULT_COMPANY_LINKS}
         </div>
       </div>
       <div>

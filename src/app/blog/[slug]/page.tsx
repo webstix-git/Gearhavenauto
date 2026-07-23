@@ -19,12 +19,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return { title: "Article Not Found" };
 
   return {
-    title: post.title,
-    description: post.excerpt,
+    title: post.metaTitle,
+    description: post.metaDescription,
     alternates: { canonical: `/blog/${slug}` },
     openGraph: {
-      title: post.title,
-      description: post.excerpt,
+      title: `${post.metaTitle} | Gearhaven`,
+      description: post.metaDescription,
       type: "article",
       publishedTime: post.publishedAt,
       images: [{ url: post.image }],

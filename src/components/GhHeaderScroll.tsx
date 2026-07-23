@@ -13,10 +13,12 @@ export function GhHeaderScroll() {
       if (solid === solidState) return;
       solidState = solid;
       if (header) {
-        header.style.background = solid ? "#0E1720" : "transparent";
+        header.style.background = solid
+          ? "#0E1720"
+          : "rgba(14, 23, 32, 0.88)";
         header.style.boxShadow = solid
           ? "0 8px 28px -14px rgba(0,0,0,.7)"
-          : "none";
+          : "0 8px 24px -16px rgba(0,0,0,.45)";
       }
       if (inner) {
         const mobile = window.matchMedia("(max-width: 1024px)").matches;

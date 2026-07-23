@@ -38,7 +38,8 @@ export function SiteHeader() {
         left: 0,
         right: 0,
         zIndex: 60,
-        background: "transparent",
+        background: "rgba(14, 23, 32, 0.88)",
+        boxShadow: "0 8px 24px -16px rgba(0,0,0,.45)",
         transition:
           "background .35s ease, box-shadow .35s ease, padding .3s ease",
       }}
@@ -84,40 +85,72 @@ export function SiteHeader() {
                   <li
                     key={item.label}
                     className={`gh-nav-dropdown ${servicesOpen ? "gh-nav-dropdown-open" : ""}`}
-                    onMouseEnter={() => setServicesOpen(true)}
-                    onMouseLeave={() => setServicesOpen(false)}
+                    onMouseEnter={() => {
+                      if (
+                        typeof window !== "undefined" &&
+                        !window.matchMedia("(max-width: 1024px)").matches
+                      ) {
+                        setServicesOpen(true);
+                      }
+                    }}
+                    onMouseLeave={() => {
+                      if (
+                        typeof window !== "undefined" &&
+                        !window.matchMedia("(max-width: 1024px)").matches
+                      ) {
+                        setServicesOpen(false);
+                      }
+                    }}
                   >
-                    <Link
-                      href={item.href}
-                      style={linkStyle(active)}
-                      className="gh-nav-link"
-                      aria-expanded={servicesOpen}
-                      aria-haspopup="true"
-                      onClick={(e) => {
-                        if (window.matchMedia("(max-width: 1024px)").matches) {
-                          e.preventDefault();
-                          setServicesOpen((o) => !o);
-                        } else {
-                          setServicesOpen(false);
-                        }
-                      }}
-                    >
-                      {item.label}
-                      <svg
-                        className="gh-nav-chevron"
-                        width="12"
-                        height="12"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        aria-hidden="true"
+                    <div className="gh-nav-dropdown-trigger">
+                      <Link
+                        href={item.href}
+                        style={linkStyle(active)}
+                        className="gh-nav-link"
+                        aria-expanded={servicesOpen}
+                        aria-haspopup="true"
+                        onClick={(e) => {
+                          if (window.matchMedia("(max-width: 1024px)").matches) {
+                            e.preventDefault();
+                            setServicesOpen((o) => !o);
+                          } else {
+                            setServicesOpen(false);
+                          }
+                        }}
                       >
-                        <path d="m6 9 6 6 6-6" />
-                      </svg>
-                    </Link>
+                        {item.label}
+                      </Link>
+                      <button
+                        type="button"
+                        className="gh-nav-chevron-btn"
+                        aria-label={
+                          servicesOpen
+                            ? "Close services menu"
+                            : "Open services menu"
+                        }
+                        aria-expanded={servicesOpen}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          setServicesOpen((o) => !o);
+                        }}
+                      >
+                        <svg
+                          className="gh-nav-chevron"
+                          width="12"
+                          height="12"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          aria-hidden="true"
+                        >
+                          <path d="m6 9 6 6 6-6" />
+                        </svg>
+                      </button>
+                    </div>
                     <div className="gh-nav-dropdown-panel">
                       <ul className="gh-nav-dropdown-grid">
                         {item.children.map((child) => (

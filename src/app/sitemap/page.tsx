@@ -3,9 +3,9 @@ import { UtilityPage } from "@/components/UtilityPage";
 import { SITEMAP_HTML } from "@/lib/utility-pages-html";
 
 export const metadata: Metadata = {
-  title: "Sitemap",
+  title: "Website Sitemap",
   description:
-    "HTML sitemap for Gearhaven Auto & Diesel. Find services, company pages, blog posts, and contact information.",
+    "Browse every Gearhaven Auto & Diesel page in one place—services, company info, blog articles, policies, and the best ways to contact our Nixa shop.",
   alternates: {
     canonical: "/sitemap",
   },

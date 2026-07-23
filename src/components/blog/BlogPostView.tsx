@@ -66,7 +66,7 @@ export function BlogPostView({
                 gap: 9,
                 background: "rgba(109,157,197,.18)",
                 border: "1px solid rgba(109,157,197,.45)",
-                color: "#CFE0EE",
+                color: "#ffffff",
                 fontWeight: 600,
                 fontSize: 13,
                 letterSpacing: 0.5,

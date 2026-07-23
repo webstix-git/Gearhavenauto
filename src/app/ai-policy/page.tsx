@@ -5,7 +5,7 @@ import { AI_POLICY_HTML } from "@/lib/utility-pages-html";
 export const metadata: Metadata = {
   title: "AI Policy",
   description:
-    "AI Policy for Gearhaven Auto & Diesel. How we approach AI systems, website content, and customer information.",
+    "Learn how Gearhaven Auto & Diesel approaches AI tools, website content accuracy, and customer information for transparent digital practices.",
   alternates: {
     canonical: "/ai-policy",
   },

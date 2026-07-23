@@ -5,7 +5,7 @@ import { AI_READINESS_SERVICE_INDEX_HTML } from "@/lib/utility-pages-html";
 export const metadata: Metadata = {
   title: "AI Readiness Service Index",
   description:
-    "Structured service index for Gearhaven Auto & Diesel in Nixa, MO. Business details, services, and contact information for AI assistants and search systems.",
+    "Structured business and service details for Gearhaven Auto & Diesel in Nixa, MO—built to help AI assistants share accurate shop information.",
   alternates: {
     canonical: "/ai-readiness-service-index",
   },

@@ -40,11 +40,11 @@ export const OIL_CHANGES_HTML = `<div class="gh-service-page" style="min-height:
         <p style="font-size:18px;line-height:1.65;color:#5C6B76;margin:0 0 16px">Clean oil keeps your engine cool, lubricated, and free of the sludge and grit that cause expensive wear. A missed oil change is one of the most common, and most preventable, reasons engines fail early.</p>
         <p style="font-size:18px;line-height:1.65;color:#5C6B76;margin:0 0 26px">We'll use the correct oil weight and a quality filter for your specific vehicle, check the things that matter while it's in the bay, and tell you honestly if anything needs attention, and what can wait.</p>
         <div style="display:flex;gap:30px;flex-wrap:wrap">
-          <div><div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:26px;color:#14202B">Most vehicles</div><div style="font-size:14px;color:#7C8B97">in &amp; out same day</div></div>
+          <div><div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:26px;color:#14202B">Most vehicles</div><div style="font-size:14px;color:#4A5A66">in &amp; out same day</div></div>
           <div style="width:1px;background:#E7E4DD"></div>
-          <div><div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:26px;color:#14202B">Free</div><div style="font-size:14px;color:#7C8B97">multi-point check</div></div>
+          <div><div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:26px;color:#14202B">Free</div><div style="font-size:14px;color:#4A5A66">multi-point check</div></div>
           <div style="width:1px;background:#E7E4DD"></div>
-          <div><div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:26px;color:#14202B">Gas &amp; diesel</div><div style="font-size:14px;color:#7C8B97">all handled here</div></div>
+          <div><div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:26px;color:#14202B">Gas &amp; diesel</div><div style="font-size:14px;color:#4A5A66">all handled here</div></div>
         </div>
       </div>
       <div data-reveal style="position:relative">
@@ -166,7 +166,7 @@ export const OIL_CHANGES_HTML = `<div class="gh-service-page" style="min-height:
     <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 80% 20%,rgba(62,92,118,.7),transparent 60%)"></div>
     <div data-reveal style="position:relative;max-width:900px;margin:0 auto;padding:86px 28px;text-align:center">
       <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:44px;line-height:1.06;letter-spacing:-1.2px;margin:0 0 16px">Due for an oil change?</h2>
-      <p style="font-size:18px;line-height:1.6;color:#C6D2DD;margin:0 auto 32px;max-width:540px">Give us a call or request an appointment. We'll get you in quickly, use the right oil, and keep it honest.</p>
+      <p style="font-size:18px;line-height:1.6;color:#E8F0F7;margin:0 auto 32px;max-width:540px">Give us a call or request an appointment. We'll get you in quickly, use the right oil, and keep it honest.</p>
       <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;align-items:center">
         <a href="tel:4173194798" style="display:inline-flex;align-items:center;gap:11px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:18px;padding:17px 30px;border-radius:10px" class="gh-cta-phone gh-btn-solid">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.6 4.2h2.2c.5 0 .9.3 1 .8l.5 2.4a1 1 0 0 1-.3 1l-1.4 1.4a13.5 13.5 0 0 0 5.8 5.8l1.4-1.4a1 1 0 0 1 1-.3l2.4.5c.5.1.8.5.8 1v2.2a1.8 1.8 0 0 1-1.8 1.8C9.8 19.2 4.8 14.2 4.8 6.6A1.8 1.8 0 0 1 6.6 4.2z"></path></svg>
@@ -201,7 +201,7 @@ export const OIL_CHANGES_HTML = `<div class="gh-service-page" style="min-height:
       </div>
       <div>
         <div style="color:#fff;font-weight:700;font-size:18px;margin-bottom:16px;font-family:'Bricolage Grotesque'">Company</div>
-        <div style="display:flex;flex-direction:column;gap:10px;font-size:14.5px">
+        <div class="gh-footer-company" style="display:flex;flex-direction:column;gap:10px;font-size:14.5px">
           <a href="/about" class="gh-hover-406">About Us</a>
           <a href="/about#team" class="gh-hover-407">Our Team</a>
           <a href="/reviews" class="gh-hover-408">Reviews</a>
@@ -214,7 +214,7 @@ export const OIL_CHANGES_HTML = `<div class="gh-service-page" style="min-height:
         <div style="display:flex;flex-direction:column;gap:14px;font-size:14.5px">
           <div style="display:flex;align-items:flex-start;gap:12px">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3D6D92" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M12 21s6-5.2 6-10.5a6 6 0 1 0-12 0C6 15.8 12 21 12 21z"/><circle cx="12" cy="10.5" r="2.2"/></svg>
-            <span style="line-height:1.5;color:#8FA0AD">1556 N Commercial Rd.<br>Nixa, MO 65714</span>
+            <a href="https://maps.app.goo.gl/JaRQ9VPfZmCQoCGt9" target="_blank" rel="noopener noreferrer" style="line-height:1.5;color:#8FA0AD;text-decoration:none">1556 N Commercial Rd.<br>Nixa, MO 65714</a>
           </div>
           <a href="tel:4173194798" style="display:flex;align-items:flex-start;gap:12px;color:#fff;font-weight:600;text-decoration:none" class="gh-hover-411">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3D6D92" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M6.6 4.2h2.2c.5 0 .9.3 1 .8l.5 2.4a1 1 0 0 1-.3 1l-1.4 1.4a13.5 13.5 0 0 0 5.8 5.8l1.4-1.4a1 1 0 0 1 1-.3l2.4.5c.5.1.8.5.8 1v2.2a1.8 1.8 0 0 1-1.8 1.8C9.8 19.2 4.8 14.2 4.8 6.6A1.8 1.8 0 0 1 6.6 4.2z"/></svg>
@@ -228,8 +228,8 @@ export const OIL_CHANGES_HTML = `<div class="gh-service-page" style="min-height:
       </div>
     </div>
     <div style="border-top:1px solid rgba(255,255,255,.08)">
-      <div class="gh-footer-bottom" style="max-width:1240px;margin:0 auto;padding:20px 28px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px;font-size:13px;color:#5E6E7B;text-align:center">
-        <span>© 2026 Gearhaven Auto &amp; Diesel. All rights reserved.</span><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/sitemap" class="gh-footer-legal-link">Sitemap</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/privacy-policy" class="gh-footer-legal-link">Privacy Policy</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/ai-policy" class="gh-footer-legal-link">AI Policy</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/ai-readiness-service-index" class="gh-footer-legal-link">AI Readiness Service Index</a>
+      <div class="gh-footer-bottom" style="max-width:1240px;margin:0 auto;padding:20px 28px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px;font-size:13px;color:#C5D0DA;text-align:center">
+        <span>© 2026 Gearhaven Auto &amp; Diesel. All rights reserved.</span><span aria-hidden="true" style="color:#C5D0DA;padding:0 2px">|</span><a href="/sitemap" class="gh-footer-legal-link">Sitemap</a><span aria-hidden="true" style="color:#C5D0DA;padding:0 2px">|</span><a href="/privacy-policy" class="gh-footer-legal-link">Privacy Policy</a><span aria-hidden="true" style="color:#C5D0DA;padding:0 2px">|</span><a href="/ai-policy" class="gh-footer-legal-link">AI Policy</a><span aria-hidden="true" style="color:#C5D0DA;padding:0 2px">|</span><a href="/ai-readiness-service-index" class="gh-footer-legal-link">AI Readiness Service Index</a>
       </div>
     </div>
   </footer>

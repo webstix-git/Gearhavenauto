@@ -9,11 +9,11 @@ const siteUrl =
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Gearhaven Auto & Diesel",
-    template: "%s | Gearhaven Auto & Diesel",
+    default: "Auto & Diesel Repair in Nixa, MO | Gearhaven",
+    template: "%s | Gearhaven",
   },
   description:
-    "Trusted auto and diesel repair for cars, trucks, and fleets in Nixa and the Ozarks. Honest recommendations, expert work, and clear communication.",
+    "Trusted auto and diesel repair in Nixa, MO for cars, trucks, and fleets. Honest recommendations, clear answers, and expert work you can count on.",
   keywords: [
     "auto repair",
     "diesel repair",
@@ -27,15 +27,15 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: siteUrl,
     siteName: "Gearhaven Auto & Diesel",
-    title: "Gearhaven Auto & Diesel",
+    title: "Auto & Diesel Repair in Nixa, MO | Gearhaven",
     description:
-      "Your vehicle's safe haven. Trusted auto and diesel repair in Nixa and the Ozarks.",
+      "Trusted auto and diesel repair in Nixa, MO for cars, trucks, and fleets. Honest recommendations, clear answers, and expert work you can count on.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gearhaven Auto & Diesel",
+    title: "Auto & Diesel Repair in Nixa, MO | Gearhaven",
     description:
-      "Trusted auto and diesel repair for cars, trucks, and fleets in Nixa and the Ozarks.",
+      "Trusted auto and diesel repair in Nixa, MO for cars, trucks, and fleets. Honest recommendations, clear answers, and expert work you can count on.",
   },
   robots: {
     index: true,

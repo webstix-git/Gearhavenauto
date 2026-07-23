@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { FaqsPage } from "@/components/FaqsPage";
 
 export const metadata: Metadata = {
-  title: "FAQs",
+  title: "Frequently Asked Questions",
   description:
-    "Frequently asked questions about auto and diesel repair at Gearhaven Auto & Diesel in Nixa, MO. Vehicles we service, warranties, diagnostics, and more.",
+    "Find answers about vehicles we service, diagnostics, warranties, scheduling, and diesel repair at Gearhaven Auto & Diesel in Nixa, Missouri.",
   alternates: {
     canonical: "/faqs",
   },

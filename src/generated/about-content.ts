@@ -49,12 +49,12 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       </div>
       <div>
         <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:40px;line-height:1.08;letter-spacing:-1px;margin:0 0 18px;color:#fff">Repairing vehicles isn't just about replacing parts.</h2>
-        <p style="font-size:19px;line-height:1.6;color:#DCE4EC;margin:0 0 22px;font-weight:600">It's about helping people make informed decisions with confidence.</p>
-        <p style="font-size:17px;line-height:1.65;color:#BECAD6;margin:0 0 16px">We know that unexpected repairs can be stressful, which is why we prioritize clear communication throughout the process. You'll understand what we found, why we recommend a repair, what can safely wait, and what your options are before any work begins.</p>
-        <p style="font-size:17px;line-height:1.65;color:#BECAD6;margin:0 0 16px">Every vehicle has different needs depending on its age, mileage, and how it's used. Our technicians have experience servicing everything from daily commuters and family SUVs to work trucks, fleet vehicles, and heavy-duty diesel pickups.</p>
-        <p style="font-size:17px;line-height:1.65;color:#BECAD6;margin:0 0 16px">Whether you drive a Honda Civic, Toyota Camry, Ford F-150, Chevy Silverado, work van, or diesel truck, our team has the knowledge and equipment to help keep it running reliably.</p>
-        <p style="font-size:17px;line-height:1.65;color:#BECAD6;margin:0 0 16px">Our services include preventative maintenance, oil changes, brake repair, suspension repairs, steering components, engine diagnostics, transmission service, diesel diagnostics, major engine repairs, and complete engine rebuilds.</p>
-        <p style="font-size:17px;line-height:1.65;color:#BECAD6;margin:0">No matter what brings you into the shop, our goal remains the same: provide honest recommendations, dependable repairs, and help keep your vehicle safely on the road.</p>
+        <p style="font-size:19px;line-height:1.6;color:#ffffff;margin:0 0 22px;font-weight:600">It's about helping people make informed decisions with confidence.</p>
+        <p style="font-size:17px;line-height:1.65;color:#E8F0F7;margin:0 0 16px">We know that unexpected repairs can be stressful, which is why we prioritize clear communication throughout the process. You'll understand what we found, why we recommend a repair, what can safely wait, and what your options are before any work begins.</p>
+        <p style="font-size:17px;line-height:1.65;color:#E8F0F7;margin:0 0 16px">Every vehicle has different needs depending on its age, mileage, and how it's used. Our technicians have experience servicing everything from daily commuters and family SUVs to work trucks, fleet vehicles, and heavy-duty diesel pickups.</p>
+        <p style="font-size:17px;line-height:1.65;color:#E8F0F7;margin:0 0 16px">Whether you drive a Honda Civic, Toyota Camry, Ford F-150, Chevy Silverado, work van, or diesel truck, our team has the knowledge and equipment to help keep it running reliably.</p>
+        <p style="font-size:17px;line-height:1.65;color:#E8F0F7;margin:0 0 16px">Our services include preventative maintenance, oil changes, brake repair, suspension repairs, steering components, engine diagnostics, transmission service, diesel diagnostics, major engine repairs, and complete engine rebuilds.</p>
+        <p style="font-size:17px;line-height:1.65;color:#E8F0F7;margin:0">No matter what brings you into the shop, our goal remains the same: provide honest recommendations, dependable repairs, and help keep your vehicle safely on the road.</p>
       </div>
     </div>
   </section>
@@ -63,7 +63,7 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
   <section style="max-width:1240px;margin:0 auto;padding:96px 28px">
     <div data-reveal style="max-width:620px;margin-bottom:52px">
       <div style="display:inline-flex;align-items:center;gap:9px;font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#3E5C76;margin-bottom:16px"><span style="width:26px;height:2px;background:#6D9DC5"></span>Our Values</div>
-      <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:42px;line-height:1.06;letter-spacing:-1.1px;margin:0;color:#14202B;white-space:nowrap">What we stand behind, every day.</h2>
+      <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:42px;line-height:1.06;letter-spacing:-1.1px;margin:0;color:#14202B">What we stand behind, every day.</h2>
     </div>
     <div class="gh-grid-3" style="display:grid;grid-template-columns:repeat(3,1fr);gap:32px">
 
@@ -235,7 +235,7 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
     <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 80% 20%,rgba(62,92,118,.7),transparent 60%)"></div>
     <div data-reveal style="position:relative;max-width:900px;margin:0 auto;padding:88px 28px;text-align:center">
       <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:44px;line-height:1.06;letter-spacing:-1.2px;margin:0 0 16px">Come see the difference for yourself.</h2>
-      <p style="font-size:18px;line-height:1.6;color:#C6D2DD;margin:0 auto 32px;max-width:560px">Experience a repair shop that values honesty, communication, and relationships. We'd be honored to earn your trust.</p>
+      <p style="font-size:18px;line-height:1.6;color:#E8F0F7;margin:0 auto 32px;max-width:560px">Experience a repair shop that values honesty, communication, and relationships. We'd be honored to earn your trust.</p>
       <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;align-items:center">
         <a href="tel:4173194798" style="display:inline-flex;align-items:center;gap:11px;background:#fff;color:rgb(61, 109, 146);font-weight:700;font-size:18px;padding:17px 30px;border-radius:10px" class="gh-cta-phone gh-cta-phone--white gh-btn-solid">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.6 4.2h2.2c.5 0 .9.3 1 .8l.5 2.4a1 1 0 0 1-.3 1l-1.4 1.4a13.5 13.5 0 0 0 5.8 5.8l1.4-1.4a1 1 0 0 1 1-.3l2.4.5c.5.1.8.5.8 1v2.2a1.8 1.8 0 0 1-1.8 1.8C9.8 19.2 4.8 14.2 4.8 6.6A1.8 1.8 0 0 1 6.6 4.2z"></path></svg>
@@ -269,7 +269,7 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       </div>
       <div>
         <div style="color:#fff;font-weight:700;font-size:18px;margin-bottom:16px;font-family:'Bricolage Grotesque'">Company</div>
-        <div style="display:flex;flex-direction:column;gap:10px;font-size:14.5px">
+        <div class="gh-footer-company" style="display:flex;flex-direction:column;gap:10px;font-size:14.5px">
           <a href="#top" class="gh-hover-116">About Us</a>
           <a href="#team" class="gh-hover-117">Our Team</a>
           <a href="/#reviews" class="gh-hover-118">Reviews</a>
@@ -282,7 +282,7 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
         <div style="display:flex;flex-direction:column;gap:14px;font-size:14.5px">
           <div style="display:flex;align-items:flex-start;gap:12px">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3D6D92" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M12 21s6-5.2 6-10.5a6 6 0 1 0-12 0C6 15.8 12 21 12 21z"/><circle cx="12" cy="10.5" r="2.2"/></svg>
-            <span style="line-height:1.5;color:#8FA0AD">1556 N Commercial Rd.<br>Nixa, MO 65714</span>
+            <a href="https://maps.app.goo.gl/JaRQ9VPfZmCQoCGt9" target="_blank" rel="noopener noreferrer" style="line-height:1.5;color:#8FA0AD;text-decoration:none">1556 N Commercial Rd.<br>Nixa, MO 65714</a>
           </div>
           <a href="tel:4173194798" style="display:flex;align-items:flex-start;gap:12px;color:#fff;font-weight:600;text-decoration:none" class="gh-hover-121">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3D6D92" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M6.6 4.2h2.2c.5 0 .9.3 1 .8l.5 2.4a1 1 0 0 1-.3 1l-1.4 1.4a13.5 13.5 0 0 0 5.8 5.8l1.4-1.4a1 1 0 0 1 1-.3l2.4.5c.5.1.8.5.8 1v2.2a1.8 1.8 0 0 1-1.8 1.8C9.8 19.2 4.8 14.2 4.8 6.6A1.8 1.8 0 0 1 6.6 4.2z"/></svg>
@@ -296,8 +296,8 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       </div>
     </div>
     <div style="border-top:1px solid rgba(255,255,255,.08)">
-      <div class="gh-footer-bottom" style="max-width:1240px;margin:0 auto;padding:20px 28px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px;font-size:13px;color:#5E6E7B;text-align:center">
-        <span>© 2026 Gearhaven Auto &amp; Diesel. All rights reserved.</span><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/sitemap" class="gh-footer-legal-link">Sitemap</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/privacy-policy" class="gh-footer-legal-link">Privacy Policy</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/ai-policy" class="gh-footer-legal-link">AI Policy</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/ai-readiness-service-index" class="gh-footer-legal-link">AI Readiness Service Index</a>
+      <div class="gh-footer-bottom" style="max-width:1240px;margin:0 auto;padding:20px 28px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px;font-size:13px;color:#C5D0DA;text-align:center">
+        <span>© 2026 Gearhaven Auto &amp; Diesel. All rights reserved.</span><span aria-hidden="true" style="color:#C5D0DA;padding:0 2px">|</span><a href="/sitemap" class="gh-footer-legal-link">Sitemap</a><span aria-hidden="true" style="color:#C5D0DA;padding:0 2px">|</span><a href="/privacy-policy" class="gh-footer-legal-link">Privacy Policy</a><span aria-hidden="true" style="color:#C5D0DA;padding:0 2px">|</span><a href="/ai-policy" class="gh-footer-legal-link">AI Policy</a><span aria-hidden="true" style="color:#C5D0DA;padding:0 2px">|</span><a href="/ai-readiness-service-index" class="gh-footer-legal-link">AI Readiness Service Index</a>
       </div>
     </div>
   </footer>

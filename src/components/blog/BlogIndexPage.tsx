@@ -191,7 +191,7 @@ export function BlogIndexPage({ posts }: { posts: BlogPost[] }) {
                   gap: 9,
                   background: "rgba(109,157,197,.18)",
                   border: "1px solid rgba(109,157,197,.45)",
-                  color: "#CFE0EE",
+                  color: "#ffffff",
                   fontWeight: 600,
                   fontSize: 13.5,
                   letterSpacing: 0.4,

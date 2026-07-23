@@ -10,7 +10,7 @@ export const SERVICES_HTML = `<div style="min-height:100vh;overflow-x:hidden">
     <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,23,32,.94) 0%,rgba(20,32,45,.85) 46%,rgba(20,32,45,.5) 100%)"></div>
     <div style="position:relative;max-width:1240px;margin:0 auto;padding:230px 28px 110px">
       <div style="max-width:730px">
-        <div data-reveal style="display:inline-flex;align-items:center;gap:9px;background:rgba(109,157,197,.18);border:1px solid rgba(109,157,197,.45);color:#CFE0EE;font-weight:600;font-size:13.5px;letter-spacing:.4px;text-transform:uppercase;padding:8px 15px;border-radius:100px;margin-bottom:26px">
+        <div data-reveal style="display:inline-flex;align-items:center;gap:9px;background:rgba(109,157,197,.18);border:1px solid rgba(109,157,197,.45);color:#ffffff;font-weight:600;font-size:13.5px;letter-spacing:.4px;text-transform:uppercase;padding:8px 15px;border-radius:100px;margin-bottom:26px">
           <span style="width:7px;height:7px;border-radius:50%;background:#6D9DC5"></span>Our Services
         </div>
         <h1 data-reveal style="font-family:'Bricolage Grotesque';font-weight:700;font-size:58px;line-height:1.04;letter-spacing:-1.6px;color:#fff;margin:0 0 22px">Complete auto &amp;<br>diesel repair services</h1>
@@ -163,12 +163,12 @@ export const SERVICES_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           </span>
           <div>
             <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:24px;margin:0;color:#14202B">Diesel Repair</h2>
-            <div style="font-size:14px;color:#8A96A1;font-weight:500;margin-top:2px">Our specialty, Power Stroke · Cummins · Duramax</div>
+            <div style="font-size:14px;color:#8A96A1;font-weight:500;margin-top:2px">Our specialty, Powerstroke · Cummins · Duramax</div>
           </div>
         </div>
         <div class="gh-service-list-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:11px 24px">
+          <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Powerstroke Repair</div>
           <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Cummins Repair</div>
-          <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Power Stroke Repair</div>
           <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Duramax Repair</div>
           <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Diesel Diagnostics</div>
           <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#3D4B56;font-weight:500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6D9DC5" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.2 9.8 16.5 18.5 7.8"/></svg>Fuel System Repairs</div>
@@ -228,7 +228,7 @@ export const SERVICES_HTML = `<div style="min-height:100vh;overflow-x:hidden">
     <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 80% 20%,rgba(62,92,118,.7),transparent 60%)"></div>
     <div data-reveal style="position:relative;max-width:900px;margin:0 auto;padding:88px 28px;text-align:center">
       <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:44px;line-height:1.06;letter-spacing:-1.2px;margin:0 0 16px">Not sure what your vehicle needs?</h2>
-      <p style="font-size:18px;line-height:1.6;color:#C6D2DD;margin:0 auto 32px;max-width:560px">Bring it in. We'll take a look, explain what we find in plain language, and give you honest recommendations, no pressure.</p>
+      <p style="font-size:18px;line-height:1.6;color:#E8F0F7;margin:0 auto 32px;max-width:560px">Bring it in. We'll take a look, explain what we find in plain language, and give you honest recommendations, no pressure.</p>
       <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;align-items:center">
         <a href="tel:4173194798" style="display:inline-flex;align-items:center;gap:11px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:18px;padding:17px 30px;border-radius:10px" class="gh-cta-phone gh-btn-solid">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.6 4.2h2.2c.5 0 .9.3 1 .8l.5 2.4a1 1 0 0 1-.3 1l-1.4 1.4a13.5 13.5 0 0 0 5.8 5.8l1.4-1.4a1 1 0 0 1 1-.3l2.4.5c.5.1.8.5.8 1v2.2a1.8 1.8 0 0 1-1.8 1.8C9.8 19.2 4.8 14.2 4.8 6.6A1.8 1.8 0 0 1 6.6 4.2z"></path></svg>
@@ -262,7 +262,7 @@ export const SERVICES_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       </div>
       <div>
         <div style="color:#fff;font-weight:700;font-size:18px;margin-bottom:16px;font-family:'Bricolage Grotesque'">Company</div>
-        <div style="display:flex;flex-direction:column;gap:10px;font-size:14.5px">
+        <div class="gh-footer-company" style="display:flex;flex-direction:column;gap:10px;font-size:14.5px">
           <a href="/about" class="gh-hover-441">About Us</a>
           <a href="/about#team" class="gh-hover-442">Our Team</a>
           <a href="/reviews" class="gh-hover-443">Reviews</a>
@@ -275,7 +275,7 @@ export const SERVICES_HTML = `<div style="min-height:100vh;overflow-x:hidden">
         <div style="display:flex;flex-direction:column;gap:14px;font-size:14.5px">
           <div style="display:flex;align-items:flex-start;gap:12px">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3D6D92" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M12 21s6-5.2 6-10.5a6 6 0 1 0-12 0C6 15.8 12 21 12 21z"/><circle cx="12" cy="10.5" r="2.2"/></svg>
-            <span style="line-height:1.5;color:#8FA0AD">1556 N Commercial Rd.<br>Nixa, MO 65714</span>
+            <a href="https://maps.app.goo.gl/JaRQ9VPfZmCQoCGt9" target="_blank" rel="noopener noreferrer" style="line-height:1.5;color:#8FA0AD;text-decoration:none">1556 N Commercial Rd.<br>Nixa, MO 65714</a>
           </div>
           <a href="tel:4173194798" style="display:flex;align-items:flex-start;gap:12px;color:#fff;font-weight:600;text-decoration:none" class="gh-hover-446">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3D6D92" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M6.6 4.2h2.2c.5 0 .9.3 1 .8l.5 2.4a1 1 0 0 1-.3 1l-1.4 1.4a13.5 13.5 0 0 0 5.8 5.8l1.4-1.4a1 1 0 0 1 1-.3l2.4.5c.5.1.8.5.8 1v2.2a1.8 1.8 0 0 1-1.8 1.8C9.8 19.2 4.8 14.2 4.8 6.6A1.8 1.8 0 0 1 6.6 4.2z"/></svg>
@@ -289,8 +289,8 @@ export const SERVICES_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       </div>
     </div>
     <div style="border-top:1px solid rgba(255,255,255,.08)">
-      <div class="gh-footer-bottom" style="max-width:1240px;margin:0 auto;padding:20px 28px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px;font-size:13px;color:#5E6E7B;text-align:center">
-        <span>© 2026 Gearhaven Auto &amp; Diesel. All rights reserved.</span><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/sitemap" class="gh-footer-legal-link">Sitemap</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/privacy-policy" class="gh-footer-legal-link">Privacy Policy</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/ai-policy" class="gh-footer-legal-link">AI Policy</a><span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span><a href="/ai-readiness-service-index" class="gh-footer-legal-link">AI Readiness Service Index</a>
+      <div class="gh-footer-bottom" style="max-width:1240px;margin:0 auto;padding:20px 28px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px;font-size:13px;color:#C5D0DA;text-align:center">
+        <span>© 2026 Gearhaven Auto &amp; Diesel. All rights reserved.</span><span aria-hidden="true" style="color:#C5D0DA;padding:0 2px">|</span><a href="/sitemap" class="gh-footer-legal-link">Sitemap</a><span aria-hidden="true" style="color:#C5D0DA;padding:0 2px">|</span><a href="/privacy-policy" class="gh-footer-legal-link">Privacy Policy</a><span aria-hidden="true" style="color:#C5D0DA;padding:0 2px">|</span><a href="/ai-policy" class="gh-footer-legal-link">AI Policy</a><span aria-hidden="true" style="color:#C5D0DA;padding:0 2px">|</span><a href="/ai-readiness-service-index" class="gh-footer-legal-link">AI Readiness Service Index</a>
       </div>
     </div>
   </footer>

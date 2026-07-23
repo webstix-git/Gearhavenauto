@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { ReviewsPage } from "@/components/ReviewsPage";
 
 export const metadata: Metadata = {
-  title: "Reviews",
+  title: "Customer Reviews & Testimonials",
   description:
-    "Read customer reviews for Gearhaven Auto & Diesel in Nixa, MO. Trusted by drivers, diesel owners, and fleet managers across the Ozarks.",
+    "Read real customer reviews for Gearhaven Auto & Diesel in Nixa. See why Ozarks drivers trust us for honest repairs, clear answers, and reliable service.",
   alternates: {
     canonical: "/reviews",
   },

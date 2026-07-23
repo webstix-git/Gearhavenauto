@@ -2,6 +2,7 @@ import {
   SITE_ADDRESS_HTML,
   SITE_EMAIL,
   SITE_FACEBOOK_URL,
+  SITE_MAPS_URL,
   SITE_PHONE,
   SITE_PHONE_TEL,
 } from "./site-info";
@@ -31,10 +32,10 @@ export function buildFooterFollowUsHtml(): string {
 
 export function buildGetInTouchHtml(contactHoverClass: string): string {
   return `<div style="display:flex;flex-direction:column;gap:14px;font-size:14.5px">
-          <div style="display:flex;align-items:flex-start;gap:12px">
+          <a href="${SITE_MAPS_URL}" target="_blank" rel="noopener noreferrer" style="display:flex;align-items:flex-start;gap:12px;color:#8FA0AD;text-decoration:none" class="${contactHoverClass}">
             ${GH_ICON_LOCATION()}
-            <span style="line-height:1.5;color:#8FA0AD">${SITE_ADDRESS_HTML}</span>
-          </div>
+            <span style="line-height:1.5">${SITE_ADDRESS_HTML}</span>
+          </a>
           <a href="tel:${SITE_PHONE_TEL}" style="display:flex;align-items:flex-start;gap:12px;color:#fff;font-weight:600;text-decoration:none" class="${contactHoverClass}">
             ${GH_ICON_PHONE()}
             <span>${SITE_PHONE}</span>
@@ -74,7 +75,7 @@ export function buildFooterHtml(options: FooterOptions): string {
       </div>
       <div>
         <div style="color:#fff;font-weight:700;font-size:18px;margin-bottom:16px;font-family:'Bricolage Grotesque'">Company</div>
-        <div style="display:flex;flex-direction:column;gap:10px;font-size:14.5px">
+        <div class="gh-footer-company" style="display:flex;flex-direction:column;gap:10px;font-size:14.5px">
           ${linkList(options.companyLinks)}
         </div>
       </div>

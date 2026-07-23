@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { OilChangesPage } from "@/components/OilChangesPage";
 
 export const metadata: Metadata = {
-  title: "Oil Changes",
+  title: "Oil Changes in Nixa, MO",
   description:
-    "Professional oil change service in Nixa, MO for cars, trucks, and diesel vehicles. Quality oil, thorough inspection, honest recommendations.",
+    "Professional oil changes in Nixa for cars, trucks, and diesels. Quality oil, a careful multi-point check, and honest recommendations every visit.",
   alternates: {
     canonical: "/oil-changes",
   },

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { AboutPage } from "@/components/AboutPage";
 
 export const metadata: Metadata = {
-  title: "About Us",
+  title: "About Our Nixa Auto & Diesel Shop",
   description:
-    "Learn about Gearhaven Auto & Diesel. Our story, values, and team serving Nixa and the Ozarks with honest auto and diesel repair.",
+    "Meet the Gearhaven team in Nixa. Learn our story, values, and how we deliver honest auto and diesel repair for drivers across the Ozarks every day.",
   alternates: {
     canonical: "/about",
   },

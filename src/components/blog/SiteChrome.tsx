@@ -13,6 +13,7 @@ import {
   SITE_ADDRESS_LINE2,
   SITE_COPYRIGHT_HTML,
   SITE_FACEBOOK_URL,
+  SITE_MAPS_URL,
 } from "@/lib/site-info";
 
 type SiteChromeProps = {
@@ -160,6 +161,7 @@ export function SiteFooter() {
             Company
           </div>
           <div
+            className="gh-footer-company"
             style={{
               display: "flex",
               flexDirection: "column",
@@ -196,14 +198,25 @@ export function SiteFooter() {
               fontSize: 14.5,
             }}
           >
-            <div style={{ display: "flex", alignItems: "flex-start", gap: 12 }}>
+            <a
+              href={SITE_MAPS_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: "flex",
+                alignItems: "flex-start",
+                gap: 12,
+                color: "#8FA0AD",
+                textDecoration: "none",
+              }}
+            >
               <GhIcon html={GH_ICON_LOCATION()} />
-              <span style={{ lineHeight: 1.5, color: "#8FA0AD" }}>
+              <span style={{ lineHeight: 1.5 }}>
                 {SITE_ADDRESS_LINE1}
                 <br />
                 {SITE_ADDRESS_LINE2}
               </span>
-            </div>
+            </a>
             <a
               href="tel:4173194798"
               style={{
@@ -247,7 +260,7 @@ export function SiteFooter() {
             alignItems: "center",
             gap: 10,
             fontSize: 13,
-            color: "#5E6E7B",
+            color: "#C5D0DA",
             textAlign: "center",
           }}
         >
@@ -255,7 +268,7 @@ export function SiteFooter() {
             dangerouslySetInnerHTML={{ __html: SITE_COPYRIGHT_HTML }}
             suppressHydrationWarning
           />
-          <span aria-hidden="true" style={{ color: "#5E6E7B" }}>
+          <span aria-hidden="true" style={{ color: "#C5D0DA" }}>
             |
           </span>
           {FOOTER_LEGAL_LINKS.map((link, index) => (
@@ -264,7 +277,7 @@ export function SiteFooter() {
               style={{ display: "flex", alignItems: "center", gap: 10 }}
             >
               {index > 0 && (
-                <span aria-hidden="true" style={{ color: "#5E6E7B" }}>
+                <span aria-hidden="true" style={{ color: "#C5D0DA" }}>
                   |
                 </span>
               )}
@@ -324,7 +337,7 @@ export function BlogCta() {
           style={{
             fontSize: 18,
             lineHeight: 1.6,
-            color: "#C6D2DD",
+            color: "#E8F0F7",
             margin: "0 auto 32px",
             maxWidth: 560,
           }}

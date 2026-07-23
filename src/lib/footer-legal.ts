@@ -8,7 +8,7 @@ export const FOOTER_LEGAL_LINKS = [
 ] as const;
 
 const FOOTER_PIPE =
-  '<span aria-hidden="true" style="color:#5E6E7B;padding:0 2px">|</span>';
+  '<span aria-hidden="true" style="color:#C5D0DA;padding:0 2px">|</span>';
 
 export function buildFooterBottomBarHtml(
   maxWidth = "1240px",
@@ -24,7 +24,7 @@ export function buildFooterBottomBarHtml(
   ].join(FOOTER_PIPE);
 
   return `    <div style="border-top:1px solid rgba(255,255,255,.08)">
-      <div class="gh-footer-bottom" style="max-width:${maxWidth};margin:0 auto;padding:20px 28px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px;font-size:13px;color:#5E6E7B;text-align:center">
+      <div class="gh-footer-bottom" style="max-width:${maxWidth};margin:0 auto;padding:20px 28px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px;font-size:13px;color:#C5D0DA;text-align:center">
         ${items}
       </div>
     </div>`;

@@ -1,6 +1,10 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import {
+  isValidInternationalPhone,
+  PHONE_VALIDATION_MESSAGE,
+} from "@/lib/phone";
 
 export function useGhGalleryLightbox() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -89,21 +93,75 @@ export function useGhContactForm() {
     ) as HTMLFormElement | null;
     if (!form) return;
 
-    const onSubmit = (e: Event) => {
+    const phoneInput = form.querySelector(
+      'input[name="phone"]'
+    ) as HTMLInputElement | null;
+
+    const clearPhoneError = () => {
+      phoneInput?.setCustomValidity("");
+    };
+
+    const onSubmit = async (e: Event) => {
       e.preventDefault();
       const note = containerRef.current?.querySelector(
         "#gh-form-note"
       ) as HTMLElement | null;
-      if (note) {
-        note.style.display = "block";
-        note.textContent =
-          "Thanks! We received your request and will be in touch shortly.";
+      const submitBtn = form.querySelector(
+        'button[type="submit"]'
+      ) as HTMLButtonElement | null;
+
+      if (phoneInput) {
+        if (!isValidInternationalPhone(phoneInput.value)) {
+          phoneInput.setCustomValidity(PHONE_VALIDATION_MESSAGE);
+          phoneInput.reportValidity();
+          return;
+        }
+        phoneInput.setCustomValidity("");
       }
-      form.reset();
+
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Sending…";
+      }
+      if (note) {
+        note.style.display = "none";
+        note.style.color = "#1F8A5B";
+      }
+
+      try {
+        const action =
+          form.getAttribute("action") ||
+          "https://ywwxvriolxwuqcwjaluh.supabase.co/functions/v1/form-submit/1642b3ec-d3da-4a7c-8b6f-3e64eb0c8d7e";
+        const res = await fetch(action, {
+          method: "POST",
+          body: new FormData(form),
+        });
+
+        if (!res.ok) {
+          throw new Error(`Form submit failed (${res.status})`);
+        }
+
+        window.location.href = "/thank-you";
+      } catch {
+        if (note) {
+          note.style.display = "block";
+          note.style.color = "#B42318";
+          note.textContent =
+            "Something went wrong. Please try again or call 417-319-4798.";
+        }
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.textContent = "Send Request";
+        }
+      }
     };
 
+    phoneInput?.addEventListener("input", clearPhoneError);
     form.addEventListener("submit", onSubmit);
-    return () => form.removeEventListener("submit", onSubmit);
+    return () => {
+      phoneInput?.removeEventListener("input", clearPhoneError);
+      form.removeEventListener("submit", onSubmit);
+    };
   }, []);
 
   return containerRef;

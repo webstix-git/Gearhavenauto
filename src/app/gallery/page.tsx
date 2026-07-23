@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { GalleryPage } from "@/components/GalleryPage";
 
 export const metadata: Metadata = {
-  title: "Gallery",
+  title: "Shop Photo Gallery",
   description:
-    "Photos from Gearhaven Auto & Diesel. Shop work, diesel repairs, fleet service, and more in Nixa, MO.",
+    "See photos from Gearhaven Auto & Diesel in Nixa—shop work, diesel repairs, fleet service, and the vehicles we keep safely on the road every week.",
   alternates: {
     canonical: "/gallery",
   },

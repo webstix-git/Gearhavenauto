@@ -3,7 +3,7 @@ import { SERVICE_LINKS } from "@/data/site-nav";
 import { SERVICE_PAGES } from "@/data/service-pages";
 import { buildUtilityPageHtml } from "@/lib/build-utility-page-html";
 import {
-  SITE_ADDRESS_HTML,
+  SITE_ADDRESS_LINK_HTML,
   SITE_EMAIL,
   SITE_HOURS_CONTACT_HTML,
   SITE_PHONE,
@@ -95,7 +95,7 @@ const privacySections = [
   },
   {
     title: "Contact us",
-    body: `Gearhaven Auto &amp; Diesel<br>${SITE_ADDRESS_HTML}<br>Phone: <a href="tel:4173194798" style="color:#3E5C76;font-weight:600">${SITE_PHONE}</a><br>Email: <a href="mailto:${SITE_EMAIL}" style="color:#3E5C76;font-weight:600">${SITE_EMAIL}</a>`,
+    body: `Gearhaven Auto &amp; Diesel<br>${SITE_ADDRESS_LINK_HTML}<br>Phone: <a href="tel:4173194798" style="color:#3E5C76;font-weight:600">${SITE_PHONE}</a><br>Email: <a href="mailto:${SITE_EMAIL}" style="color:#3E5C76;font-weight:600">${SITE_EMAIL}</a>`,
   },
 ];
 
@@ -147,7 +147,7 @@ const aiPolicySections = [
   },
   {
     title: "Corrections and contact",
-    body: `If you find inaccurate information about Gearhaven Auto &amp; Diesel in an AI response or on our website, please contact us so we can correct it.<br><br>Gearhaven Auto &amp; Diesel<br>${SITE_ADDRESS_HTML}<br>Phone: <a href="tel:4173194798" style="color:#3E5C76;font-weight:600">${SITE_PHONE}</a><br>Email: <a href="mailto:${SITE_EMAIL}" style="color:#3E5C76;font-weight:600">${SITE_EMAIL}</a>`,
+    body: `If you find inaccurate information about Gearhaven Auto &amp; Diesel in an AI response or on our website, please contact us so we can correct it.<br><br>Gearhaven Auto &amp; Diesel<br>${SITE_ADDRESS_LINK_HTML}<br>Phone: <a href="tel:4173194798" style="color:#3E5C76;font-weight:600">${SITE_PHONE}</a><br>Email: <a href="mailto:${SITE_EMAIL}" style="color:#3E5C76;font-weight:600">${SITE_EMAIL}</a>`,
   },
 ];
 
@@ -198,7 +198,7 @@ export const AI_READINESS_SERVICE_INDEX_HTML = buildUtilityPageHtml({
     <div data-reveal style="margin-bottom:40px">
       <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:24px;color:#14202B;margin:0 0 16px">Contact &amp; location</h2>
       <ul style="list-style:none;margin:0;padding:0;font-size:18px;line-height:1.8;color:#5C6B76">
-        <li><strong>Address:</strong> ${SITE_ADDRESS_HTML}</li>
+        <li><strong>Address:</strong> ${SITE_ADDRESS_LINK_HTML}</li>
         <li><strong>Phone:</strong> <a href="tel:4173194798" style="color:#3E5C76;font-weight:600">${SITE_PHONE}</a></li>
         <li><strong>Email:</strong> <a href="mailto:${SITE_EMAIL}" style="color:#3E5C76;font-weight:600">${SITE_EMAIL}</a></li>
         <li><strong>Hours:</strong> ${SITE_HOURS_CONTACT_HTML}</li>
@@ -224,6 +224,19 @@ export const AI_READINESS_SERVICE_INDEX_HTML = buildUtilityPageHtml({
           )
           .join("")}
       </div>
+    </div>
+  `,
+});
+
+export const THANK_YOU_HTML = buildUtilityPageHtml({
+  badge: "Contact",
+  title: "Contact – Thank You",
+  description:
+    "Thanks for contacting us! We will get in touch with you shortly.",
+  breadcrumbLabel: "Thank You",
+  bodyHtml: `
+    <div data-reveal style="text-align:center">
+      <p class="gh-thank-you-msg" style="font-size:24px;line-height:1.55;color:#5C6B76;margin:0">Thanks for contacting us! We will get in touch with you shortly.</p>
     </div>
   `,
 });

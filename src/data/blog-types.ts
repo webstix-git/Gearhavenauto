@@ -10,6 +10,8 @@ export type BlogCategory =
 export type BlogPost = {
   slug: string;
   title: string;
+  metaTitle: string;
+  metaDescription: string;
   excerpt: string;
   category: BlogCategory;
   author: string;

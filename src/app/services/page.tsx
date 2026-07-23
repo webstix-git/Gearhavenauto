@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { ServicesPage } from "@/components/ServicesPage";
 
 export const metadata: Metadata = {
-  title: "Services",
+  title: "Auto & Diesel Repair Services",
   description:
-    "Complete auto and diesel repair services in Nixa, MO. Maintenance, diagnostics, major repairs, tires, fleet service, and truck accessories.",
+    "Explore auto and diesel services in Nixa, MO—maintenance, diagnostics, tires, fleet care, truck upgrades, and post-accident mechanical repair.",
   alternates: {
     canonical: "/services",
   },
