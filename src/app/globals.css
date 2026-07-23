@@ -1032,6 +1032,25 @@ details[open] .gh-chev {
   box-shadow: 0 0 0 3px rgba(109, 157, 197, 0.2);
 }
 
+.gh-contact-info-text {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.gh-contact-info-card {
+  min-width: 0;
+}
+
+.gh-turnstile {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.gh-turnstile iframe {
+  max-width: 100%;
+}
+
 /* Hero trust strip — equal columns with clear divider spacing */
 .gh-hero-trust {
   max-width: 1320px;
@@ -1192,6 +1211,10 @@ h2[style*="white-space: nowrap"] {
     gap: 32px !important;
   }
 
+  .gh-contact-section .gh-form-grid {
+    grid-template-columns: 1fr !important;
+  }
+
   .gh-map-split {
     grid-template-columns: 1fr !important;
     min-height: auto !important;
@@ -1302,14 +1325,45 @@ h2[style*="white-space: nowrap"] {
   .gh-hero-overlay {
     background: linear-gradient(
       180deg,
-      rgba(14, 23, 32, 0.9) 0%,
-      rgba(14, 23, 32, 0.86) 45%,
-      rgba(14, 23, 32, 0.82) 100%
+      rgba(14, 23, 32, 0.92) 0%,
+      rgba(14, 23, 32, 0.88) 45%,
+      rgba(14, 23, 32, 0.86) 100%
     ) !important;
   }
 
   .gh-hero-banner {
     background-position: center center;
+  }
+
+  .gh-oil-stats {
+    gap: 18px 28px !important;
+  }
+
+  .gh-oil-stats-divider {
+    display: none !important;
+  }
+
+  .gh-oil-cta-actions {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  .gh-oil-cta-actions > a {
+    width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .gh-hero-actions {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  .gh-hero-actions > a {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
   }
 
   .gh-utility-hero-inner {
@@ -1334,6 +1388,36 @@ h2[style*="white-space: nowrap"] {
 
   .gh-blog-featured-content {
     padding: 24px 20px !important;
+  }
+
+  .gh-contact-card {
+    padding: 24px 18px !important;
+    border-radius: 16px !important;
+  }
+
+  .gh-contact-card h2 {
+    font-size: clamp(22px, 6vw, 26px) !important;
+  }
+
+  .gh-contact-info h2 {
+    font-size: clamp(26px, 7vw, 34px) !important;
+    margin-bottom: 20px !important;
+  }
+
+  .gh-contact-info-card {
+    padding: 16px !important;
+    gap: 12px !important;
+    align-items: flex-start !important;
+  }
+
+  .gh-contact-info-text > div[style*="font-size:20px"],
+  .gh-contact-info-text > div[style*="font-size:19px"] {
+    font-size: clamp(16px, 4.6vw, 19px) !important;
+    line-height: 1.35 !important;
+  }
+
+  .gh-contact-section {
+    padding-bottom: 48px !important;
   }
 }
 

@@ -7,7 +7,7 @@ export const SERVICES_HTML = `<div style="min-height:100vh;overflow-x:hidden">
     <div style="position:absolute;inset:0;overflow:hidden">
       <img src="/images/services-5f2d242d.jpg" alt="Truck on lift at Gearhaven" style="width:100%;height:100%;object-fit:cover;animation:gh-kenburns 22s ease-in-out infinite alternate">
     </div>
-    <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,23,32,.94) 0%,rgba(20,32,45,.85) 46%,rgba(20,32,45,.5) 100%)"></div>
+    <div class="gh-hero-overlay" style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,23,32,.94) 0%,rgba(20,32,45,.85) 46%,rgba(20,32,45,.5) 100%)"></div>
     <div style="position:relative;max-width:1240px;margin:0 auto;padding:230px 28px 110px">
       <div style="max-width:730px">
         <div data-reveal style="display:inline-flex;align-items:center;gap:9px;background:rgba(109,157,197,.18);border:1px solid rgba(109,157,197,.45);color:#ffffff;font-weight:600;font-size:13.5px;letter-spacing:.4px;text-transform:uppercase;padding:8px 15px;border-radius:100px;margin-bottom:26px">

@@ -7,14 +7,14 @@ export const OIL_CHANGES_HTML = `<div class="gh-service-page" style="min-height:
     <div style="position:absolute;inset:0;overflow:hidden">
       <img src="/images/oil-changes-8b2c3473.jpg" alt="Gearhaven technician servicing a vehicle" style="width:100%;height:100%;object-fit:cover;animation:gh-kenburns 22s ease-in-out infinite alternate">
     </div>
-    <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,23,32,.95) 0%,rgba(20,32,45,.86) 50%,rgba(20,32,45,.55) 100%)"></div>
+    <div class="gh-hero-overlay" style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,23,32,.95) 0%,rgba(20,32,45,.86) 50%,rgba(20,32,45,.55) 100%)"></div>
     <div class="gh-hero-inner" style="position:relative;max-width:1240px;margin:0 auto;padding:216px 28px 104px">
       <div style="max-width:730px">
         <h1 data-reveal style="font-family:'Bricolage Grotesque';font-weight:700;font-size:58px;line-height:1.04;letter-spacing:-1.6px;color:#fff;margin:0 0 22px">Oil changes,<br>done right.</h1>
         <p data-reveal style="font-size:19.5px;line-height:1.55;color:#CBD6E0;font-weight:500;margin:0 0 34px;max-width:600px">The single most important thing you can do to protect your engine. Quick, honest, and done with the right oil for your vehicle, cars, trucks, and diesels.</p>
-        <div data-reveal style="display:flex;gap:14px;flex-wrap:wrap">
-          <a href="#contact" style="background:#6D9DC5;color:#14202B;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px;box-shadow:0 12px 28px -10px rgba(224,163,46,.7)" class="gh-hover-397">Schedule an Oil Change</a>
-          <a href="tel:4173194798" style="background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px" class="gh-hover-398">Call 417-319-4798</a>
+        <div data-reveal class="gh-hero-actions" style="display:flex;gap:14px;flex-wrap:wrap">
+          <a href="/contact-us" class="gh-btn-solid" style="display:inline-flex;align-items:center;gap:10px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px;box-shadow:0 8px 20px -8px rgba(61,109,146,.45)">Schedule an Oil Change</a>
+          <a href="tel:4173194798" class="gh-btn-outline" style="display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px">Call 417-319-4798</a>
         </div>
       </div>
     </div>
@@ -39,11 +39,11 @@ export const OIL_CHANGES_HTML = `<div class="gh-service-page" style="min-height:
         <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:40px;line-height:1.08;letter-spacing:-1px;margin:0 0 20px;color:#14202B">Cheap insurance for your engine.</h2>
         <p style="font-size:18px;line-height:1.65;color:#5C6B76;margin:0 0 16px">Clean oil keeps your engine cool, lubricated, and free of the sludge and grit that cause expensive wear. A missed oil change is one of the most common, and most preventable, reasons engines fail early.</p>
         <p style="font-size:18px;line-height:1.65;color:#5C6B76;margin:0 0 26px">We'll use the correct oil weight and a quality filter for your specific vehicle, check the things that matter while it's in the bay, and tell you honestly if anything needs attention, and what can wait.</p>
-        <div style="display:flex;gap:30px;flex-wrap:wrap">
+        <div class="gh-oil-stats" style="display:flex;gap:30px;flex-wrap:wrap">
           <div><div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:26px;color:#14202B">Most vehicles</div><div style="font-size:14px;color:#4A5A66">in &amp; out same day</div></div>
-          <div style="width:1px;background:#E7E4DD"></div>
+          <div class="gh-oil-stats-divider" style="width:1px;background:#E7E4DD" aria-hidden="true"></div>
           <div><div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:26px;color:#14202B">Free</div><div style="font-size:14px;color:#4A5A66">multi-point check</div></div>
-          <div style="width:1px;background:#E7E4DD"></div>
+          <div class="gh-oil-stats-divider" style="width:1px;background:#E7E4DD" aria-hidden="true"></div>
           <div><div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:26px;color:#14202B">Gas &amp; diesel</div><div style="font-size:14px;color:#4A5A66">all handled here</div></div>
         </div>
       </div>
@@ -55,7 +55,7 @@ export const OIL_CHANGES_HTML = `<div class="gh-service-page" style="min-height:
 
   <!-- WHAT'S INCLUDED -->
   <section style="background:#fff;border-top:1px solid #EAE7E0;border-bottom:1px solid #EAE7E0">
-    <div style="max-width:1240px;margin:0 auto;padding:88px 28px">
+    <div class="gh-section-pad" style="max-width:1240px;margin:0 auto;padding:88px 28px">
       <div data-reveal style="max-width:620px;margin-bottom:48px">
         <div style="display:inline-flex;align-items:center;gap:9px;font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#3E5C76;margin-bottom:16px"><span style="width:26px;height:2px;background:#6D9DC5"></span>What's Included</div>
         <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:40px;line-height:1.08;letter-spacing:-1px;margin:0;color:#14202B">More than just oil &amp; a filter.</h2>
@@ -136,7 +136,7 @@ export const OIL_CHANGES_HTML = `<div class="gh-service-page" style="min-height:
 
   <!-- SIGNS + PROCESS band -->
   <section style="background:#F1EDE6;border-top:1px solid #E6E2DA;border-bottom:1px solid #E6E2DA">
-    <div style="max-width:1240px;margin:0 auto;padding:88px 28px;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start">
+    <div class="gh-section-pad gh-grid-2" style="max-width:1240px;margin:0 auto;padding:88px 28px;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start">
       <div data-reveal>
         <div style="display:inline-flex;align-items:center;gap:9px;font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#3E5C76;margin-bottom:16px"><span style="width:26px;height:2px;background:#6D9DC5"></span>Signs You're Due</div>
         <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:32px;line-height:1.1;letter-spacing:-.8px;margin:0 0 22px;color:#14202B">When to come see us</h2>
@@ -164,10 +164,10 @@ export const OIL_CHANGES_HTML = `<div class="gh-service-page" style="min-height:
   <!-- CTA -->
   <section id="contact" style="background:#2C4257;color:#fff;position:relative;overflow:hidden">
     <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 80% 20%,rgba(62,92,118,.7),transparent 60%)"></div>
-    <div data-reveal style="position:relative;max-width:900px;margin:0 auto;padding:86px 28px;text-align:center">
+    <div data-reveal class="gh-section-pad" style="position:relative;max-width:900px;margin:0 auto;padding:86px 28px;text-align:center">
       <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:44px;line-height:1.06;letter-spacing:-1.2px;margin:0 0 16px">Due for an oil change?</h2>
       <p style="font-size:18px;line-height:1.6;color:#E8F0F7;margin:0 auto 32px;max-width:540px">Give us a call or request an appointment. We'll get you in quickly, use the right oil, and keep it honest.</p>
-      <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;align-items:center">
+      <div class="gh-oil-cta-actions" style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;align-items:center">
         <a href="tel:4173194798" style="display:inline-flex;align-items:center;gap:11px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:18px;padding:17px 30px;border-radius:10px" class="gh-cta-phone gh-btn-solid">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.6 4.2h2.2c.5 0 .9.3 1 .8l.5 2.4a1 1 0 0 1-.3 1l-1.4 1.4a13.5 13.5 0 0 0 5.8 5.8l1.4-1.4a1 1 0 0 1 1-.3l2.4.5c.5.1.8.5.8 1v2.2a1.8 1.8 0 0 1-1.8 1.8C9.8 19.2 4.8 14.2 4.8 6.6A1.8 1.8 0 0 1 6.6 4.2z"></path></svg>
           417-319-4798

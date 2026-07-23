@@ -7,7 +7,7 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
     <div style="position:absolute;inset:0;overflow:hidden">
       <img src="/images/about-b400048d.jpg" alt="Inside Gearhaven" style="width:100%;height:100%;object-fit:cover;animation:gh-kenburns 22s ease-in-out infinite alternate">
     </div>
-    <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,23,32,.94) 0%,rgba(20,32,45,.85) 46%,rgba(20,32,45,.5) 100%)"></div>
+    <div class="gh-hero-overlay" style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,23,32,.94) 0%,rgba(20,32,45,.85) 46%,rgba(20,32,45,.5) 100%)"></div>
     <div style="position:relative;max-width:1240px;margin:0 auto;padding:230px 28px 118px">
       <h1 data-reveal style="font-family:'Bricolage Grotesque';font-weight:700;font-size:60px;line-height:1.03;letter-spacing:-1.6px;color:#fff;margin:0">About Us</h1>
     </div>

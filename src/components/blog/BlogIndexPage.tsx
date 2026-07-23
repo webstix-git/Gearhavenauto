@@ -166,6 +166,7 @@ export function BlogIndexPage({ posts }: { posts: BlogPost[] }) {
             />
           </div>
           <div
+            className="gh-hero-overlay"
             style={{
               position: "absolute",
               inset: 0,

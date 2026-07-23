@@ -396,13 +396,13 @@ export function buildServicePageHtml(data: ServicePageData): string {
     <div style="position:absolute;inset:0;overflow:hidden">
       <img src="${data.hero.image}" alt="${data.hero.imageAlt}" style="width:100%;height:100%;object-fit:cover;animation:gh-kenburns 22s ease-in-out infinite alternate">
     </div>
-    <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,23,32,.95) 0%,rgba(20,32,45,.86) 50%,rgba(20,32,45,.55) 100%)"></div>
+    <div class="gh-hero-overlay" style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,23,32,.95) 0%,rgba(20,32,45,.86) 50%,rgba(20,32,45,.55) 100%)"></div>
     <div class="gh-hero-inner" style="position:relative;max-width:1240px;margin:0 auto;padding:216px 28px 104px">
       <div style="max-width:730px">
         <h1 data-reveal style="font-family:'Bricolage Grotesque';font-weight:700;font-size:${data.hero.description || data.hero.extra ? "58px" : "48px"};line-height:1.08;letter-spacing:-1.2px;color:#fff;margin:0 0 ${data.hero.description || data.hero.extra ? "22px" : "34px"}">${data.hero.title}</h1>
         ${data.hero.description ? `<p data-reveal style="font-size:19.5px;line-height:1.55;color:#CBD6E0;font-weight:500;margin:0 0 ${data.hero.extra ? "16px" : "34px"};max-width:600px">${data.hero.description}</p>` : ""}
         ${data.hero.extra ? `<p data-reveal style="font-size:18px;line-height:1.6;color:#dbeaf7;margin:0 0 34px;max-width:600px">${data.hero.extra}</p>` : ""}
-        ${data.hero.hideCta ? "" : `<div data-reveal style="display:flex;gap:14px;flex-wrap:wrap">
+        ${data.hero.hideCta ? "" : `<div data-reveal class="gh-hero-actions" style="display:flex;gap:14px;flex-wrap:wrap">
           <a href="${data.hero.ctaHref}" class="gh-btn-solid" style="display:inline-flex;align-items:center;gap:10px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px;box-shadow:0 8px 20px -8px rgba(61,109,146,.45)">${data.hero.ctaLabel}</a>
           <a href="tel:4173194798" class="gh-btn-outline" style="display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px">Call 417-319-4798</a>
         </div>`}

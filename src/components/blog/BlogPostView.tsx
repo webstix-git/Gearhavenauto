@@ -41,6 +41,7 @@ export function BlogPostView({
             }}
           />
           <div
+            className="gh-hero-overlay"
             style={{
               position: "absolute",
               inset: 0,
