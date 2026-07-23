@@ -10,7 +10,7 @@ export const PAGE_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       <div style="max-width:660px">
         <h1 data-reveal style="font-family:'Bricolage Grotesque';font-weight:700;font-size:66px;line-height:1.02;letter-spacing:-1.5px;color:#fff;margin:0 0 20px">Your Vehicle's Safe Haven</h1>
         <p data-reveal style="font-size:18px;line-height:1.5;color:#CBD6E0;font-weight:500;margin:0 0 16px;max-width:600px">Trusted Auto &amp; Diesel Repair for Cars, Trucks &amp; Fleets in Nixa, Missouri</p>
-        <p data-reveal style="font-size:18px;line-height:1.6;color:#b2c0cd;margin:0 0 34px;max-width:600px">Whether you're maintaining a family SUV, diagnosing a check engine light, repairing a work truck, or managing an entire <a href="/fleet-vehicles" class="gh-inline-link gh-inline-link--on-dark">fleet</a>, Gearhaven Auto &amp; Diesel delivers honest recommendations, expert repairs, and clear communication every step of the way.</p>
+        <p data-reveal style="font-size:18px;line-height:1.6;color:#b2c0cd;margin:0 0 34px;max-width:600px">Whether you're maintaining a family SUV, diagnosing a check engine light, repairing a work truck, or managing an entire fleet, Gearhaven Auto &amp; Diesel delivers honest recommendations, expert repairs, and clear communication every step of the way.</p>
         <div data-reveal style="display:flex;gap:14px;flex-wrap:wrap">
           <a href="/contact-us" class="gh-btn-outline" style="display:inline-flex;align-items:center;background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px">Request an Estimate</a>
         </div>
