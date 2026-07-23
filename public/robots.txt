@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gearhavenauto.com/sitemap.xml
+Sitemap: https://www.gearhaven.com/sitemap.xml

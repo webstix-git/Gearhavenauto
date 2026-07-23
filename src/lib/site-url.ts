@@ -1,6 +1,6 @@
 /** Site origin with no trailing slash. */
 export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://gearhavenauto.com"
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.gearhaven.com"
 ).replace(/\/$/, "");
 
 export function absoluteUrl(path = "/"): string {

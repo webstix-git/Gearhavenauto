@@ -108,7 +108,7 @@ export const PRIVACY_POLICY_HTML = buildUtilityPageHtml({
   maxWidth: "900px",
   bodyHtml: `
     <p data-reveal style="font-size:18px;line-height:1.65;color:#5C6B76;margin:0 0 12px">Effective date: July 7, 2026</p>
-    <p data-reveal style="font-size:18px;line-height:1.65;color:#5C6B76;margin:0 0 40px">This Privacy Policy explains how Gearhaven Auto &amp; Diesel ("we," "us," or "our") handles information when you use gearhavenauto.com or contact our Nixa, Missouri shop.</p>
+    <p data-reveal style="font-size:18px;line-height:1.65;color:#5C6B76;margin:0 0 40px">This Privacy Policy explains how Gearhaven Auto &amp; Diesel ("we," "us," or "our") handles information when you use gearhaven.com or contact our Nixa, Missouri shop.</p>
     ${privacySections
       .map(
         (s) => `<div data-reveal style="margin-bottom:32px">
@@ -127,7 +127,7 @@ const aiPolicySections = [
   },
   {
     title: "Public website content",
-    body: `Information published on gearhavenauto.com, including service descriptions, hours, location, testimonials, and contact details, is provided for general informational purposes. AI systems may reference this content when answering questions about our shop, but summaries should be verified against our official pages.`,
+    body: `Information published on gearhaven.com, including service descriptions, hours, location, testimonials, and contact details, is provided for general informational purposes. AI systems may reference this content when answering questions about our shop, but summaries should be verified against our official pages.`,
   },
   {
     title: "Accuracy and limitations",

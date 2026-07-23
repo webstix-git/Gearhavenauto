@@ -129,30 +129,58 @@ export function useGhContactForm() {
       }
 
       try {
-        const action =
-          form.getAttribute("action") ||
-          "https://ywwxvriolxwuqcwjaluh.supabase.co/functions/v1/form-submit/1642b3ec-d3da-4a7c-8b6f-3e64eb0c8d7e";
-        const res = await fetch(action, {
+        const turnstileInput = form.querySelector(
+          '[name="cf-turnstile-response"]'
+        ) as HTMLInputElement | null;
+        const turnstileToken = turnstileInput?.value?.trim() || "";
+        if (!turnstileToken) {
+          if (note) {
+            note.style.display = "block";
+            note.style.color = "#B42318";
+            note.textContent = "Please complete the captcha before sending.";
+          }
+          if (submitBtn) {
+            submitBtn.disabled = false;
+            submitBtn.textContent = "Send Request";
+          }
+          return;
+        }
+
+        const res = await fetch("/api/contact-submit", {
           method: "POST",
           body: new FormData(form),
         });
 
-        if (!res.ok) {
-          throw new Error(`Form submit failed (${res.status})`);
+        const payload = (await res.json().catch(() => null)) as {
+          ok?: boolean;
+          error?: string;
+        } | null;
+
+        if (!res.ok || !payload?.ok) {
+          throw new Error(payload?.error || `Form submit failed (${res.status})`);
         }
 
         window.location.href = "/thank-you";
-      } catch {
+      } catch (err) {
         if (note) {
           note.style.display = "block";
           note.style.color = "#B42318";
           note.textContent =
-            "Something went wrong. Please try again or call 417-319-4798.";
+            err instanceof Error && err.message
+              ? err.message
+              : "Something went wrong. Please try again or call 417-319-4798.";
         }
         if (submitBtn) {
           submitBtn.disabled = false;
           submitBtn.textContent = "Send Request";
         }
+        const turnstile = (
+          window as Window & {
+            turnstile?: { reset: (el?: HTMLElement) => void };
+          }
+        ).turnstile;
+        const widget = form.querySelector(".cf-turnstile") as HTMLElement | null;
+        if (turnstile && widget) turnstile.reset(widget);
       }
     };
 

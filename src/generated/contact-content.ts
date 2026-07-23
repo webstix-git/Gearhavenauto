@@ -36,7 +36,7 @@ export const CONTACT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       <div data-reveal style="background:#fff;border:1px solid #E7E3DB;border-radius:20px;padding:38px 36px;box-shadow:0 20px 46px -28px rgba(20,32,45,.4)">
         <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:26px;margin:0 0 6px;color:#14202B">Request an appointment</h2>
         <p style="font-size:15px;line-height:1.55;color:#5C6B76;margin:0 0 26px">Tell us a bit about your vehicle and what's going on. We'll follow up to get you scheduled.</p>
-        <form id="gh-form" class="gh-contact-form" method="POST" action="https://ywwxvriolxwuqcwjaluh.supabase.co/functions/v1/form-submit/1642b3ec-d3da-4a7c-8b6f-3e64eb0c8d7e" style="display:flex;flex-direction:column;gap:16px">
+        <form id="gh-form" class="gh-contact-form" method="POST" action="/api/contact-submit" style="display:flex;flex-direction:column;gap:16px">
           <input type="hidden" name="redirect" value="/thank-you">
           <div class="gh-form-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
             <div>
@@ -60,6 +60,7 @@ export const CONTACT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
             <label style="display:block;font-size:13.5px;font-weight:600;color:#3D4B56;margin-bottom:7px">How can we help?</label>
             <textarea class="gh-input" name="message" rows="4" placeholder="Tell us what's going on, or what service you need." style="resize:vertical"></textarea>
           </div>
+          <div class="cf-turnstile" data-sitekey="0x4AAAAAAD8BRJveK5y7o7WA" data-theme="light" style="margin-top:4px"></div>
           <button type="submit" style="margin-top:4px;background:#6D9DC5;color:#fff;font-family:'Hanken Grotesk',sans-serif;font-weight:700;font-size:16.5px;border:none;padding:16px;border-radius:10px;cursor:pointer;box-shadow:none;transition:background .2s,transform .2s" class="gh-hover-429">Send Request</button>
           <p id="gh-form-note" style="display:none;font-size:14.5px;color:#1F8A5B;font-weight:600;text-align:center;margin:4px 0 0"></p>
           <p style="font-size:12.5px;color:#9AA5AF;text-align:center;margin:2px 0 0">Prefer to talk? Call us at 417-319-4798.</p>

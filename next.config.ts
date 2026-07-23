@@ -23,6 +23,12 @@ const nextConfig: NextConfig = {
         destination: "/contact-us",
         permanent: true,
       },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "gearhaven.com" }],
+        destination: "https://www.gearhaven.com/:path*",
+        permanent: true,
+      },
     ];
   },
 };
