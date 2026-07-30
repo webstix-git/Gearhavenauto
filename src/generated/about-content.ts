@@ -140,7 +140,7 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
     <div class="gh-grid-3" style="display:grid;grid-template-columns:repeat(3,1fr);gap:32px">
 
       <div data-reveal class="gh-team-card" style="background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 24px rgba(20,32,45,.08);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s">
-        <img src="/images/team-collen.png" alt="Collen, General Manager at Gearhaven Auto &amp; Diesel" style="width:100%;height:300px;object-fit:cover;object-position:center top;display:block">
+        <img src="/images/team-collen.png?v=3" alt="Collen, General Manager at Gearhaven Auto &amp; Diesel" style="width:100%;height:300px;object-fit:cover;object-position:center top;display:block">
         <div style="padding:28px 28px 32px">
           <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:28px;line-height:1.15;margin:0 0 8px;color:#14202B">Meet Collen</h3>
           <div style="font-size:13px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:#6D9DC5;margin-bottom:16px">General Manager</div>
@@ -149,7 +149,7 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       </div>
 
       <div data-reveal class="gh-team-card" style="background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 24px rgba(20,32,45,.08);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s">
-        <img src="/images/team-thab.png" alt="Thab, Shop Foreman and Lead Technician at Gearhaven Auto &amp; Diesel" style="width:100%;height:300px;object-fit:cover;object-position:center top;display:block">
+        <img src="/images/team-thab.png?v=3" alt="Thab, Shop Foreman and Lead Technician at Gearhaven Auto &amp; Diesel" style="width:100%;height:300px;object-fit:cover;object-position:center top;display:block">
         <div style="padding:28px 28px 32px">
           <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:28px;line-height:1.15;margin:0 0 8px;color:#14202B">Meet Thab</h3>
           <div style="font-size:13px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:#6D9DC5;margin-bottom:16px">Shop Foreman &amp; Lead Technician</div>
@@ -158,7 +158,7 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       </div>
 
       <div data-reveal class="gh-team-card" style="background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 24px rgba(20,32,45,.08);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s">
-        <img src="/images/team-blaine.png" alt="Blaine, Technician at Gearhaven Auto &amp; Diesel" style="width:100%;height:300px;object-fit:cover;object-position:center top;display:block">
+        <img src="/images/team-blaine.png?v=3" alt="Blaine, Technician at Gearhaven Auto &amp; Diesel" style="width:100%;height:300px;object-fit:cover;object-position:center top;display:block">
         <div style="padding:28px 28px 32px">
           <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:28px;line-height:1.15;margin:0 0 8px;color:#14202B">Meet Blaine</h3>
           <div style="font-size:13px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:#6D9DC5;margin-bottom:16px">Technician</div>
