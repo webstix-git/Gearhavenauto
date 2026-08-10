@@ -3,6 +3,7 @@ import { GhHeaderScroll } from "@/components/GhHeaderScroll";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import { JsonLd } from "@/components/JsonLd";
 import { SiteHeader } from "@/components/SiteHeader";
+import { TradeDeskPixel } from "@/components/TradeDeskPixel";
 import {
   localBusinessSchema,
   websiteSchema,
@@ -88,6 +89,7 @@ export default function RootLayout({
         <main id="main-content" tabIndex={-1}>
           {children}
         </main>
+        <TradeDeskPixel />
       </body>
     </html>
   );
