@@ -1294,6 +1294,22 @@ h2[style*="white-space: nowrap"] {
     min-height: 240px !important;
     object-fit: cover;
   }
+
+  .gh-monthly-promo-copy {
+    padding: 32px 24px 36px !important;
+  }
+
+  .gh-monthly-promo-copy h2 {
+    font-size: clamp(26px, 6.5vw, 34px) !important;
+  }
+
+  .gh-monthly-promo-copy p span[style*="nowrap"] {
+    white-space: normal !important;
+  }
+
+  .gh-monthly-promo-banner > div:last-child {
+    order: -1;
+  }
 }
 
 @media (max-width: 1024px) {
