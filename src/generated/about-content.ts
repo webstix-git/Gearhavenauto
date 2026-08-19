@@ -137,7 +137,7 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:42px;line-height:1.06;letter-spacing:-1.1px;margin:0 0 12px;color:#14202B">The people behind the wrench.</h2>
       <p style="font-size:17px;line-height:1.6;color:#5C6B76;margin:0">Experienced, honest, and genuinely invested in keeping you safe on the road.</p>
     </div>
-    <div class="gh-grid-3" style="display:grid;grid-template-columns:repeat(3,1fr);gap:32px">
+    <div class="gh-grid-2" style="display:grid;grid-template-columns:repeat(2,1fr);gap:32px;max-width:820px;margin:0 auto">
 
       <div data-reveal class="gh-team-card" style="background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 24px rgba(20,32,45,.08);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s">
         <img src="/images/team-collen.png?v=3" alt="Collen, General Manager at Gearhaven Auto &amp; Diesel" style="width:100%;height:300px;object-fit:cover;object-position:center top;display:block">
@@ -154,15 +154,6 @@ export const ABOUT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
           <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:28px;line-height:1.15;margin:0 0 8px;color:#14202B">Meet Thab</h3>
           <div style="font-size:13px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:#6D9DC5;margin-bottom:16px">Shop Foreman &amp; Lead Technician</div>
           <p style="font-size:18px;line-height:1.65;color:#5C6B76;margin:0">Known for solving difficult diagnostic challenges and treating every vehicle like it's his own.</p>
-        </div>
-      </div>
-
-      <div data-reveal class="gh-team-card" style="background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 24px rgba(20,32,45,.08);transition:transform .35s cubic-bezier(.16,.8,.3,1),box-shadow .35s">
-        <img src="/images/team-blaine.png?v=3" alt="Blaine, Technician at Gearhaven Auto &amp; Diesel" style="width:100%;height:300px;object-fit:cover;object-position:center top;display:block">
-        <div style="padding:28px 28px 32px">
-          <h3 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:28px;line-height:1.15;margin:0 0 8px;color:#14202B">Meet Blaine</h3>
-          <div style="font-size:13px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:#6D9DC5;margin-bottom:16px">Technician</div>
-          <p style="font-size:18px;line-height:1.65;color:#5C6B76;margin:0">Committed to quality repairs, continuous learning, and helping customers stay safe on the road.</p>
         </div>
       </div>
 
