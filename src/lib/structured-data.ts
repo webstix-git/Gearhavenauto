@@ -3,9 +3,9 @@ import type { ServicePageData } from "@/data/service-pages";
 import { SERVICE_LINKS } from "@/data/site-nav";
 import {
   SITE_EMAIL,
-  SITE_FACEBOOK_URL,
   SITE_MAPS_URL,
   SITE_PHONE,
+  SITE_SOCIAL_LINKS,
 } from "@/lib/site-info";
 import { absoluteUrl, SITE_URL } from "@/lib/site-url";
 
@@ -65,7 +65,7 @@ export function localBusinessSchema(): JsonLd {
       { "@type": "AdministrativeArea", name: "Southwest Missouri" },
     ],
     hasMap: SITE_MAPS_URL,
-    sameAs: [SITE_FACEBOOK_URL],
+    sameAs: SITE_SOCIAL_LINKS.map((link) => link.href),
     contactPoint: {
       "@type": "ContactPoint",
       telephone: `+1-${SITE_PHONE}`,

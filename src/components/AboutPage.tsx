@@ -2,6 +2,9 @@
 
 import { ABOUT_HTML } from "@/generated/about-content";
 import { useGhPageEffects } from "@/hooks/useGhPageEffects";
+import { withCurrentFooterSocials } from "@/lib/build-footer-html";
+
+const PAGE_HTML = withCurrentFooterSocials(ABOUT_HTML);
 
 export function AboutPage() {
   const containerRef = useGhPageEffects();
@@ -9,7 +12,7 @@ export function AboutPage() {
   return (
     <div
       ref={containerRef}
-      dangerouslySetInnerHTML={{ __html: ABOUT_HTML }}
+      dangerouslySetInnerHTML={{ __html: PAGE_HTML }}
       suppressHydrationWarning
     />
   );

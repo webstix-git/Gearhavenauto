@@ -7,14 +7,20 @@ import {
   GH_ICON_FACEBOOK,
   GH_ICON_LOCATION,
   GH_ICON_PHONE,
+  GH_ICON_YOUTUBE,
 } from "@/lib/gh-icons";
 import {
   SITE_ADDRESS_LINE1,
   SITE_ADDRESS_LINE2,
   SITE_COPYRIGHT_HTML,
-  SITE_FACEBOOK_URL,
   SITE_MAPS_URL,
+  SITE_SOCIAL_LINKS,
 } from "@/lib/site-info";
+
+const SOCIAL_ICONS: Record<string, () => string> = {
+  Facebook: GH_ICON_FACEBOOK,
+  YouTube: GH_ICON_YOUTUBE,
+};
 
 type SiteChromeProps = {
   children: React.ReactNode;
@@ -106,18 +112,26 @@ export function SiteFooter() {
           </p>
           <div
             className="gh-footer-social"
-            style={{ display: "flex", alignItems: "center", gap: 10 }}
+            style={{
+              display: "flex",
+              alignItems: "center",
+              flexWrap: "wrap",
+              gap: 10,
+            }}
           >
             <span style={{ fontSize: 14, color: "#8FA0AD" }}>Follow Us On</span>
-            <a
-              href={SITE_FACEBOOK_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Follow Gearhaven on Facebook"
-              className="gh-footer-social-link"
-            >
-              <GhIcon html={GH_ICON_FACEBOOK()} />
-            </a>
+            {SITE_SOCIAL_LINKS.map(({ label, href }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Follow Gearhaven on ${label}`}
+                className="gh-footer-social-link"
+              >
+                <GhIcon html={SOCIAL_ICONS[label]()} />
+              </a>
+            ))}
           </div>
         </div>
         <div>

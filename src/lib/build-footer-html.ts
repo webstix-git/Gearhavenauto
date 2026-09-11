@@ -1,16 +1,17 @@
 import {
   SITE_ADDRESS_HTML,
   SITE_EMAIL,
-  SITE_FACEBOOK_URL,
   SITE_MAPS_URL,
   SITE_PHONE,
   SITE_PHONE_TEL,
+  SITE_SOCIAL_LINKS,
 } from "./site-info";
 import {
   GH_ICON_EMAIL,
   GH_ICON_FACEBOOK,
   GH_ICON_LOCATION,
   GH_ICON_PHONE,
+  GH_ICON_YOUTUBE,
 } from "./gh-icons";
 import { buildFooterBottomBarHtml } from "./footer-legal";
 
@@ -23,11 +24,28 @@ export type FooterOptions = {
   contactHoverClass: string;
 };
 
+const SOCIAL_ICONS: Record<string, () => string> = {
+  Facebook: GH_ICON_FACEBOOK,
+  YouTube: GH_ICON_YOUTUBE,
+};
+
 export function buildFooterFollowUsHtml(): string {
-  return `<div class="gh-footer-social" style="display:flex;align-items:center;gap:10px">
+  const links = SITE_SOCIAL_LINKS.map(
+    ({ label, href }) =>
+      `<a href="${href}" target="_blank" rel="noopener noreferrer" aria-label="Follow Gearhaven on ${label}" class="gh-footer-social-link">${SOCIAL_ICONS[label]()}</a>`
+  ).join("\n        ");
+
+  return `<div class="gh-footer-social" style="display:flex;align-items:center;flex-wrap:wrap;gap:10px">
         <span style="font-size:14px;color:#8FA0AD">Follow Us On</span>
-        <a href="${SITE_FACEBOOK_URL}" target="_blank" rel="noopener noreferrer" aria-label="Follow Gearhaven on Facebook" class="gh-footer-social-link">${GH_ICON_FACEBOOK()}</a>
+        ${links}
       </div>`;
+}
+
+export function withCurrentFooterSocials(html: string): string {
+  return html.replace(
+    /<div class="gh-footer-social"[\s\S]*?<\/div>/,
+    buildFooterFollowUsHtml().trim()
+  );
 }
 
 export function buildGetInTouchHtml(contactHoverClass: string): string {

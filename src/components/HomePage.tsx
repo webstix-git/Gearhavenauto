@@ -2,11 +2,14 @@
 
 import { PAGE_HTML } from "@/generated/page-content";
 import { useGhPageEffects } from "@/hooks/useGhPageEffects";
+import { withCurrentFooterSocials } from "@/lib/build-footer-html";
 import { buildMonthlyPromoHtml } from "@/lib/build-monthly-promo-html";
 
-const HOME_HTML = PAGE_HTML.replace(
-  "  <!-- COMPLETE CARE -->",
-  `${buildMonthlyPromoHtml()}\n\n  <!-- COMPLETE CARE -->`,
+const HOME_HTML = withCurrentFooterSocials(
+  PAGE_HTML.replace(
+    "  <!-- COMPLETE CARE -->",
+    `${buildMonthlyPromoHtml()}\n\n  <!-- COMPLETE CARE -->`,
+  ),
 );
 
 export function HomePage() {

@@ -3,6 +3,9 @@
 import { GALLERY_HTML } from "@/generated/gallery-content";
 import { useGhPageEffects } from "@/hooks/useGhPageEffects";
 import { useGhGalleryLightbox } from "@/hooks/useGhPageInteractions";
+import { withCurrentFooterSocials } from "@/lib/build-footer-html";
+
+const PAGE_HTML = withCurrentFooterSocials(GALLERY_HTML);
 
 export function GalleryPage() {
   const revealRef = useGhPageEffects();
@@ -16,7 +19,7 @@ export function GalleryPage() {
   return (
     <div
       ref={setRef}
-      dangerouslySetInnerHTML={{ __html: GALLERY_HTML }}
+      dangerouslySetInnerHTML={{ __html: PAGE_HTML }}
       suppressHydrationWarning
     />
   );

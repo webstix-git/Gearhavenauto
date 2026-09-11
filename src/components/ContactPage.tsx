@@ -4,6 +4,9 @@ import Script from "next/script";
 import { CONTACT_HTML } from "@/generated/contact-content";
 import { useGhPageEffects } from "@/hooks/useGhPageEffects";
 import { useGhContactForm } from "@/hooks/useGhPageInteractions";
+import { withCurrentFooterSocials } from "@/lib/build-footer-html";
+
+const PAGE_HTML = withCurrentFooterSocials(CONTACT_HTML);
 
 export function ContactPage() {
   const revealRef = useGhPageEffects();
@@ -22,7 +25,7 @@ export function ContactPage() {
       />
       <div
         ref={setRef}
-        dangerouslySetInnerHTML={{ __html: CONTACT_HTML }}
+        dangerouslySetInnerHTML={{ __html: PAGE_HTML }}
         suppressHydrationWarning
       />
     </>

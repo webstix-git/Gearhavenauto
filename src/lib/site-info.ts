@@ -19,6 +19,12 @@ export const SITE_COPYRIGHT_HTML =
   "© 2026 Gearhaven Auto &amp; Diesel. All rights reserved.";
 export const SITE_FACEBOOK_URL =
   "https://www.facebook.com/people/GearHaven/61591811460065/";
+export const SITE_YOUTUBE_URL = "https://www.youtube.com/@GearHavenAuto";
+
+export const SITE_SOCIAL_LINKS = [
+  { label: "Facebook", href: SITE_FACEBOOK_URL },
+  { label: "YouTube", href: SITE_YOUTUBE_URL },
+] as const;
 
 /** Default image shown when the site URL is shared on social apps. */
 export const SITE_OG_IMAGE = "/images/car-workshop.jpg";
