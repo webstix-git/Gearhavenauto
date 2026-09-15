@@ -1,7 +1,9 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import { GhHeaderScroll } from "@/components/GhHeaderScroll";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import { JsonLd } from "@/components/JsonLd";
+import { OpenAIAdsPixel } from "@/components/OpenAIAdsPixel";
 import { SiteHeader } from "@/components/SiteHeader";
 import { TradeDeskPixel } from "@/components/TradeDeskPixel";
 import {
@@ -15,6 +17,8 @@ import "./globals.css";
 const siteTitle = "Auto & Diesel Repair in Nixa, MO | Gearhaven";
 const siteDescription =
   "Trusted auto and diesel repair in Nixa, MO for cars, trucks, and fleets. Honest recommendations, clear answers, and expert work you can count on.";
+const OPENAI_ADS_PIXEL_ID =
+  process.env.NEXT_PUBLIC_OPENAI_ADS_PIXEL_ID ?? "RwBMhytUSr9kVBjcbchzfG";
 
 const shareImage = {
   url: SITE_OG_IMAGE,
@@ -79,6 +83,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Script id="openai-ads-pixel" strategy="beforeInteractive">
+          {`!function(w,d,s,u){if(w.oaiq)return;var q=function(){q.q.push(arguments)};q.q=[];w.oaiq=q;var j=d.createElement(s);j.async=1;j.src=u;var f=d.getElementsByTagName(s)[0];f.parentNode.insertBefore(j,f)}(window,document,"script","https://bzrcdn.openai.com/sdk/oaiq.min.js");oaiq("init",{pixelId:${JSON.stringify(OPENAI_ADS_PIXEL_ID)},debug:true});`}
+        </Script>
+        <OpenAIAdsPixel />
         <GoogleAnalytics />
         <a href="#main-content" className="gh-skip-link">
           Skip to main content
