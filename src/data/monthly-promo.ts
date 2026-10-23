@@ -19,11 +19,10 @@ export type MonthlyPromo = {
 export const MONTHLY_PROMO: MonthlyPromo = {
   active: true,
   id: "promo",
-  badge: "September Special",
-  headline: "Free Multipoint Inspection",
-  description:
-    "Get a free multipoint inspection with any service at Gearhaven.",
-  finePrint: "Exclusions apply.",
+  badge: "Monthly Special",
+  headline: "$25 Off a $150 Service",
+  description: "Save $25 on a $150 service at Gearhaven.",
+  finePrint: "",
   ctaLabel: "Call 417-319-4798",
   ctaHref: "tel:4173194798",
   image: "/images/promo-oil-change.png",

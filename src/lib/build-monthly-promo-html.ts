@@ -16,8 +16,8 @@ export function buildMonthlyPromoHtml(
             <span style="width:7px;height:7px;border-radius:50%;background:#6D9DC5"></span>${promo.badge}
           </div>
           <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:36px;line-height:1.08;letter-spacing:-.8px;color:#fff;margin:0 0 14px">${promo.headline}</h2>
-          <p style="font-size:17px;line-height:1.6;color:#E8F0F7;margin:0 0 10px">${promo.description}</p>
-          <p style="font-size:14px;line-height:1.5;color:#8FA0AD;margin:0 0 26px">${promo.finePrint}</p>
+          <p style="font-size:17px;line-height:1.6;color:#E8F0F7;margin:0 0 ${promo.finePrint ? "10px" : "26px"}">${promo.description}</p>
+          ${promo.finePrint ? `<p style="font-size:14px;line-height:1.5;color:#8FA0AD;margin:0 0 26px">${promo.finePrint}</p>` : ""}
           <div>
             <a href="${promo.ctaHref}" class="gh-btn-solid gh-cta-phone" style="display:inline-flex;align-items:center;gap:10px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:15.5px;padding:14px 24px;border-radius:9px;box-shadow:0 8px 20px -8px rgba(61,109,146,.45)">${PHONE_CTA_ICON}${promo.ctaLabel}</a>
           </div>
