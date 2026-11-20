@@ -88,6 +88,12 @@ export default function RootLayout({
         </Script>
         <OpenAIAdsPixel />
         <GoogleAnalytics />
+        <Script
+          src="https://midwestfamilyportal.com/track.js"
+          strategy="afterInteractive"
+          data-site="4241dda5085e4ef6"
+          data-endpoint="https://ywwxvriolxwuqcwjaluh.supabase.co/functions/v1/track-event"
+        />
         <a href="#main-content" className="gh-skip-link">
           Skip to main content
         </a>
