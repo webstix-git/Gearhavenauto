@@ -35,7 +35,9 @@ export const CONTACT_HTML = `<div style="min-height:100vh;overflow-x:hidden">
       <!-- LEFT: form -->
       <div data-reveal class="gh-contact-card" style="background:#fff;border:1px solid #E7E3DB;border-radius:20px;padding:38px 36px;box-shadow:0 20px 46px -28px rgba(20,32,45,.4)">
         <h2 style="font-family:'Bricolage Grotesque';font-weight:700;font-size:26px;margin:0 0 6px;color:#14202B">Request an appointment</h2>
-        <p style="font-size:15px;line-height:1.55;color:#5C6B76;margin:0 0 26px">Tell us a bit about your vehicle and what's going on. We'll follow up to get you scheduled.</p>
+        <p style="font-size:15px;line-height:1.55;color:#5C6B76;margin:0 0 16px">Tell us a bit about your vehicle and what's going on. We'll follow up to get you scheduled.</p>
+        <button type="button" onclick="onShowBooking('12c01407-8e24-4a25-a1a5-368fc8910b10')" class="gh-btn-solid" style="display:inline-flex;align-items:center;justify-content:center;gap:10px;width:100%;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px;box-shadow:0 8px 20px -8px rgba(61,109,146,.45);cursor:pointer;font-family:inherit;border:none;margin-bottom:22px">Book appointment</button>
+        <p style="font-size:13.5px;line-height:1.5;color:#8A96A1;margin:0 0 26px;text-align:center">Or send a message below and we'll get back to you.</p>
         <form id="gh-form" class="gh-contact-form" method="POST" action="/api/contact-submit" style="display:flex;flex-direction:column;gap:16px">
           <input type="hidden" name="redirect" value="/thank-you">
           <div class="gh-form-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:16px">

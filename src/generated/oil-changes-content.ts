@@ -13,7 +13,7 @@ export const OIL_CHANGES_HTML = `<div class="gh-service-page" style="min-height:
         <h1 data-reveal style="font-family:'Bricolage Grotesque';font-weight:700;font-size:58px;line-height:1.04;letter-spacing:-1.6px;color:#fff;margin:0 0 22px">Oil changes,<br>done right.</h1>
         <p data-reveal style="font-size:19.5px;line-height:1.55;color:#CBD6E0;font-weight:500;margin:0 0 34px;max-width:600px">The single most important thing you can do to protect your engine. Quick, honest, and done with the right oil for your vehicle, cars, trucks, and diesels.</p>
         <div data-reveal class="gh-hero-actions" style="display:flex;gap:14px;flex-wrap:wrap">
-          <a href="/contact-us" class="gh-btn-solid" style="display:inline-flex;align-items:center;gap:10px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px;box-shadow:0 8px 20px -8px rgba(61,109,146,.45)">Schedule an Oil Change</a>
+          <button type="button" onclick="onShowBooking('12c01407-8e24-4a25-a1a5-368fc8910b10')" class="gh-btn-solid" style="display:inline-flex;align-items:center;gap:10px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px;box-shadow:0 8px 20px -8px rgba(61,109,146,.45);cursor:pointer;font-family:inherit;border:none">Book appointment</button>
           <a href="tel:4173194798" class="gh-btn-outline" style="display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px">Call 417-319-4798</a>
         </div>
       </div>
@@ -172,7 +172,7 @@ export const OIL_CHANGES_HTML = `<div class="gh-service-page" style="min-height:
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.6 4.2h2.2c.5 0 .9.3 1 .8l.5 2.4a1 1 0 0 1-.3 1l-1.4 1.4a13.5 13.5 0 0 0 5.8 5.8l1.4-1.4a1 1 0 0 1 1-.3l2.4.5c.5.1.8.5.8 1v2.2a1.8 1.8 0 0 1-1.8 1.8C9.8 19.2 4.8 14.2 4.8 6.6A1.8 1.8 0 0 1 6.6 4.2z"></path></svg>
           417-319-4798
         </a>
-        <a href="/contact-us" style="display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 28px;border-radius:10px" class="gh-hover-400">Request Appointment</a>
+        <button type="button" onclick="onShowBooking('12c01407-8e24-4a25-a1a5-368fc8910b10')" style="display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 28px;border-radius:10px;cursor:pointer;font-family:inherit" class="gh-hover-400">Book appointment</button>
         <a href="/services#top" style="display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 28px;border-radius:10px" class="gh-hover-400">All Services</a>
       </div>
     </div>

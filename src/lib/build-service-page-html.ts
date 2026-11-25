@@ -379,7 +379,7 @@ function ctaSection(data: ServicePageData): string {
             ${PHONE_CTA_ICON}
             417-319-4798
           </a>
-          <a href="/contact-us" style="display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 28px;border-radius:10px" class="gh-btn-outline">Request Appointment</a>
+          <button type="button" onclick="onShowBooking('12c01407-8e24-4a25-a1a5-368fc8910b10')" style="display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 28px;border-radius:10px;cursor:pointer;font-family:inherit" class="gh-btn-outline">Book appointment</button>
           <a href="/services#top" style="display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 28px;border-radius:10px" class="gh-btn-outline">All Services</a>
         </div>
       </div>
@@ -403,7 +403,11 @@ export function buildServicePageHtml(data: ServicePageData): string {
         ${data.hero.description ? `<p data-reveal style="font-size:19.5px;line-height:1.55;color:#CBD6E0;font-weight:500;margin:0 0 ${data.hero.extra ? "16px" : "34px"};max-width:600px">${data.hero.description}</p>` : ""}
         ${data.hero.extra ? `<p data-reveal style="font-size:18px;line-height:1.6;color:#dbeaf7;margin:0 0 34px;max-width:600px">${data.hero.extra}</p>` : ""}
         ${data.hero.hideCta ? "" : `<div data-reveal class="gh-hero-actions" style="display:flex;gap:14px;flex-wrap:wrap">
-          <a href="${data.hero.ctaHref}" class="gh-btn-solid" style="display:inline-flex;align-items:center;gap:10px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px;box-shadow:0 8px 20px -8px rgba(61,109,146,.45)">${data.hero.ctaLabel}</a>
+          ${
+            data.hero.ctaHref === "/contact-us"
+              ? `<button type="button" onclick="onShowBooking('12c01407-8e24-4a25-a1a5-368fc8910b10')" class="gh-btn-solid" style="display:inline-flex;align-items:center;gap:10px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px;box-shadow:0 8px 20px -8px rgba(61,109,146,.45);cursor:pointer;font-family:inherit;border:none">${data.hero.ctaLabel}</button>`
+              : `<a href="${data.hero.ctaHref}" class="gh-btn-solid" style="display:inline-flex;align-items:center;gap:10px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px;box-shadow:0 8px 20px -8px rgba(61,109,146,.45)">${data.hero.ctaLabel}</a>`
+          }
           <a href="tel:4173194798" class="gh-btn-outline" style="display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:16.5px;padding:16px 30px;border-radius:9px">Call 417-319-4798</a>
         </div>`}
       </div>
@@ -438,7 +442,7 @@ export function buildServicePageHtml(data: ServicePageData): string {
           <div style="font-family:'Bricolage Grotesque';font-weight:700;font-size:22px;color:#14202B;margin:0 0 14px">${data.why.callout.title}</div>
           <div style="display:flex;gap:12px;flex-wrap:wrap">
             <a href="tel:4173194798" class="gh-btn-solid" style="display:inline-flex;align-items:center;gap:10px;background:rgb(61, 109, 146);color:#fff;font-weight:700;font-size:15px;padding:14px 22px;border-radius:9px">Call 417-319-4798</a>
-            <a href="/contact-us" class="gh-btn-outline" style="display:inline-flex;align-items:center;gap:10px;background:#fff;border:1.5px solid #D8D3CB;color:#14202B;font-weight:700;font-size:15px;padding:14px 22px;border-radius:9px">${data.why.callout.ctaLabel}</a>
+            <button type="button" onclick="onShowBooking('12c01407-8e24-4a25-a1a5-368fc8910b10')" class="gh-btn-outline" style="display:inline-flex;align-items:center;gap:10px;background:#fff;border:1.5px solid #D8D3CB;color:#14202B;font-weight:700;font-size:15px;padding:14px 22px;border-radius:9px;cursor:pointer;font-family:inherit">${data.why.callout.ctaLabel}</button>
           </div>
         </div>` : ""}
         ${data.why.stats?.length ? `<div style="display:flex;gap:30px;flex-wrap:wrap">

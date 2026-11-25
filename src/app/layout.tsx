@@ -5,6 +5,7 @@ import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import { JsonLd } from "@/components/JsonLd";
 import { OpenAIAdsPixel } from "@/components/OpenAIAdsPixel";
 import { SiteHeader } from "@/components/SiteHeader";
+import { TekmetricBooking } from "@/components/TekmetricBooking";
 import { TradeDeskPixel } from "@/components/TradeDeskPixel";
 import {
   localBusinessSchema,
@@ -104,6 +105,7 @@ export default function RootLayout({
           {children}
         </main>
         <TradeDeskPixel />
+        <TekmetricBooking />
       </body>
     </html>
   );

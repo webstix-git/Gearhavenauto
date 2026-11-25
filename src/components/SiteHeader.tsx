@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { isNavActive, MAIN_NAV } from "@/data/site-nav";
+import { openTekmetricBooking } from "@/lib/tekmetric";
 
 export function SiteHeader() {
   const pathname = usePathname();
@@ -189,12 +190,16 @@ export function SiteHeader() {
             })}
           </ul>
           <div className="gh-nav-mobile-cta">
+            <button type="button" onClick={openTekmetricBooking}>
+              Book appointment
+            </button>
             <a href="tel:4173194798">Call the Shop · 417-319-4798</a>
           </div>
         </nav>
 
-        <a
-          href="tel:4173194798"
+        <button
+          type="button"
+          onClick={openTekmetricBooking}
           className="gh-btn-solid gh-header-cta"
           style={{
             display: "inline-flex",
@@ -209,6 +214,9 @@ export function SiteHeader() {
             whiteSpace: "nowrap",
             boxShadow: "0 8px 20px -8px rgba(61,109,146,.45)",
             flexShrink: 0,
+            border: "none",
+            cursor: "pointer",
+            fontFamily: "inherit",
           }}
         >
           <svg
@@ -222,10 +230,11 @@ export function SiteHeader() {
             strokeLinejoin="round"
             style={{ flexShrink: 0 }}
           >
-            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" />
+            <rect x="3" y="4" width="18" height="18" rx="2" />
+            <path d="M16 2v4M8 2v4M3 10h18" />
           </svg>
-          <span className="gh-header-cta-text">Call the Shop 417-319-4798</span>
-        </a>
+          <span className="gh-header-cta-text">Book appointment</span>
+        </button>
 
         <button
           type="button"

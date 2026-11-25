@@ -1488,12 +1488,15 @@ h2[style*="white-space: nowrap"] {
 
 .gh-nav-mobile-cta {
   display: none;
+  flex-direction: column;
+  gap: 10px;
   margin-top: 20px;
   padding-top: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.gh-nav-mobile-cta a {
+.gh-nav-mobile-cta a,
+.gh-nav-mobile-cta button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1505,6 +1508,14 @@ h2[style*="white-space: nowrap"] {
   font-size: 16px;
   padding: 14px 18px;
   border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.gh-nav-mobile-cta a {
+  background: transparent;
+  border: 1.5px solid rgba(255, 255, 255, 0.35);
 }
 
 /* Site-wide promotional pop-up */
